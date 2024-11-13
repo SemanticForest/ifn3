@@ -1,0 +1,372 @@
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species86  rdfs:subClassOf  <http://www.wikidata.org/entity/Q148728> .
+
+kTaxon:Species295  rdfs:subClassOf  <http://www.wikidata.org/entity/Q129018> .
+
+kTaxon:Species65  rdfs:subClassOf  <http://www.wikidata.org/entity/Q192190> .
+
+kTaxon:Species253  rdfs:subClassOf  <http://www.wikidata.org/entity/Q5637949> .
+
+kTaxon:Species44  rdfs:subClassOf  <http://www.wikidata.org/entity/Q2432250> .
+
+kTaxon:Species23  rdfs:subClassOf  <http://www.wikidata.org/entity/Q106094> .
+
+kTaxon:Species395  rdfs:subClassOf  <http://www.wikidata.org/entity/Q165137> .
+
+kTaxon:Species858  rdfs:subClassOf  <http://www.wikidata.org/entity/Q3317045> .
+
+kTaxon:Species495  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1969110> .
+
+kTaxon:Species94  rdfs:subClassOf  <http://www.wikidata.org/entity/Q26006> .
+
+kTaxon:Species73  rdfs:subClassOf  <http://www.wikidata.org/entity/Q25243> .
+
+kTaxon:Species282  rdfs:subClassOf  <http://www.wikidata.org/entity/Q38467302> .
+
+kTaxon:Species52  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146110> .
+
+kTaxon:Species31  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146992> .
+
+kTaxon:Species937  rdfs:subClassOf  <http://www.wikidata.org/entity/Q25662> .
+
+kTaxon:Species595  rdfs:subClassOf  <http://www.wikidata.org/entity/Q165424> .
+
+kTaxon:Species2  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159560> .
+
+kTaxon:Species219  rdfs:subClassOf  <http://www.wikidata.org/entity/Q918555> .
+
+kTaxon:Species319  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147255> .
+
+kTaxon:Species81  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1491096> .
+
+kTaxon:Species60  rdfs:subClassOf  <http://www.wikidata.org/entity/Q45669> .
+
+kTaxon:Species39  rdfs:subClassOf  <http://www.wikidata.org/entity/Q183497> .
+
+kTaxon:Species18  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161360> .
+
+kTaxon:Species369  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161747> .
+
+kTaxon:Species89  rdfs:subClassOf  <http://www.wikidata.org/entity/Q5971845> .
+
+kTaxon:Species469  rdfs:subClassOf  <http://www.wikidata.org/entity/Q27657> .
+
+kTaxon:Species68  rdfs:subClassOf  <http://www.wikidata.org/entity/Q329046> .
+
+kTaxon:Species277  rdfs:subClassOf  <http://www.wikidata.org/entity/Q158746> .
+
+kTaxon:Species47  rdfs:subClassOf  <http://www.wikidata.org/entity/Q638095> .
+
+kTaxon:Species256  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147498> .
+
+kTaxon:Species26  rdfs:subClassOf  <http://www.wikidata.org/entity/Q271582> .
+
+kTaxon:Species235  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146048> .
+
+kTaxon:Species569  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157952> .
+
+kTaxon:Species377  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156831> .
+
+kTaxon:Species356  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1079824> .
+
+kTaxon:Species335  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147439> .
+
+kTaxon:Species97  rdfs:subClassOf  <http://www.wikidata.org/entity/Q22701> .
+
+kTaxon:Species76  rdfs:subClassOf  <http://www.wikidata.org/entity/Q158785> .
+
+kTaxon:Species55  rdfs:subClassOf  <http://www.wikidata.org/entity/Q518949> .
+
+kTaxon:Species264  rdfs:subClassOf  <http://www.wikidata.org/entity/Q2137116> .
+
+kTaxon:Species435  rdfs:subClassOf  <http://www.wikidata.org/entity/Q17274488> .
+
+kTaxon:Species34  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156687> .
+
+kTaxon:Species243  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161415> .
+
+kTaxon:Species5  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161379> .
+
+kTaxon:Species13  rdfs:subClassOf  <http://www.wikidata.org/entity/Q255375> .
+
+kTaxon:Species364  rdfs:subClassOf  <http://www.wikidata.org/entity/Q514995> .
+
+kTaxon:Species84  rdfs:subClassOf  <http://www.wikidata.org/entity/Q654852> .
+
+kTaxon:Species293  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1788810> .
+
+kTaxon:Species63  rdfs:subClassOf  <http://www.wikidata.org/entity/Q45669> .
+
+kTaxon:Species42  rdfs:subClassOf  <http://www.wikidata.org/entity/Q158608> .
+
+kTaxon:Species21  rdfs:subClassOf  <http://www.wikidata.org/entity/Q133128> .
+
+kTaxon:Species92  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157417> .
+
+kTaxon:Species71  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146149> .
+
+kTaxon:Species50  rdfs:subClassOf  <http://www.wikidata.org/entity/Q11177275> .
+
+kTaxon:Species956  rdfs:subClassOf  <http://www.wikidata.org/entity/Q131113> .
+
+kTaxon:Species238  rdfs:subClassOf  <http://www.wikidata.org/entity/Q3811306> .
+
+kTaxon:Species29  rdfs:subClassOf  <http://www.wikidata.org/entity/Q12024> .
+
+kTaxon:Species217  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146935> .
+
+kTaxon:Species317  rdfs:subClassOf  <http://www.wikidata.org/entity/Q61105> .
+
+kTaxon:Species79  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161374> .
+
+kTaxon:Species58  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147064> .
+
+kTaxon:Species37  rdfs:subClassOf  <http://www.wikidata.org/entity/Q26325> .
+
+kTaxon:Species8  rdfs:subClassOf  <http://www.wikidata.org/entity/Q784070> .
+
+kTaxon:Species16  rdfs:subClassOf  <http://www.wikidata.org/entity/Q434> .
+
+kTaxon:Species87  rdfs:subClassOf  <http://www.wikidata.org/entity/Q510517> .
+
+kTaxon:Species66  rdfs:subClassOf  <http://www.wikidata.org/entity/Q37083> .
+
+kTaxon:Species275  rdfs:subClassOf  <http://www.wikidata.org/entity/Q852572> .
+
+kTaxon:Species45  rdfs:subClassOf  <http://www.wikidata.org/entity/Q218155> .
+
+kTaxon:Species24  rdfs:subClassOf  <http://www.wikidata.org/entity/Q211457> .
+
+kTaxon:Species95  rdfs:subClassOf  <http://www.wikidata.org/entity/Q190545> .
+
+kTaxon:Species74  rdfs:subClassOf  <http://www.wikidata.org/entity/Q124969> .
+
+kTaxon:Species283  rdfs:subClassOf  <http://www.wikidata.org/entity/Q2110024> .
+
+kTaxon:Species53  rdfs:subClassOf  <http://www.wikidata.org/entity/Q164163> .
+
+kTaxon:Species32  rdfs:subClassOf  <http://www.wikidata.org/entity/Q849381> .
+
+kTaxon:Species3  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146136> .
+
+kTaxon:Species11  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159570> .
+
+kTaxon:Species917  rdfs:subClassOf  <http://www.wikidata.org/entity/Q128550> .
+
+kTaxon:Species82  rdfs:subClassOf  <http://www.wikidata.org/entity/Q3315524> .
+
+kTaxon:Species291  rdfs:subClassOf  <http://www.wikidata.org/entity/Q163278> .
+
+kTaxon:Species61  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159528> .
+
+kTaxon:Species40  rdfs:subClassOf  <http://www.wikidata.org/entity/Q12004> .
+
+kTaxon:Species19  rdfs:subClassOf  <http://www.wikidata.org/entity/Q132825> .
+
+kTaxon:Species207  rdfs:subClassOf  <http://www.wikidata.org/entity/Q386585> .
+
+kTaxon:Species307  rdfs:subClassOf  <http://www.wikidata.org/entity/Q757123> .
+
+kTaxon:Species90  rdfs:subClassOf  <http://www.wikidata.org/entity/Q25314> .
+
+kTaxon:Species299  rdfs:subClassOf  <http://www.wikidata.org/entity/Q36146> .
+
+kTaxon:Species69  rdfs:subClassOf  <http://www.wikidata.org/entity/Q27685> .
+
+kTaxon:Species278  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157960> .
+
+kTaxon:Species975  rdfs:subClassOf  <http://www.wikidata.org/entity/Q2453469> .
+
+kTaxon:Species48  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147525> .
+
+kTaxon:Species257  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156918> .
+
+kTaxon:Species27  rdfs:subClassOf  <http://www.wikidata.org/entity/Q756191> .
+
+kTaxon:Species236  rdfs:subClassOf  <http://www.wikidata.org/entity/Q670040> .
+
+kTaxon:Species215  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161511> .
+
+kTaxon:Species399  rdfs:subClassOf  <http://www.wikidata.org/entity/Q44789> .
+
+kTaxon:Species378  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146198> .
+
+kTaxon:Species357  rdfs:subClassOf  <http://www.wikidata.org/entity/Q3320649> .
+
+kTaxon:Species336  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1308561> .
+
+kTaxon:Species315  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159553> .
+
+kTaxon:Species499  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157307> .
+
+kTaxon:Species98  rdfs:subClassOf  <http://www.wikidata.org/entity/Q158776> .
+
+kTaxon:Species478  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159558> .
+
+kTaxon:Species77  rdfs:subClassOf  <http://www.wikidata.org/entity/Q127849> .
+
+kTaxon:Species457  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156307> .
+
+kTaxon:Species599  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161040> .
+
+kTaxon:Species56  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147487> .
+
+kTaxon:Species436  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1137183> .
+
+kTaxon:Species35  rdfs:subClassOf  <http://www.wikidata.org/entity/Q25618> .
+
+kTaxon:Species244  rdfs:subClassOf  <http://www.wikidata.org/entity/Q3927703> .
+
+kTaxon:Species415  rdfs:subClassOf  <http://www.wikidata.org/entity/Q2013395> .
+
+kTaxon:Species6  rdfs:subClassOf  <http://www.wikidata.org/entity/Q6122027> .
+
+kTaxon:Species14  rdfs:subClassOf  <http://www.wikidata.org/entity/Q179729> .
+
+kTaxon:Species578  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147459> .
+
+kTaxon:Species557  rdfs:subClassOf  <http://www.wikidata.org/entity/Q6117334> .
+
+kTaxon:Species515  rdfs:subClassOf  <http://www.wikidata.org/entity/Q793606> .
+
+kTaxon:Species678  rdfs:subClassOf  <http://www.wikidata.org/entity/Q163774> .
+
+kTaxon:Species85  rdfs:subClassOf  <http://www.wikidata.org/entity/Q17234860> .
+
+kTaxon:Species657  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159565> .
+
+kTaxon:Species294  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161931> .
+
+kTaxon:Species64  rdfs:subClassOf  <http://www.wikidata.org/entity/Q2512644> .
+
+kTaxon:Species273  rdfs:subClassOf  <http://www.wikidata.org/entity/Q12836942> .
+
+kTaxon:Species43  rdfs:subClassOf  <http://www.wikidata.org/entity/Q899686> .
+
+kTaxon:Species778  rdfs:subClassOf  <http://www.wikidata.org/entity/Q163546> .
+
+kTaxon:Species22  rdfs:subClassOf  <http://www.wikidata.org/entity/Q149548> .
+
+kTaxon:Species757  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159484> .
+
+kTaxon:Species373  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156895> .
+
+kTaxon:Species857  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157518> .
+
+kTaxon:Species93  rdfs:subClassOf  <http://www.wikidata.org/entity/Q63045> .
+
+kTaxon:Species72  rdfs:subClassOf  <http://www.wikidata.org/entity/Q22699> .
+
+kTaxon:Species51  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146269> .
+
+kTaxon:Species957  rdfs:subClassOf  <http://www.wikidata.org/entity/Q39708> .
+
+kTaxon:Species30  rdfs:subClassOf  <http://www.wikidata.org/entity/Q132825> .
+
+kTaxon:Species239  rdfs:subClassOf  <http://www.wikidata.org/entity/Q148630> .
+
+kTaxon:Species1  rdfs:subClassOf  <http://www.wikidata.org/entity/Q15304926> .
+
+kTaxon:Species936  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146911> .
+
+kTaxon:Species80  rdfs:subClassOf  <http://www.wikidata.org/entity/Q5971845> .
+
+kTaxon:Species289  rdfs:subClassOf  <http://www.wikidata.org/entity/Q5462359> .
+
+kTaxon:Species59  rdfs:subClassOf  <http://www.wikidata.org/entity/Q11177275> .
+
+kTaxon:Species268  rdfs:subClassOf  <http://www.wikidata.org/entity/Q136304> .
+
+kTaxon:Species38  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1510186> .
+
+kTaxon:Species9  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161416> .
+
+kTaxon:Species17  rdfs:subClassOf  <http://www.wikidata.org/entity/Q623489> .
+
+kTaxon:Species389  rdfs:subClassOf  <http://www.wikidata.org/entity/Q3282363> .
+
+kTaxon:Species489  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1939285> .
+
+kTaxon:Species88  rdfs:subClassOf  <http://www.wikidata.org/entity/Q807884> .
+
+kTaxon:Species297  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157276> .
+
+kTaxon:Species67  rdfs:subClassOf  <http://www.wikidata.org/entity/Q68763> .
+
+kTaxon:Species276  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161388> .
+
+kTaxon:Species46  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156137> .
+
+kTaxon:Species255  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156907> .
+
+kTaxon:Species25  rdfs:subClassOf  <http://www.wikidata.org/entity/Q145954> .
+
+kTaxon:Species376  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161166> .
+
+kTaxon:Species355  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161421> .
+
+kTaxon:Species96  rdfs:subClassOf  <http://www.wikidata.org/entity/Q159546> .
+
+kTaxon:Species476  rdfs:subClassOf  <http://www.wikidata.org/entity/Q163822> .
+
+kTaxon:Species75  rdfs:subClassOf  <http://www.wikidata.org/entity/Q46871> .
+
+kTaxon:Species54  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156904> .
+
+kTaxon:Species33  rdfs:subClassOf  <http://www.wikidata.org/entity/Q145992> .
+
+kTaxon:Species4  rdfs:subClassOf  <http://www.wikidata.org/entity/Q721200> .
+
+kTaxon:Species12  rdfs:subClassOf  <http://www.wikidata.org/entity/Q47161> .
+
+kTaxon:Species576  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156944> .
+
+kTaxon:Species676  rdfs:subClassOf  <http://www.wikidata.org/entity/Q26745> .
+
+kTaxon:Species83  rdfs:subClassOf  <http://www.wikidata.org/entity/Q176647> .
+
+kTaxon:Species292  rdfs:subClassOf  <http://www.wikidata.org/entity/Q10881597> .
+
+kTaxon:Species62  rdfs:subClassOf  <http://www.wikidata.org/entity/Q162822> .
+
+kTaxon:Species41  rdfs:subClassOf  <http://www.wikidata.org/entity/Q165145> .
+
+kTaxon:Species20  rdfs:subClassOf  <http://www.wikidata.org/entity/Q12024> .
+
+kTaxon:Species392  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157650> .
+
+kTaxon:Species91  rdfs:subClassOf  <http://www.wikidata.org/entity/Q27344> .
+
+kTaxon:Species997  rdfs:subClassOf  <http://www.wikidata.org/entity/Q131448> .
+
+kTaxon:Species70  rdfs:subClassOf  <http://www.wikidata.org/entity/Q25314> .
+
+kTaxon:Species279  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161105> .
+
+kTaxon:Species976  rdfs:subClassOf  <http://www.wikidata.org/entity/Q42292> .
+
+kTaxon:Species49  rdfs:subClassOf  <http://www.wikidata.org/entity/Q12004> .
+
+kTaxon:Species258  rdfs:subClassOf  <http://www.wikidata.org/entity/Q149622> .
+
+kTaxon:Species955  rdfs:subClassOf  <http://www.wikidata.org/entity/Q128887> .
+
+kTaxon:Species28  rdfs:subClassOf  <http://www.wikidata.org/entity/Q748888> .
+
+kTaxon:Species237  rdfs:subClassOf  <http://www.wikidata.org/entity/Q184300> .
+
+kTaxon:Species337  rdfs:subClassOf  <http://www.wikidata.org/entity/Q1723636> .
+
+kTaxon:Species99  rdfs:subClassOf  <http://www.wikidata.org/entity/Q25314> .
+
+kTaxon:Species78  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157964> .
+
+kTaxon:Species57  rdfs:subClassOf  <http://www.wikidata.org/entity/Q36050> .
+
+kTaxon:Species36  rdfs:subClassOf  <http://www.wikidata.org/entity/Q147513> .
+
+kTaxon:Species7  rdfs:subClassOf  <http://www.wikidata.org/entity/Q81666> .
+
+kTaxon:Species15  rdfs:subClassOf  <http://www.wikidata.org/entity/Q132557> .

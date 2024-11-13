@@ -1,0 +1,165 @@
+@prefix ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species86 ifn3:vulgarName "Picconia excelsa"@fr .
+kTaxon:Species295 ifn3:vulgarName "Prunellier"@fr .
+kTaxon:Species65 ifn3:vulgarName "Houx"@fr .
+kTaxon:Species44 ifn3:vulgarName "Quercus faginea"@fr .
+kTaxon:Species23 ifn3:vulgarName "Pin parasol"@fr .
+kTaxon:Species495 ifn3:vulgarName "Laurier du Portugal"@fr .
+kTaxon:Species94 ifn3:vulgarName "Laurus nobilis"@fr .
+kTaxon:Species73 ifn3:vulgarName "Bouleau"@fr .
+kTaxon:Species52 ifn3:vulgarName "Tremble"@fr .
+kTaxon:Species31 ifn3:vulgarName "Abies alba"@fr .
+kTaxon:Species595 ifn3:vulgarName "Prunus padus"@fr .
+kTaxon:Species2 ifn3:vulgarName "Am\u00E9lanchier \u00E0 feuilles ovales"@fr .
+kTaxon:Species219 ifn3:vulgarName "Cypr\u00E8s de l'Atlas"@fr .
+kTaxon:Species319 ifn3:vulgarName "Thuya"@fr .
+kTaxon:Species60 ifn3:vulgarName "Eucalyptus"@fr .
+kTaxon:Species39 ifn3:vulgarName "Gen\u00E9vrier de Ph\u00E9nicie"@fr .
+kTaxon:Species18 ifn3:vulgarName "Cypr\u00E8s de Lawson"@fr .
+kTaxon:Species369 ifn3:vulgarName "Chamaerops humilis"@fr .
+kTaxon:Species89 ifn3:vulgarName "Laurisylve"@fr .
+kTaxon:Species68 ifn3:vulgarName "Arbousier"@fr .
+kTaxon:Species277 ifn3:vulgarName "Tilleul \u00E0 petites feuilles"@fr .
+kTaxon:Species47 ifn3:vulgarName "Quercus canariensis"@fr .
+kTaxon:Species256 ifn3:vulgarName "Orme de montagne"@fr .
+kTaxon:Species26 ifn3:vulgarName "Pinus pinaster"@fr .
+kTaxon:Species235 ifn3:vulgarName "Larix decidua"@fr .
+kTaxon:Species569 ifn3:vulgarName "Dragonnier des Canaries"@fr .
+kTaxon:Species377 ifn3:vulgarName "Tilleul \u00E0 grandes feuilles"@fr .
+kTaxon:Species356 ifn3:vulgarName "Ulmus pumila"@fr .
+kTaxon:Species335 ifn3:vulgarName "M\u00E9l\u00E8ze du Japon"@fr .
+kTaxon:Species97 ifn3:vulgarName "Sambucus nigra"@fr .
+kTaxon:Species76 ifn3:vulgarName "\u00C9rable champ\u00EAtre"@fr .
+kTaxon:Species55 ifn3:vulgarName "Fraxinus angustifolia"@fr .
+kTaxon:Species264 ifn3:vulgarName "Eucalyptus viminalis"@fr .
+kTaxon:Species435 ifn3:vulgarName "Larix"@fr .
+kTaxon:Species34 ifn3:vulgarName "Pseudotsuga menziesii"@fr .
+kTaxon:Species243 ifn3:vulgarName "Ch\u00EAne pubescent"@fr .
+kTaxon:Species5 ifn3:vulgarName "Fusain d'Europe"@fr .
+kTaxon:Species13 ifn3:vulgarName "Micocoulier de Provence"@fr .
+kTaxon:Species364 ifn3:vulgarName "Eucalyptus gomphocephala"@fr .
+kTaxon:Species84 ifn3:vulgarName "Persea indica"@fr .
+kTaxon:Species63 ifn3:vulgarName "Eucalyptus"@fr .
+kTaxon:Species42 ifn3:vulgarName "Quercus petraea"@fr .
+kTaxon:Species21 ifn3:vulgarName "Pin sylvestre"@fr .
+kTaxon:Species92 ifn3:vulgarName "Robinia pseudoacacia"@fr .
+kTaxon:Species71 ifn3:vulgarName "H\u00EAtre commun"@fr .
+kTaxon:Species50 ifn3:vulgarName "\u00C9cologie des syst\u00E8mes lotiques"@fr .
+kTaxon:Species956 ifn3:vulgarName "Orme"@fr .
+kTaxon:Species29 ifn3:vulgarName "Pin (plante)"@fr .
+kTaxon:Species217 ifn3:vulgarName "Cedrus deodara"@fr .
+kTaxon:Species317 ifn3:vulgarName "C\u00E8dre du Liban"@fr .
+kTaxon:Species58 ifn3:vulgarName "Peuplier noir"@fr .
+kTaxon:Species37 ifn3:vulgarName "Juniperus communis"@fr .
+kTaxon:Species8 ifn3:vulgarName "Phillyrea latifolia"@fr .
+kTaxon:Species16 ifn3:vulgarName "Pyrus"@fr .
+kTaxon:Species87 ifn3:vulgarName "Ocotea foetens"@fr .
+kTaxon:Species66 ifn3:vulgarName "Olea europaea"@fr .
+kTaxon:Species275 ifn3:vulgarName "Noyer noir"@fr .
+kTaxon:Species45 ifn3:vulgarName "Quercus ilex"@fr .
+kTaxon:Species24 ifn3:vulgarName "Pinus halepensis"@fr .
+kTaxon:Species95 ifn3:vulgarName "Prunus"@fr .
+kTaxon:Species74 ifn3:vulgarName "Corylus avellana"@fr .
+kTaxon:Species283 ifn3:vulgarName "Erica scoparia"@fr .
+kTaxon:Species53 ifn3:vulgarName "Tamarix"@fr .
+kTaxon:Species32 ifn3:vulgarName "Abies pinsapo"@fr .
+kTaxon:Species11 ifn3:vulgarName "Ailanthus altissima"@fr .
+kTaxon:Species917 ifn3:vulgarName "C\u00E8dre"@fr .
+kTaxon:Species82 ifn3:vulgarName "Ilex canariensis"@fr .
+kTaxon:Species291 ifn3:vulgarName "Buis des Bal\u00E9ares"@fr .
+kTaxon:Species61 ifn3:vulgarName "Eucalyptus globulus"@fr .
+kTaxon:Species40 ifn3:vulgarName "Ch\u00EAne"@fr .
+kTaxon:Species19 ifn3:vulgarName "Pinophyta"@fr .
+kTaxon:Species207 ifn3:vulgarName "Mimosa \u00E0 bois noir"@fr .
+kTaxon:Species90 ifn3:vulgarName "Angiosperme"@fr .
+kTaxon:Species299 ifn3:vulgarName "Ficus carica"@fr .
+kTaxon:Species69 ifn3:vulgarName "Phoenix (palmier)"@fr .
+kTaxon:Species278 ifn3:vulgarName "Sorbus aria"@fr .
+kTaxon:Species975 ifn3:vulgarName "Noyer"@fr .
+kTaxon:Species48 ifn3:vulgarName "Ch\u00EAne rouge d'Am\u00E9rique"@fr .
+kTaxon:Species257 ifn3:vulgarName "Salix alba"@fr .
+kTaxon:Species27 ifn3:vulgarName "Pinus canariensis"@fr .
+kTaxon:Species236 ifn3:vulgarName "Cypr\u00E8s de l'Arizona"@fr .
+kTaxon:Species215 ifn3:vulgarName "Crataegus monogyna"@fr .
+kTaxon:Species399 ifn3:vulgarName "M\u00FBrier"@fr .
+kTaxon:Species378 ifn3:vulgarName "Sorbus aucuparia"@fr .
+kTaxon:Species357 ifn3:vulgarName "Salix atrocinerea"@fr .
+kTaxon:Species336 ifn3:vulgarName "Cypr\u00E8s du Portugal"@fr .
+kTaxon:Species315 ifn3:vulgarName "Crataegus laevigata"@fr .
+kTaxon:Species499 ifn3:vulgarName "M\u00FBrier blanc"@fr .
+kTaxon:Species98 ifn3:vulgarName "Charme commun"@fr .
+kTaxon:Species478 ifn3:vulgarName "Cormier"@fr .
+kTaxon:Species77 ifn3:vulgarName "Tilia"@fr .
+kTaxon:Species457 ifn3:vulgarName "Saule pleureur"@fr .
+kTaxon:Species599 ifn3:vulgarName "M\u00FBrier noir"@fr .
+kTaxon:Species56 ifn3:vulgarName "Orme champ\u00EAtre"@fr .
+kTaxon:Species436 ifn3:vulgarName "Cypr\u00E8s de Lambert"@fr .
+kTaxon:Species35 ifn3:vulgarName "Larix"@fr .
+kTaxon:Species6 ifn3:vulgarName "Myrtus communis"@fr .
+kTaxon:Species14 ifn3:vulgarName "If commun"@fr .
+kTaxon:Species578 ifn3:vulgarName "Sorbus torminalis"@fr .
+kTaxon:Species515 ifn3:vulgarName "Crataegus azarolus"@fr .
+kTaxon:Species678 ifn3:vulgarName "Sorbus latifolia"@fr .
+kTaxon:Species657 ifn3:vulgarName "Saule marsault"@fr .
+kTaxon:Species294 ifn3:vulgarName "Laurus azorica"@fr .
+kTaxon:Species64 ifn3:vulgarName "Eucalyptus nitens"@fr .
+kTaxon:Species273 ifn3:vulgarName "Betula pubescens"@fr .
+kTaxon:Species43 ifn3:vulgarName "Ch\u00EAne tauzin"@fr .
+kTaxon:Species778 ifn3:vulgarName "Sorbus chamaemespilus"@fr .
+kTaxon:Species22 ifn3:vulgarName "Pinus mugo"@fr .
+kTaxon:Species757 ifn3:vulgarName "Salix elaeagnos"@fr .
+kTaxon:Species373 ifn3:vulgarName "Bouleau verruqueux"@fr .
+kTaxon:Species857 ifn3:vulgarName "Saule fragile"@fr .
+kTaxon:Species93 ifn3:vulgarName "Pistachier t\u00E9r\u00E9binthe"@fr .
+kTaxon:Species72 ifn3:vulgarName "Castanea sativa"@fr .
+kTaxon:Species51 ifn3:vulgarName "Populus alba"@fr .
+kTaxon:Species957 ifn3:vulgarName "Salix purpurea"@fr .
+kTaxon:Species30 ifn3:vulgarName "Pinophyta"@fr .
+kTaxon:Species239 ifn3:vulgarName "Juniperus sabina"@fr .
+kTaxon:Species936 ifn3:vulgarName "Cypr\u00E8s"@fr .
+kTaxon:Species80 ifn3:vulgarName "Laurisylve"@fr .
+kTaxon:Species59 ifn3:vulgarName "\u00C9cologie des syst\u00E8mes lotiques"@fr .
+kTaxon:Species38 ifn3:vulgarName "Juniperus thurifera"@fr .
+kTaxon:Species9 ifn3:vulgarName "Cornouiller sanguin"@fr .
+kTaxon:Species17 ifn3:vulgarName "Cedrus atlantica"@fr .
+kTaxon:Species489 ifn3:vulgarName "Visnea mocanera"@fr .
+kTaxon:Species297 ifn3:vulgarName "Sambucus racemosa"@fr .
+kTaxon:Species276 ifn3:vulgarName "\u00C9rable de Montpellier"@fr .
+kTaxon:Species46 ifn3:vulgarName "Ch\u00EAne-li\u00E8ge"@fr .
+kTaxon:Species255 ifn3:vulgarName "Fr\u00EAne \u00E9lev\u00E9"@fr .
+kTaxon:Species25 ifn3:vulgarName "Pinus nigra"@fr .
+kTaxon:Species376 ifn3:vulgarName "Acer negundo"@fr .
+kTaxon:Species355 ifn3:vulgarName "Fraxinus ornus"@fr .
+kTaxon:Species96 ifn3:vulgarName "Rhus coriaria"@fr .
+kTaxon:Species476 ifn3:vulgarName "\u00C9rable \u00E0 feuilles d'obier"@fr .
+kTaxon:Species75 ifn3:vulgarName "Noyer commun"@fr .
+kTaxon:Species54 ifn3:vulgarName "Alnus glutinosa"@fr .
+kTaxon:Species33 ifn3:vulgarName "\u00C9pic\u00E9a commun"@fr .
+kTaxon:Species4 ifn3:vulgarName "Nerprun alaterne"@fr .
+kTaxon:Species12 ifn3:vulgarName "Malus sylvestris"@fr .
+kTaxon:Species576 ifn3:vulgarName "\u00C9rable sycomore"@fr .
+kTaxon:Species676 ifn3:vulgarName "\u00C9rable plane"@fr .
+kTaxon:Species83 ifn3:vulgarName "Erica arborea"@fr .
+kTaxon:Species292 ifn3:vulgarName "Styphnolobium japonicum"@fr .
+kTaxon:Species62 ifn3:vulgarName "Eucalyptus camaldulensis"@fr .
+kTaxon:Species41 ifn3:vulgarName "Ch\u00EAne p\u00E9doncul\u00E9"@fr .
+kTaxon:Species20 ifn3:vulgarName "Pin (plante)"@fr .
+kTaxon:Species392 ifn3:vulgarName "F\u00E9vier d'Am\u00E9rique"@fr .
+kTaxon:Species91 ifn3:vulgarName "Buxus sempervirens"@fr .
+kTaxon:Species997 ifn3:vulgarName "Sureau"@fr .
+kTaxon:Species70 ifn3:vulgarName "Angiosperme"@fr .
+kTaxon:Species279 ifn3:vulgarName "Platane d'Orient"@fr .
+kTaxon:Species976 ifn3:vulgarName "\u00C9rable"@fr .
+kTaxon:Species49 ifn3:vulgarName "Ch\u00EAne"@fr .
+kTaxon:Species955 ifn3:vulgarName "Fr\u00EAne"@fr .
+kTaxon:Species28 ifn3:vulgarName "Pin de Monterey"@fr .
+kTaxon:Species237 ifn3:vulgarName "Juniperus oxycedrus"@fr .
+kTaxon:Species99 ifn3:vulgarName "Angiosperme"@fr .
+kTaxon:Species78 ifn3:vulgarName "Sorbus"@fr .
+kTaxon:Species57 ifn3:vulgarName "Saule"@fr .
+kTaxon:Species36 ifn3:vulgarName "Cupressus sempervirens"@fr .
+kTaxon:Species7 ifn3:vulgarName "Acacia (genre)"@fr .
+kTaxon:Species15 ifn3:vulgarName "Aub\u00E9pine"@fr .

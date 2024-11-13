@@ -1,0 +1,249 @@
+BASE <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/>
+PREFIX ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/>
+PREFIX ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/>
+PREFIX smo: <http://crossforest.eu/measures/ontology/>
+PREFIX sco: <http://crossforest.eu/categories/ontology/>
+PREFIX spo: <http://crossforest.eu/position/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+PREFIX unit: <http://crossforest.eu/measures/data/unit/>
+
+PREFIX plot: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/plot/>
+PREFIX position: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/position/>
+PREFIX provin:   <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/province/>
+PREFIX photo: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/photograph/>
+PREFIX pass: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/pass/>
+PREFIX flight: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/flight/>
+
+PREFIX capture: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/dataCapture/>
+PREFIX source: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/source/>
+PREFIX time: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/time/>
+
+PREFIX kPlot: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/plot/>
+PREFIX kDeadLayer: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/deadLayer/>
+PREFIX kFuelModel: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/fuelModel/>
+PREFIX kerosion: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/erosion/>
+PREFIX kPH: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/ph/>
+PREFIX kOrganicMatter: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/organicMatter/>
+PREFIX kTexture: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/texture/>
+PREFIX kRocosity: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/rocosity/>
+PREFIX kPLotType: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/plotType/>
+PREFIX kSpatialDistribution: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/spatialDistribution/>
+PREFIX kComposition: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/composition/>
+PREFIX kUse: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/use/>
+
+
+GENERATE {
+	?plot_iri a ifn3:Plot , ifn:Plot , ?plot_class_iri , ?deadLayer_iri , ?fuel_iri , ?erosion_iri , ?ph_iri , ?organic_iri , ?texture_iri , ?rocosity_iri , ?type_iri ,?distribution_iri , ?composition_iri , ?use_iri ;
+		ifn3:province ?province_iri ;
+		ifn3:isInMunicipality ?municipality_iri ;
+		ifn3:previousPlot ?previous_plot_iri ;
+		ifn3:hasPhotograph ?photo1_iri , ?photo2_iri ;
+		smo:hasDataCapture ?dataCapture_iri ;
+		spo:hasPosition ?position_iri ;
+	.
+
+	?photo1_iri a ifn3:Photograph ;
+		ifn3:takenInPass ?pass1_iri ;
+		ifn3:takenInFlight ?flight1_iri ;
+	.
+
+	?flight1_iri a ifn3:Flight ;
+		ifn3:hasFlightPass ?pass1_iri ;
+	.
+
+	?photo2_iri a ifn3:Photograph ;
+		ifn3:takenInPass ?pass2_iri ;
+		ifn3:takenInFlight ?flight2_iri ;
+	.
+
+	?flight2_iri a ifn3:Pass ;
+		ifn3:hasFlightPass ?pass2_iri ;
+	.
+
+	?dataCapture_iri a ifn3:Fieldwork ;
+		smo:captureTime ?captureTime_iri ;
+		ifn3:hasSource ?source_iri ;
+		sco:capturesCategory ?plot_class_iri , ?deadLayer_iri , ?fuel_iri , ?erosion_iri , ?ph_iri , ?organic_iri , ?texture_iri , ?rocosity_iri , ?type_iri ,?distribution_iri , ?composition_iri , ?use_iri ;
+	.
+
+	?captureTime_iri a smo:Time , ifn3:CaptureTime ;
+		smo:hasBeginning ?start_iri ;
+		smo:hasEnd ?end_iri ;
+		smo:hasValue ?average_iri ;
+		smo:hasUnit ?average_unit ;
+		smo:hasPrecision ?time_p ;
+	.
+
+	?start_iri a smo:Time , ifn3:StartTime ;
+		smo:hasValue ?start_dt ;
+		smo:hasUnit ?start_unit ;
+		smo:hasPrecision ?time_p ;
+		smo:year ?start_year ;
+		smo:month ?start_month ;
+		smo:day ?start_day ;
+		smo:hours ?start_hour_nnint ;
+		smo:minutes ?start_minute_nnint ;
+		smo:seconds ?start_second_nnint ;
+	.
+
+	?end_iri a smo:Time , ifn3:EndTime ;
+		smo:hasValue ?end_dt ;
+		smo:hasUnit ?end_unit ;
+		smo:hasPrecision ?time_p ;
+		smo:year ?end_year ;
+		smo:month ?end_month ;
+		smo:day ?end_day ;
+		smo:hours ?end_hour_nnint ;
+		smo:minutes ?end_minute_nnint ;
+		smo:seconds ?end_second_nnint ;
+	.
+
+}
+SOURCE <urn:source> AS ?source
+ITERATOR <http://w3id.org/sparql-generate/iter/CSV>(?source, true, "\"", ",", "\n",
+	"Origen", "Provincia", "Estadillo", "Cla", "Subclase", "CoorX", "Coory", "Tipo", "Vuelo1", "Pasada1", "Foto1", "Vuelo2", "Pasada2", "Foto2", "Ano", "INE", "Nivel1", "Nivel2", "Nivel3", "FccTot", "FccArb", "DisEsp", "ComEsp", "Rocosid", "Textura", "MatOrg", "PhSuelo", "FechaPh", "HoraPh", "TipSuelo1", "TipSuelo2", "TipSuelo3", "MErosiva", "ModComb", "EspCMue", "PresReg", "EfecReg", "CortaReg", "MejVue1", "MejVue2", "MejSue1", "MejSue2", "Orienta1", "Orienta2", "MaxPend1", "MaxPend2", "Localiza", "Acceso", "Levanta", "Obser", "Equipo", "JefeEq", "FechaIni", "HoraIni", "FechaFin", "HoraFin", "Tiempo", "Resid", "RumboF1", "RumboF2", "DistFoto", "CarFoto1", "NumFoto1", "ConFoto1", "CarFoto2", "NumFoto2", "ConFoto2", "Estado", "Tecnico"
+	)
+	AS ?Origen ?Provincia ?Estadillo ?Cla ?Subclase ?CoorX ?Coory ?Tipo ?Vuelo1 ?Pasada1 ?Foto1 ?Vuelo2 ?Pasada2 ?Foto2 ?Ano ?INE ?Nivel1 ?Nivel2 ?Nivel3 ?FccTot ?FccArb ?DisEsp ?ComEsp ?Rocosid ?Textura ?MatOrg ?PhSuelo ?FechaPh ?HoraPh ?TipSuelo1 ?TipSuelo2 ?TipSuelo3 ?MErosiva ?ModComb ?EspCMue ?PresReg ?EfecReg ?CortaReg ?MejVue1 ?MejVue2 ?MejSue1 ?MejSue2 ?Orienta1 ?Orienta2 ?MaxPend1 ?MaxPend2 ?Localiza ?Acceso ?Levanta ?Obser ?Equipo ?JefeEq ?FechaIni ?HoraIni ?FechaFin ?HoraFin ?Tiempo ?Resid ?RumboF1 ?RumboF2 ?DistFoto ?CarFoto1 ?NumFoto1 ?ConFoto1 ?CarFoto2 ?NumFoto2 ?ConFoto2 ?Estado ?Tecnico
+WHERE {
+
+	BIND( COALESCE( xsd:integer(?Origen)+0, ?Origen ) AS ?provincia_int )
+	BIND( COALESCE( xsd:integer(?Estadillo)+0, ?Estadillo ) AS ?estadillo_int )
+	BIND( COALESCE( ?Cla, "" ) AS ?clase_str )
+	BIND( COALESCE( ?Subclase, "" ) AS ?subclase_str )
+	BIND( COALESCE( xsd:integer(?Nivel1)+0, ?Nivel1 ) AS ?nivel1_int )
+	BIND( COALESCE( xsd:integer(?Nivel2)+0, ?Nivel2 ) AS ?nivel2_int )
+	BIND( COALESCE( xsd:integer(?Nivel3)+0, ?Nivel3 ) AS ?nivel3_int )
+	BIND( COALESCE( xsd:integer(?EspCMue)+0, ?EspCMue ) AS ?deadLayer_int )
+	BIND( COALESCE( xsd:integer(?ComEsp)+0, ?ComEsp ) AS ?composition_int )
+	BIND( COALESCE( xsd:integer(?DisEsp)+0, ?DisEsp ) AS ?distribution_int )
+	BIND( COALESCE( xsd:integer(?Tipo)+0, ?Tipo ) AS ?type_int )
+	BIND( COALESCE( xsd:integer(?Rocosid)+0, ?Rocosid ) AS ?rocosity_int )
+	BIND( COALESCE( xsd:integer(?Textura)+0, ?Textura ) AS ?texture_int )
+	BIND( COALESCE( xsd:integer(?MatOrg)+0, ?MatOrg ) AS ?organic_int )
+	BIND( COALESCE( xsd:integer(?PhSuelo)+0, ?PhSuelo ) AS ?ph_int )
+	BIND( COALESCE( xsd:integer(?MErosiva)+0, ?MErosiva ) AS ?erosion_int )
+	BIND( COALESCE( xsd:integer(?ModComb)+0, ?ModComb ) AS ?fuel_int )
+	BIND( COALESCE( xsd:integer(?Foto1)+0, ?Foto1 ) AS ?photo1_int )
+	BIND( COALESCE( xsd:integer(?Pasada1)+0, ?Pasada1 ) AS ?pass1_int )
+	BIND( COALESCE( xsd:integer(?Vuelo1)+0, ?Vuelo1 ) AS ?flight1_int )
+	BIND( COALESCE( xsd:integer(?Pasada2)+0, ?Pasada2 ) AS ?pass2_int )
+	BIND( COALESCE( xsd:integer(?Foto2)+0, ?Foto2 ) AS ?photo2_int )
+	BIND( COALESCE( xsd:integer(?Vuelo2)+0, ?Vuelo2 ) AS ?flight2_int )
+	BIND( if ( contains(?INE, " "), fun:regex(?INE, "([:space:])+([:digit:]{2})" , 2), if ( contains (?INE, "\""), REPLACE(?INE, "\"", ""), ?INE)) as ?ine_s)
+	BIND( COALESCE( xsd:integer(?ine_s)+0, ?ine_s ) AS ?ine_int )
+	BIND( COALESCE( xsd:integer(?Equipo)+0, ?Equipo ) AS ?equipo_int )
+	BIND( COALESCE( xsd:integer(?JefeEq)+0, ?JefeEq ) AS ?jefe_int )
+	BIND( COALESCE( xsd:integer(?Tecnico)+0, ?Tecnico ) AS ?tecnico_int )
+
+	BIND( xsd:integer(1)+0 AS ?time_p )
+
+	BIND( "province{?provincia_int}" AS ?province_n )
+	BIND( <province/{?province_n}> AS ?province_iri )
+
+	BIND( "plot-{?provincia_int}-{?estadillo_int}-{?clase_str}-{?subclase_str}" AS ?plot_n )
+	BIND( <plot/{?plot_n}> AS ?plot_iri )
+	BIND( <dataCapture/{?plot_n}> AS ?dataCapture_iri)
+
+	BIND( "plot-{?provincia_int}-{?estadillo_int}" AS ?position_n )
+	BIND( <position/{?position_n}> AS ?position_iri )
+
+	BIND( IF(?clase_str="A", "plot-{?provincia_int}-{?estadillo_int}", ?unbound) AS ?previous_plot_n )
+	BIND( <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn2/plot/{?previous_plot_n}> AS ?previous_plot_iri )
+	
+	BIND( "Plot-{?clase_str}-{?subclase_str}" AS ?plot_class_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/plot/Plot-{?plot_class_n}> AS ?plot_class_iri )
+
+	BIND( "Use{?nivel1_int}{?nivel2_int}{?nivel3_int}" AS ?use_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/use/{?use_n}> AS ?use_iri )
+
+	BIND( "DeadLayer{?deadLayer_int}" AS ?deadLayer_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/deadLayer/{?deadLayer_n}> AS ?deadLayer_iri )
+
+	BIND( "FuelModel{?fuel_int}" AS ?fuel_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/fuelModel/{?fuel_n}> AS ?fuel_iri )
+
+	BIND( "Erosion{?erosion_int}" AS ?erosion_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/erosion/{?erosion_n}> AS ?erosion_iri )
+
+	BIND( "PH{?ph_int}" AS ?ph_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/ph/{?ph_n}> AS ?ph_iri )
+
+	BIND( "OrganicMatter{?organic_int}" AS ?organic_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/organicMatter/{?organic_n}> AS ?organic_iri )
+
+	BIND( "Texture{?texture_int}" AS ?texture_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/texture/{?texture_n}> AS ?texture_iri )
+
+	BIND( "Rocosity{?rocosity_int}" AS ?rocosity_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/rocosity/{?rocosity_n}> AS ?rocosity_iri )
+
+	BIND( "PlotType{?type_int}" AS ?type_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/plotType/{?type_n}> AS ?type_iri )
+
+	BIND( "SpatialDistribution{?distribution_int}" AS ?distribution_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/spatialDistribution/{?distribution_n}> AS ?distribution_iri )
+
+	BIND( "Composition{?composition_int}" AS ?composition_n )
+	BIND(  <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/composition/{?composition_n}> AS ?composition_iri )
+
+	BIND( "photograph{?photo1_int}" AS ?photo1_n )
+	BIND( <photograph/{?photo1_n}> AS ?photo1_iri )
+
+	BIND( "pass{?pass1_int}" AS ?pass1_n )
+	BIND( <pass/{?pass1_n}> AS ?pass1_iri )
+
+	BIND( "flight{?flight1_int}" AS ?flight1_n )
+	BIND( <flight/{?flight1_n}> AS ?flight1_iri )
+
+	BIND( "photograph{?photo2_int}" AS ?photo2_n )
+	BIND( <photograph/{?photo2_n}> AS ?photo2_iri )
+
+	BIND( "pass{?pass2_int}" AS ?pass2_n )
+	BIND( <pass/{?pass2_n}> AS ?pass2_iri )
+
+	BIND( "flight{?flight2_int}" AS ?flight2_n )
+	BIND( <flight/{?flight2_n}> AS ?flight2_iri )
+
+    BIND( "municipality{?Provincia}-{?ine_int}" AS ?municipality_n )
+	BIND( <municipality/{?municipality_n}> AS ?municipality_iri )
+
+	BIND( COALESCE(fun:dateTime(?FechaIni, "yyyy-MM-dd HH:mm:ss"), fun:dateTime(?FechaIni, "d/M/yy")) AS ?start_date_dt )
+	BIND( xsd:gYear(?start_date_dt) AS ?start_year )
+	BIND( xsd:gMonth(?start_date_dt) AS ?start_month )
+	BIND( xsd:gDay(?start_date_dt) AS ?start_day )
+	BIND( COALESCE(fun:dateTime(?HoraIni, "yyyy-MM-dd HH:mm:ss"), fun:dateTime(?HoraIni, "HH:mm"), fun:dateTime(?FechaIni, "yyyy-MM-dd HH:mm:ss"), fun:dateTime(?FechaIni, "HH:mm:ss"))  AS ?start_time_dt )
+	BIND( xsd:nonNegativeInteger(fun:regex(?start_time_dt, "^....-..-..T(..):..:..", 1 )) AS ?start_hour_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?start_time_dt, "^....-..-..T..:(..):..", 1 )) AS ?start_minute_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?start_time_dt, "^....-..-..T..:..:(..)", 1 )) AS ?start_second_nnint )
+	BIND( xsd:nonNegativeInteger(?start_year) AS ?start_year_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?start_month, "(..)$", 1 )) AS ?start_month_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?start_day, "(..)$", 1 )) AS ?start_day_nnint )
+	BIND( xsd:dateTime(CONCAT(STR(?start_year_nnint), "-", COALESCE(STR(?start_month_nnint), "01"), "-", COALESCE(STR(?start_day_nnint), "01"), "T", COALESCE(STR(?start_hour_nnint), "00"), ":", COALESCE(STR(?start_minute_nnint), "00"), ":", COALESCE(STR(?start_second_nnint), "00"))) AS ?start_dt )
+	BIND( IF( BOUND(?start_month_nnint), IF( BOUND(?start_day_nnint), IF( BOUND(?start_hour_nnint), IF( BOUND(?start_minute_nnint), IF( BOUND(?start_second_nnint), unit:Seconds, unit:Minutes ), unit:Hours ), unit:Days ), unit:Months ), unit:Years ) AS ?start_unit)
+	BIND( CONCAT(fun:regex("{?start_unit}", "([^/]+)$", 1), REPLACE("{?start_dt}", ":", "-" ), "p", "{?time_p}") AS ?start_n )
+	BIND( <time/{?start_n}> AS ?start_iri )
+
+	BIND( COALESCE(fun:dateTime(?FechaFin, "yyyy-MM-dd HH:mm:ss"), fun:dateTime(?FechaFin, "d/M/yy")) AS ?end_date_dt )
+	BIND( xsd:gYear(?end_date_dt) AS ?end_year )
+	BIND( xsd:gMonth(?end_date_dt) AS ?end_month )
+	BIND( xsd:gDay(?end_date_dt) AS ?end_day )
+	BIND( COALESCE(fun:dateTime(?HoraFin, "yyyy-MM-dd HH:mm:ss"), fun:dateTime(?HoraFin, "HH:mm"), fun:dateTime(?FechaFin, "yyyy-MM-dd HH:mm:ss"), fun:dateTime(?FechaFin, "HH:mm:ss"))  AS ?end_time_dt )
+	BIND( xsd:nonNegativeInteger(fun:regex(?end_time_dt, "^....-..-..T(..):..:..", 1 )) AS ?end_hour_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?end_time_dt, "^....-..-..T..:(..):..", 1 )) AS ?end_minute_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?end_time_dt, "^....-..-..T..:..:(..)", 1 )) AS ?end_second_nnint )
+	BIND( xsd:nonNegativeInteger(?end_year) AS ?end_year_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?end_month, "(..)$", 1 )) AS ?end_month_nnint )
+	BIND( xsd:nonNegativeInteger(fun:regex(?end_day, "(..)$", 1 )) AS ?end_day_nnint )
+	BIND( xsd:dateTime(CONCAT(STR(?end_year_nnint), "-", COALESCE(STR(?end_month_nnint), "01"), "-", COALESCE(STR(?end_day_nnint), "01"), "T", COALESCE(STR(?end_hour_nnint), "00"), ":", COALESCE(STR(?end_minute_nnint), "00"), ":", COALESCE(STR(?end_second_nnint), "00"))) AS ?end_dt )
+	BIND( IF( BOUND(?end_month_nnint), IF( BOUND(?end_day_nnint), IF( BOUND(?end_hour_nnint), IF( BOUND(?end_minute_nnint), IF( BOUND(?end_second_nnint), unit:Seconds, unit:Minutes ), unit:Hours ), unit:Days ), unit:Months ), unit:Years ) AS ?end_unit)
+	BIND( CONCAT(fun:regex("{?end_unit}", "([^/]+)$", 1), REPLACE("{?end_dt}", ":", "-" ), "p", "{?time_p}") AS ?end_n )
+	BIND( <time/{?end_n}> AS ?end_iri )
+
+	BIND( <time/{?start_n}-{?end_n}> AS ?captureTime_iri )
+	BIND( ?end_dt AS ?average_dt )
+	BIND( ?end_unit AS ?average_unit )
+
+	BIND( "source-{?provincia_int}-{?equipo_int}-{?jefe_int}-{?tecnico_int}" AS ?source_n )
+	BIND( <source/{?source_n}> AS ?source_iri )
+}

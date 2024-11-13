@@ -1,0 +1,290 @@
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+kTaxon:Species857  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7893> .
+
+kTaxon:Species273  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2767> .
+
+kTaxon:Species578  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8566> .
+
+kTaxon:Species217  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3197> .
+
+kTaxon:Species11  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1807> .
+
+kTaxon:Species258  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26363> .
+
+kTaxon:Species52  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7293> .
+
+kTaxon:Species24  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7118> .
+
+kTaxon:Species299  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4592> .
+
+kTaxon:Species93  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7130> .
+
+kTaxon:Species65  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5361> .
+
+kTaxon:Species478  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8560> .
+
+kTaxon:Species37  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5499> .
+
+kTaxon:Species657  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7888> .
+
+kTaxon:Species337  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1019> .
+
+kTaxon:Species9  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3728> .
+
+kTaxon:Species378  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8558> .
+
+kTaxon:Species557  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7887> .
+
+kTaxon:Species293  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1408> .
+
+kTaxon:Species237  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5505> .
+
+kTaxon:Species31  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1899> .
+
+kTaxon:Species278  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8557> .
+
+kTaxon:Species72  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3189> .
+
+kTaxon:Species457  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26366> .
+
+kTaxon:Species44  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7479> .
+
+kTaxon:Species3  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4610> .
+
+kTaxon:Species98  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3170> .
+
+kTaxon:Species357  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7883> .
+
+kTaxon:Species244  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7381> .
+
+kTaxon:Species257  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7881> .
+
+kTaxon:Species51  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7290> .
+
+kTaxon:Species436  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3886> .
+
+kTaxon:Species23  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7124> .
+
+kTaxon:Species64  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26350> .
+
+kTaxon:Species36  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3887> .
+
+kTaxon:Species392  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4849> .
+
+kTaxon:Species364  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4448> .
+
+kTaxon:Species336  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3885> .
+
+kTaxon:Species8  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7079> .
+
+kTaxon:Species515  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3852> .
+
+kTaxon:Species377  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8962> .
+
+kTaxon:Species292  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8553> .
+
+kTaxon:Species264  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26351> .
+
+kTaxon:Species236  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3883> .
+
+kTaxon:Species569  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/897> .
+
+kTaxon:Species277  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8960> .
+
+kTaxon:Species71  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4566> .
+
+kTaxon:Species43  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7225> .
+
+kTaxon:Species84  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1401> .
+
+kTaxon:Species2  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2114> .
+
+kTaxon:Species676  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1800> .
+
+kTaxon:Species56  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/9147> .
+
+kTaxon:Species469  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7088> .
+
+kTaxon:Species315  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3856> .
+
+kTaxon:Species28  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7125> .
+
+kTaxon:Species97  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7950> .
+
+kTaxon:Species356  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26372> .
+
+kTaxon:Species576  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1801> .
+
+kTaxon:Species369  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3518> .
+
+kTaxon:Species215  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3857> .
+
+kTaxon:Species256  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/9144> .
+
+kTaxon:Species435  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26357> .
+
+kTaxon:Species22  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7127> .
+
+kTaxon:Species297  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7952> .
+
+kTaxon:Species91  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2860> .
+
+kTaxon:Species476  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1927> .
+
+kTaxon:Species76  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1922> .
+
+kTaxon:Species489  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1512> .
+
+kTaxon:Species335  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26355> .
+
+kTaxon:Species48  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7227> .
+
+kTaxon:Species307  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1906> .
+
+kTaxon:Species376  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1926> .
+
+kTaxon:Species291  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2858> .
+
+kTaxon:Species389  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1437> .
+
+kTaxon:Species235  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5660> .
+
+kTaxon:Species207  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1912> .
+
+kTaxon:Species276  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1924> .
+
+kTaxon:Species42  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7222> .
+
+kTaxon:Species289  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/977> .
+
+kTaxon:Species14  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8650> .
+
+kTaxon:Species1  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26589> .
+
+kTaxon:Species83  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4364> .
+
+kTaxon:Species55  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4623> .
+
+kTaxon:Species27  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1385> .
+
+kTaxon:Species96  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7774> .
+
+kTaxon:Species355  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4628> .
+
+kTaxon:Species68  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2284> .
+
+kTaxon:Species283  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4373> .
+
+kTaxon:Species255  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4625> .
+
+kTaxon:Species21  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7126> .
+
+kTaxon:Species268  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1176> .
+
+kTaxon:Species62  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4444> .
+
+kTaxon:Species34  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7410> .
+
+kTaxon:Species75  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5457> .
+
+kTaxon:Species47  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7476> .
+
+kTaxon:Species6  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6498> .
+
+kTaxon:Species88  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1175> .
+
+kTaxon:Species595  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7391> .
+
+kTaxon:Species275  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/9747> .
+
+kTaxon:Species41  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7226> .
+
+kTaxon:Species219  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8758> .
+
+kTaxon:Species13  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3200> .
+
+kTaxon:Species82  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1011> .
+
+kTaxon:Species495  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7388> .
+
+kTaxon:Species54  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2038> .
+
+kTaxon:Species26  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7123> .
+
+kTaxon:Species67  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3422> .
+
+kTaxon:Species39  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5509> .
+
+kTaxon:Species395  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7237> .
+
+kTaxon:Species282  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26354> .
+
+kTaxon:Species295  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7397> .
+
+kTaxon:Species61  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4445> .
+
+kTaxon:Species239  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5512> .
+
+kTaxon:Species33  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6999> .
+
+kTaxon:Species74  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3755> .
+
+kTaxon:Species46  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7228> .
+
+kTaxon:Species18  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3481> .
+
+kTaxon:Species5  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/4453> .
+
+kTaxon:Species87  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/9640> .
+
+kTaxon:Species858  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1448> .
+
+kTaxon:Species12  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6190> .
+
+kTaxon:Species81  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6481> .
+
+kTaxon:Species25  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7120> .
+
+kTaxon:Species94  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5728> .
+
+kTaxon:Species66  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6644> .
+
+kTaxon:Species38  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/5513> .
+
+kTaxon:Species79  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7182> .
+
+kTaxon:Species253  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8549> .
+
+kTaxon:Species294  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26359> .
+
+kTaxon:Species599  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6291> .
+
+kTaxon:Species238  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/24329> .
+
+kTaxon:Species32  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1901> .
+
+kTaxon:Species778  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8559> .
+
+kTaxon:Species279  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26362> .
+
+kTaxon:Species957  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7900> .
+
+kTaxon:Species86  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/1386> .
+
+kTaxon:Species45  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7483> .
+
+kTaxon:Species4  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7684> .
+
+kTaxon:Species17  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/3196> .
+
+kTaxon:Species373  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/2769> .
+
+kTaxon:Species499  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/6407> .
+
+kTaxon:Species678  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/8564> .
+
+kTaxon:Species58  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/7292> .
+
+kTaxon:Species317  owl:sameAs  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/pliniancore/Taxon/26348> .

@@ -1,0 +1,112 @@
+BASE <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/>
+PREFIX ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/>
+PREFIX spo: <http://crossforest.eu/position/ontology/>
+PREFIX smo: <http://crossforest.eu/measures/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+PREFIX tree: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/tree/>
+PREFIX diametricClass: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/diametricClass/>
+PREFIX measure:   <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/measure/>
+PREFIX unit: <http://crossforest.eu/measures/data/unit/>
+
+
+GENERATE {
+	?tree_iri a ifn3:Tree , ?diametricClass_iri ;
+		ifn3:hasBasalArea ?basalArea_iri ;
+		ifn3:hasBasalAreaInM2 ?basalArea_dbl ;
+		ifn3:hasVolumeWithoutBark ?volumeWithoutBark_iri ;
+		ifn3:hasVolumeWithoutBarkIndm3 ?volumeWithoutBark_dbl ;
+		ifn3:hasVolumeWithBark ?volumeWithBark_iri ;
+		ifn3:hasVolumeWithBarkIndm3 ?volumeWithBark_dbl ;
+		ifn3:hasVolumeIncrease ?volumeIncrease_iri ;
+		ifn3:hasVolumeIncreaseIndm3 ?volumeIncrease_dbl ;
+		ifn3:hasVolumeFirewood ?volumeFirewood_iri ;
+		ifn3:hasVolumeFirewoodIndm3 ?volumeFirewood_dbl ;
+	.
+
+	?basalArea_iri a ifn3:BasalArea ;
+		smo:hasValue ?basalArea_dbl ;
+		smo:hasUnit ?areaUnit ;
+		smo:hasPrecision ?basalArea_p ;
+	.
+
+	?volumeWithoutBark_iri a ifn3:VolumeWithoutBark ;
+		smo:hasValue ?volumeWithoutBark_dbl ;
+		smo:hasUnit ?volumeUnit ;
+		smo:hasPrecision ?volumeWithoutBark_p ;
+	.
+
+	?volumeWithBark_iri a ifn3:VolumeWithBark ;
+		smo:hasValue ?volumeWithBark_dbl ;
+		smo:hasUnit ?volumeUnit ;
+		smo:hasPrecision ?volumeWithBark_p
+	.
+
+	?volumeIncrease_iri a ifn3:VolumeIncrease ;
+		smo:hasValue ?volumeIncrease_dbl ;
+		smo:hasUnit ?volumeUnit ;
+		smo:hasPrecision ?volumeIncrease_p
+	.
+
+	?volumeFirewood_iri a ifn3:VolumeFirewood ;
+		smo:hasValue ?volumeFirewood_dbl ;
+		smo:hasUnit ?volumeUnit ;
+		smo:hasPrecision ?volumeIncrease_p
+	.
+	
+}
+SOURCE <urn:source> as ?source
+ITERATOR <http://w3id.org/sparql-generate/iter/CSV>(?source, true, "\"", ",", "\n",
+	"Origen", "Estadillo", "Cla", "Subclase", "nArbol", "OrdenIf3", "OrdenIf2", "Rumbo", "Distanci", "Especie", "EspecieOriginal", "Dn1", "Dn2", "Ht", "Calidad", "Forma", "ParEsp", "Agente", "Import", "Elemento", "Estrato", "CD", "G", "VCC", "VSC", "IAVC", "VLE", "Fac"
+	)
+	AS ?Origen ?Estadillo ?Cla ?Subclase ?nArbol ?OrdenIf3 ?OrdenIf2 ?Rumbo ?Distanci ?Especie ?EspecieOriginal ?Dn1 ?Dn2 ?Ht ?Calidad ?Forma ?ParEsp ?Agente ?Import ?Elemento ?Estrato ?CD ?G ?VCC ?VSC ?IAVC ?VLE ?Fac
+WHERE {
+
+	# Data in appropriate format
+
+	BIND( COALESCE( xsd:integer(?Origen)+0, ?Origen ) AS ?provincia_int )
+	BIND( COALESCE( xsd:integer(?Estadillo)+0, ?Estadillo ) AS ?estadillo_int )
+	BIND( COALESCE( ?Cla, "" ) AS ?clase_str )
+	BIND( COALESCE( ?Subclase, "" ) AS ?subclase_str )
+	BIND( COALESCE( xsd:integer(?CD)+0, ?CD ) AS ?diametricClass_int )
+
+	BIND( COALESCE( xsd:integer(?OrdenIf3)+0, ?OrdenIf3 ) AS ?ordenIFN3_int )
+	BIND( unit:Units AS ?order_unit )
+	BIND( xsd:integer(1)+0 AS ?order_p )
+
+	BIND( COALESCE( xsd:double(?G)+0, ?G ) AS ?basalArea_dbl )
+	BIND( xsd:double(0.00000001)+0 AS ?basalArea_p )
+	BIND( unit:M2 AS ?areaUnit )
+
+	BIND( COALESCE( xsd:double(?VSC)+0, ?VSC ) AS ?volumeWithoutBark_dbl )
+	BIND( xsd:double(0.00000001)+0 AS ?volumeWithoutBark_p )
+	BIND( COALESCE( xsd:double(?VCC)+0, ?VCC ) AS ?volumeWithBark_dbl )
+	BIND( xsd:double(0.0000001)+0 AS ?volumeWithBark_p )
+	BIND( COALESCE( xsd:double(?IAVC)+0, ?IAVC ) AS ?volumeIncrease_dbl )
+	BIND( xsd:double(0.000000001)+0 AS ?volumeIncrease_p )
+	BIND( COALESCE( xsd:double(?VLE)+0, ?VLE ) AS ?volumeFirewood_dbl )
+	BIND( xsd:double(0.000000001)+0 AS ?volumeFirewood_p )
+	BIND( unit:dm3 AS ?volumeUnit )
+
+	BIND( "tree-{?provincia_int}-{?estadillo_int}-{?clase_str}-{?subclase_str}-{?ordenIFN3_int}" AS ?tree_n )
+	BIND( <tree/{?tree_n}> AS ?tree_iri )
+
+	BIND( "DC{?diametricClass_int}" AS ?diametricClass_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/diametricClass/{?diametricClass_n}> AS ?diametricClass_iri )
+
+	BIND("area{?basalArea_dbl}" AS ?basalArea_n)
+	BIND( <measure/{?basalArea_n}> AS ?basalArea_iri )
+
+	BIND("volume{?volumeWithoutBark_dbl}" AS ?volumeWithoutBark_n)
+	BIND( <measure/{?volumeWithoutBark_n}> AS ?volumeWithoutBark_iri )
+	
+	BIND("volume{?volumeWithBark_dbl}" AS ?volumeWithBark_n)
+	BIND( <measure/{?volumeWithBark_n}> AS ?volumeWithBark_iri )
+	
+	BIND("volume{?volumeIncrease_dbl}" AS ?volumeIncrease_n)
+	BIND( <measure/{?volumeIncrease_n}> AS ?volumeIncrease_iri )
+	
+	BIND("volume{?volumeFirewood_dbl}" AS ?volumeFirewood_n)
+	BIND( <measure/{?volumeFirewood_n}> AS ?volumeFirewood_iri )
+	
+}

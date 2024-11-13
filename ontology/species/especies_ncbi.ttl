@@ -1,0 +1,368 @@
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species86  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/126561> .
+
+kTaxon:Species295  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/114937> .
+
+kTaxon:Species65  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4298> .
+
+kTaxon:Species253  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/189790> .
+
+kTaxon:Species44  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/501392> .
+
+kTaxon:Species23  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3346> .
+
+kTaxon:Species395  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/42229> .
+
+kTaxon:Species858  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1118005> .
+
+kTaxon:Species495  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/194545> .
+
+kTaxon:Species94  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/85223> .
+
+kTaxon:Species73  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3504> .
+
+kTaxon:Species282  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/53209> .
+
+kTaxon:Species52  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/113636> .
+
+kTaxon:Species31  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/45372> .
+
+kTaxon:Species937  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/13100> .
+
+kTaxon:Species595  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/97307> .
+
+kTaxon:Species2  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1000415> .
+
+kTaxon:Species219  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/13717> .
+
+kTaxon:Species319  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3315> .
+
+kTaxon:Species81  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3509> .
+
+kTaxon:Species60  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3932> .
+
+kTaxon:Species39  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/61308> .
+
+kTaxon:Species18  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/58030> .
+
+kTaxon:Species369  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/54446> .
+
+kTaxon:Species89  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3432> .
+
+kTaxon:Species469  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/113250> .
+
+kTaxon:Species68  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/84005> .
+
+kTaxon:Species277  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/172266> .
+
+kTaxon:Species47  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/568684> .
+
+kTaxon:Species256  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/172265> .
+
+kTaxon:Species26  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/71647> .
+
+kTaxon:Species235  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/71402> .
+
+kTaxon:Species569  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/100532> .
+
+kTaxon:Species377  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/82423> .
+
+kTaxon:Species356  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/198266> .
+
+kTaxon:Species335  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/54800> .
+
+kTaxon:Species97  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4202> .
+
+kTaxon:Species76  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/66205> .
+
+kTaxon:Species55  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/166594> .
+
+kTaxon:Species264  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/155764> .
+
+kTaxon:Species435  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3325> .
+
+kTaxon:Species34  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3357> .
+
+kTaxon:Species243  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/39471> .
+
+kTaxon:Species5  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/123417> .
+
+kTaxon:Species13  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/236733> .
+
+kTaxon:Species364  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/452571> .
+
+kTaxon:Species84  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/136127> .
+
+kTaxon:Species293  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/434234> .
+
+kTaxon:Species63  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3932> .
+
+kTaxon:Species42  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/38865> .
+
+kTaxon:Species21  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3349> .
+
+kTaxon:Species92  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/35938> .
+
+kTaxon:Species71  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/28930> .
+
+kTaxon:Species956  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/24735> .
+
+kTaxon:Species238  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/61308> .
+
+kTaxon:Species29  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3337> .
+
+kTaxon:Species217  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3322> .
+
+kTaxon:Species317  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/93692> .
+
+kTaxon:Species79  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/140101> .
+
+kTaxon:Species58  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3691> .
+
+kTaxon:Species37  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/58039> .
+
+kTaxon:Species8  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/126558> .
+
+kTaxon:Species16  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3766> .
+
+kTaxon:Species87  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/128660> .
+
+kTaxon:Species66  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4146> .
+
+kTaxon:Species275  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/16719> .
+
+kTaxon:Species45  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/58334> .
+
+kTaxon:Species24  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/71633> .
+
+kTaxon:Species95  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3754> .
+
+kTaxon:Species74  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/13451> .
+
+kTaxon:Species283  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/270444> .
+
+kTaxon:Species53  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/63084> .
+
+kTaxon:Species32  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/56046> .
+
+kTaxon:Species3  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/106677> .
+
+kTaxon:Species11  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/23810> .
+
+kTaxon:Species917  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3321> .
+
+kTaxon:Species82  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/53200> .
+
+kTaxon:Species291  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/153563> .
+
+kTaxon:Species61  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/34317> .
+
+kTaxon:Species40  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3511> .
+
+kTaxon:Species19  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1437180> .
+
+kTaxon:Species207  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/138028> .
+
+kTaxon:Species307  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/205042> .
+
+kTaxon:Species90  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3398> .
+
+kTaxon:Species299  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3494> .
+
+kTaxon:Species69  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4719> .
+
+kTaxon:Species278  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/186520> .
+
+kTaxon:Species975  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/16718> .
+
+kTaxon:Species48  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3512> .
+
+kTaxon:Species257  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/75704> .
+
+kTaxon:Species27  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/49510> .
+
+kTaxon:Species236  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/49011> .
+
+kTaxon:Species215  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/140997> .
+
+kTaxon:Species399  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3497> .
+
+kTaxon:Species378  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/36599> .
+
+kTaxon:Species357  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1004002> .
+
+kTaxon:Species336  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/103968> .
+
+kTaxon:Species315  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/298643> .
+
+kTaxon:Species499  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3498> .
+
+kTaxon:Species98  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/12990> .
+
+kTaxon:Species478  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1155369> .
+
+kTaxon:Species77  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/64580> .
+
+kTaxon:Species457  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/75706> .
+
+kTaxon:Species599  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/85232> .
+
+kTaxon:Species56  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/262084> .
+
+kTaxon:Species436  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/76352> .
+
+kTaxon:Species35  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3325> .
+
+kTaxon:Species244  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/568689> .
+
+kTaxon:Species415  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/510734> .
+
+kTaxon:Species6  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/119949> .
+
+kTaxon:Species14  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/25629> .
+
+kTaxon:Species578  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/106574> .
+
+kTaxon:Species557  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/40685> .
+
+kTaxon:Species515  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/298644> .
+
+kTaxon:Species678  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/746473> .
+
+kTaxon:Species85  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/55367> .
+
+kTaxon:Species657  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/172267> .
+
+kTaxon:Species294  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/136121> .
+
+kTaxon:Species64  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/87674> .
+
+kTaxon:Species273  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/38787> .
+
+kTaxon:Species43  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/453298> .
+
+kTaxon:Species778  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1000427> .
+
+kTaxon:Species22  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/28528> .
+
+kTaxon:Species757  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/386449> .
+
+kTaxon:Species373  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3505> .
+
+kTaxon:Species857  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/77063> .
+
+kTaxon:Species93  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/434238> .
+
+kTaxon:Species72  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/21020> .
+
+kTaxon:Species51  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/43335> .
+
+kTaxon:Species957  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/77065> .
+
+kTaxon:Species30  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1437180> .
+
+kTaxon:Species239  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/224740> .
+
+kTaxon:Species1  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/199604> .
+
+kTaxon:Species936  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/13468> .
+
+kTaxon:Species80  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3432> .
+
+kTaxon:Species289  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/199602> .
+
+kTaxon:Species268  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/13343> .
+
+kTaxon:Species38  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/177241> .
+
+kTaxon:Species9  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/367354> .
+
+kTaxon:Species17  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/123597> .
+
+kTaxon:Species389  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/280021> .
+
+kTaxon:Species489  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/1007890> .
+
+kTaxon:Species88  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/128597> .
+
+kTaxon:Species297  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4203> .
+
+kTaxon:Species67  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/20340> .
+
+kTaxon:Species276  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/168566> .
+
+kTaxon:Species46  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/58331> .
+
+kTaxon:Species255  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/38873> .
+
+kTaxon:Species25  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/58042> .
+
+kTaxon:Species376  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4023> .
+
+kTaxon:Species355  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/38874> .
+
+kTaxon:Species96  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/298661> .
+
+kTaxon:Species476  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/168567> .
+
+kTaxon:Species75  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/51240> .
+
+kTaxon:Species54  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3517> .
+
+kTaxon:Species33  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3329> .
+
+kTaxon:Species4  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/280017> .
+
+kTaxon:Species12  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3752> .
+
+kTaxon:Species576  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4026> .
+
+kTaxon:Species676  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4025> .
+
+kTaxon:Species83  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/270431> .
+
+kTaxon:Species292  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3897> .
+
+kTaxon:Species62  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/34316> .
+
+kTaxon:Species41  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/38942> .
+
+kTaxon:Species20  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3337> .
+
+kTaxon:Species392  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/54874> .
+
+kTaxon:Species91  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4002> .
+
+kTaxon:Species997  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4201> .
+
+kTaxon:Species70  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3398> .
+
+kTaxon:Species279  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/122832> .
+
+kTaxon:Species976  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4022> .
+
+kTaxon:Species49  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3511> .
+
+kTaxon:Species258  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3690> .
+
+kTaxon:Species955  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/38871> .
+
+kTaxon:Species28  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3347> .
+
+kTaxon:Species237  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/69008> .
+
+kTaxon:Species337  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/746016> .
+
+kTaxon:Species99  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3398> .
+
+kTaxon:Species78  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/23222> .
+
+kTaxon:Species57  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/40685> .
+
+kTaxon:Species36  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/13469> .
+
+kTaxon:Species7  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3808> .
+
+kTaxon:Species15  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/23159> .

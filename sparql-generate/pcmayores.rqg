@@ -1,0 +1,249 @@
+BASE <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/>
+PREFIX ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/>
+PREFIX ifn2: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn2/>
+PREFIX ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/>
+PREFIX obs: <http://crossforest.eu/observations/ontology/>
+PREFIX spo: <http://crossforest.eu/position/ontology/>
+PREFIX smo: <http://crossforest.eu/measures/ontology/>
+PREFIX sco: <http://crossforest.eu/categories/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+
+PREFIX plot: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/plot/>
+PREFIX tree: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/tree/>
+PREFIX position: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/position/>
+PREFIX order: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/order/>
+PREFIX measure:   <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/measure/>
+PREFIX dbh:   <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/dbh/>
+PREFIX height:   <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/height/>
+PREFIX unit: <http://crossforest.eu/measures/data/unit/>
+PREFIX quality: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/quality/>
+PREFIX shape: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/shape/>
+PREFIX damage: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/damage/>
+PREFIX ifn2tree: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn2/tree/>
+
+PREFIX capture: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/dataCapture/>
+PREFIX source: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/source/>
+
+PREFIX kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/>
+PREFIX kquality: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeQuality/>
+PREFIX kshape: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeShape/>
+PREFIX kagent: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeDamageAgent/>
+PREFIX kimportance: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeDamageImportance/>
+PREFIX kelement: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeDamageElement/>
+
+GENERATE {
+	?tree_iri a ifn3:Tree , ifn:Tree , ?species_iri , ?quality_iri, ?shape_iri ;
+		ifn3:isInPlot ?plot_iri ;
+		spo:hasPosition ?position_iri ;
+		ifn3:hasOrder ?ordenIFN3_iri ;
+		ifn3:hasOrderInUnits ?ordenIFN3_int ;
+		ifn3:hasDBH1 ?diameter1_iri ;
+		ifn3:hasDBH2 ?diameter2_iri ;
+		ifn3:hasTotalHeight ?height_iri ;
+		ifn3:hasDamageStatus ?damage_iri ;
+		ifn3:hasDBH1InMillimeters ?diameter1_int ;
+		ifn3:hasDBH2InMillimeters ?diameter2_int ;
+		ifn3:hasTotalHeightInMeters ?height_flt ;
+		ifn3:previousTree ?treeIFN2_iri ;
+		smo:hasDataCapture ?dataCapture_iri ;
+	.
+
+	?deadTree_iri a ifn3:DeadTree , ifn:DeadTree , ?species_iri , ?quality_iri, ?shape_iri ;
+		ifn3:isInPlot ?plot_iri ;
+		spo:hasPosition ?position_iri ;
+		ifn3:hasDBH1 ?diameter1_iri ;
+		ifn3:hasDBH2 ?diameter2_iri ;
+		ifn3:hasTotalHeight ?height_iri ;
+		ifn3:hasDamageStatus ?damage_iri ;
+		ifn3:hasDBH1InMillimeters ?diameter1_int ;
+		ifn3:hasDBH2InMillimeters ?diameter2_int ;
+		ifn3:hasTotalHeightInMeters ?height_flt ;
+		ifn3:previousTree ?treeIFN2_iri ;
+		smo:hasDataCapture ?dataCapture_iri ;
+	.
+
+	?position_iri a spo:EgocentricPosition ;
+		spo:hasReference ?reference_iri ;
+		spo:hasDirection ?direction_iri ;
+		spo:hasDistance ?distance_iri ;
+		spo:hasDirectionInGradians ?direction_int ;
+		spo:hasDistanceInMeters ?distance_flt ;
+	.
+
+	?direction_iri a spo:Direction ;
+		smo:hasUnit ?direction_unit ;
+		smo:hasValue ?direction_int ;
+		smo:hasPrecision ?direction_p ;
+	.
+
+	?distance_iri a spo:Distance ;
+		smo:hasUnit ?distance_unit ;
+		smo:hasValue ?distance_flt ;
+		smo:hasPrecision ?distance_p ;
+	.
+
+	?ordenIFN3_iri a ifn3:TreeOrder ;
+		smo:hasUnit ?order_unit ;
+		smo:hasValue ?ordenIFN3_int ;
+		smo:hasPrecision ?order_p ;
+	.
+
+	?diameter1_iri a ifn3:DBH1 ;
+		smo:hasUnit ?diameter_unit ;
+		smo:hasValue ?diameter1_int ;
+		smo:hasPrecision ?diameter_p ;
+	.
+
+	?diameter2_iri a ifn3:DBH2 ;
+		smo:hasUnit ?diameter_unit ;
+		smo:hasValue ?diameter2_int ;
+		smo:hasPrecision ?diameter_p ;
+	.
+
+	?height_iri a ifn3:TotalHeight ;
+		smo:hasUnit ?height_unit ;
+		smo:hasValue ?height_flt ;
+		smo:hasPrecision ?height_p ;
+	.
+
+	?damage_iri a ifn3:DamageStatus ;
+		ifn3:hasDamageAgent ?agent_iri ;
+		ifn3:hasDamageImportance ?importance_iri ;
+		ifn3:hasDamageElement ?element_iri ;
+	.
+
+	?dataCapture_iri a smo:DataCapture ;
+		spo:capturesPosition ?position_iri ;
+		smo:capturesMeasure ?ordenIFN3_iri ;
+		smo:capturesMeasure ?diameter2_iri ;
+		smo:capturesMeasure ?diameter1_iri ;
+		smo:capturesMeasure ?height_iri ;
+		sco:capturesCategory ?species_iri ;
+		sco:capturesCategory ?quality_iri ;
+		sco:capturesCategory ?shape_iri ;
+		sco:capturesCategory ?damage_iri ;
+		ifn3:hasSource ?source_iri ;
+	.
+
+}
+SOURCE <urn:source> as ?source
+ITERATOR <http://w3id.org/sparql-generate/iter/CSV>(?source, true, "\"", ",", "\n",
+	"Origen", "Estadillo", "Cla", "Subclase", "nArbol", "OrdenIf3", "OrdenIf2", "Rumbo", "Distanci", "DRed", "Especie", "Dn1", "Dn2", "Ht", "Calidad", "Forma", "ParEsp", "Agente", "Import", "Elemento", "Compara", "Equipo", "JefeEq", "Tecnico"
+	)
+	AS ?Origen ?Estadillo ?Cla ?Subclase ?nArbol ?OrdenIf3 ?OrdenIf2 ?Rumbo ?Distanci ?DRed ?Especie ?Dn1 ?Dn2 ?Ht ?Calidad ?Forma ?ParEsp ?Agente ?Import ?Elemento ?Compara ?Equipo ?JefeEq ?Tecnico
+WHERE {
+
+	# Data in appropriate format
+
+	BIND( COALESCE( xsd:integer(?Origen)+0, ?Origen ) AS ?provincia_int )
+	BIND( COALESCE( xsd:integer(?Estadillo)+0, ?Estadillo ) AS ?estadillo_int )
+	BIND( COALESCE( ?Cla, "" ) AS ?clase_str )
+	BIND( COALESCE( ?Subclase, "" ) AS ?subclase_str )
+	BIND( COALESCE( xsd:integer(?Especie)+0, ?Especie ) AS ?species_int )
+	BIND( COALESCE( xsd:integer(?Calidad)+0, ?Calidad ) AS ?quality_int )
+	BIND( COALESCE( xsd:integer(?Forma)+0, ?Forma ) AS ?shape_int )
+	BIND( COALESCE( xsd:integer(?Agente)+0, ?Agente )AS ?agent_int )
+	BIND( COALESCE( xsd:integer(?Import)+0, ?Import ) AS ?importance_int )
+	BIND( COALESCE( xsd:integer(?Elemento)+0, ?Elemento ) AS ?element_int )
+	BIND( COALESCE( xsd:integer(?Equipo)+0, ?Equipo ) AS ?equipo_int )
+	BIND( COALESCE( xsd:integer(?JefeEq)+0, ?JefeEq ) AS ?jefe_int )
+	BIND( COALESCE( xsd:integer(?Tecnico)+0, ?Tecnico ) AS ?tecnico_int )
+
+	BIND( COALESCE( xsd:integer(?nArbol)+0, ?nArbol ) AS ?numArbol_int )
+	BIND( COALESCE( xsd:integer(?OrdenIf3)+0, ?OrdenIf3 ) AS ?ordenIFN3_int )
+	BIND( COALESCE( xsd:integer(?OrdenIf2)+0, ?OrdenIf2 ) AS ?ordenIFN2_int )
+	BIND( unit:Units AS ?order_unit )
+	BIND( xsd:integer(1)+0 AS ?order_p )
+	
+	BIND( COALESCE( xsd:integer(?Rumbo)+0, ?Rumbo ) AS ?direction_int )
+	BIND( unit:Gradians AS ?direction_unit )
+	BIND( xsd:integer(1)+0 AS ?direction_p )
+
+	BIND( COALESCE( xsd:float(?Distanci)+0, ?Distanci ) AS ?distance_flt )
+	BIND( unit:Meters AS ?distance_unit )
+	BIND( xsd:float(0.1)+0 AS ?distance_p )
+
+	BIND( COALESCE( xsd:integer(?Dn1)+0, ?Dn1 ) AS ?diameter1_int )
+	BIND( COALESCE( xsd:integer(?Dn2)+0, ?Dn2 ) AS ?diameter2_int )
+	BIND( unit:Millimeters AS ?diameter_unit )
+	BIND( xsd:integer(1)+0 AS ?diameter_p )
+
+	BIND( COALESCE( xsd:float(?Ht)+0, ?Ht ) AS ?height_flt )
+	BIND( unit:Meters AS ?height_unit )
+	BIND( xsd:float(0.5)+0 AS ?height_p )
+
+	# Create IRIs
+
+	BIND( IF(?ordenIFN3_int > 0, "tree-{?provincia_int}-{?estadillo_int}-{?clase_str}-{?subclase_str}-{?ordenIFN3_int}", ?unbound) AS ?tree_n )
+	BIND( <tree/{?tree_n}> AS ?tree_iri )
+	BIND( <position/{?tree_n}> AS ?position_iri )
+
+	BIND( IF(?ordenIFN3_int = 0 && ?ordenIFN2_int > 0, "deadTree-{?provincia_int}-{?estadillo_int}-{?clase_str}-{?subclase_str}-{?ordenIFN2_int}", ?unbound) AS ?deadTree_n )
+	BIND( <tree/{?deadTree_n}> AS ?deadTree_iri )
+
+	BIND( "plot-{?provincia_int}-{?estadillo_int}-{?clase_str}-{?subclase_str}" AS ?plot_n )
+	BIND( <plot/{?plot_n}> AS ?plot_iri )
+	BIND( <dataCapture/{?plot_n}> AS ?dataCapture_iri)
+
+	BIND( "plot-{?provincia_int}-{?estadillo_int}" AS ?reference_n )
+	BIND( <position/{?reference_n}> AS ?reference_iri )
+
+	BIND( "Species{?species_int}" AS ?species_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/{?species_n}> AS ?species_iri )
+
+	BIND( "Quality{?quality_int}" AS ?quality_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeQuality/{?quality_n}> AS ?quality_iri )
+
+	BIND( "Shape{?shape_int}" AS ?shape_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeShape/{?shape_n}> AS ?shape_iri )
+	
+	BIND( "agent{?agent_int}" AS ?agent_n )
+	BIND( "importance{?importance_int}" AS ?importance_n )
+	BIND( "element{?element_int}" AS ?element_n )
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeDamageImportance/{?importance_n}> AS ?importance_iri)
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeDamageElement/{?element_n}> AS ?element_iri)
+	BIND( <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/treeDamageAgent/{?agent_n}> AS ?agent_iri)
+	BIND( <damage/{?agent_n}{?importance_n}{?element_n}> AS ?damage_iri)
+
+	BIND( "source{?provincia_int}-{?equipo_int}-{?jefe_int}-{?tecnico_int}" AS ?source_n )
+	BIND( <source/{?source_n}> AS ?source_iri )
+
+	BIND( IF(?ordenIFN2_int > 0, "tree-{?provincia_int}-{?estadillo_int}-{?ordenIFN2_int}", ?unbound) AS ?treeIFN2_n )
+	BIND( <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn2/tree/{?treeIFN2_n}> AS ?treeIFN2_iri )
+
+	BIND( CONCAT(fun:regex("{?order_unit}", "([^/]+)$", 1), "{?ordenIFN3_int}p{?order_p}") AS ?ordenIFN3_n )
+	BIND( <measure/{?ordenIFN3_n}> AS ?ordenIFN3_iri )
+
+	BIND( CONCAT(fun:regex("{?direction_unit}", "([^/]+)$", 1), "{?direction_int}p{?direction_p}") AS ?direction_n )
+	BIND( <measure/{?direction_n}> AS ?direction_iri )
+
+	BIND( CONCAT(fun:regex("{?distance_unit}", "([^/]+)$", 1), "m{?distance_flt}p{?distance_p}") AS ?distance_n )
+	BIND( <measure/{?distance_n}> AS ?distance_iri )
+
+	BIND( CONCAT(fun:regex("{?diameter_unit}", "([^/]+)$", 1), "m{?diameter1_int}p{?diameter_p}") AS ?diameter1_n )
+	BIND( <measure/{?diameter1_n}> AS ?diameter1_iri )
+
+	BIND( CONCAT(fun:regex("{?diameter_unit}", "([^/]+)$", 1), "m{?diameter2_int}p{?diameter_p}") AS ?diameter2_n )
+	BIND( <measure/{?diameter2_n}> AS ?diameter2_iri )
+
+	BIND( CONCAT(fun:regex("{?height_unit}", "([^/]+)$", 1), "m{?height_flt}p{?height_p}") AS ?height_n )
+	BIND( <measure/{?height_n}> AS ?height_iri )
+	
+	# BIND( COALESCE(
+	#         IF("{?Origen}"="07", "", 1/0),
+	#         IF("{?Origen}"="31", "", 1/0),
+	#         IF("{?Origen}"="33", "", 1/0),
+	#         IF("{?Origen}"="39", "", 1/0),
+	#         IF(?Cla="N", "", 1/0),
+	#         IF(?Cla="R", "", 1/0),
+	#         "{?Origen}-{?Estadillo}-{?Cla}-{?sc}-{?OrdenIf2}"
+	#     ) AS ?idArbolAnteriorPrev)
+
+	# BIND( IF(?Cla="A",
+	#           IF("{?sc}" IN ("1", "2C", "3C", "4C", "6C"),
+	#               (IF("{?OrdenIf2}"="000", "", ?idArbolAnteriorPrev)),?idArbolAnteriorPrev), ?idArbolAnteriorPrev)  AS ?idArbolAnteriorAux)
+
+	# BIND( IF (?idArbolAnteriorAux="", ?unbound, ?idArbolAnteriorAux)  AS ?idArbolAnterior)
+
+}

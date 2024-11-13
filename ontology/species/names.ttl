@@ -1,0 +1,489 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/taxonName/> .
+
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species86  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "White wood"@en .
+
+kTaxon:Species295  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sloe"@en , "Blackthorn"@en .
+
+kTaxon:Species65  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Holly"@en .
+
+kTaxon:Species44  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Valencian oak"@en , "Portuguese oak"@en .
+
+kTaxon:Species23  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Stone pine"@en .
+
+kTaxon:Species395  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Wild cherry"@en .
+
+kTaxon:Species858  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Canary Island willow"@en .
+
+kTaxon:Species495  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Portugal laurel"@en .
+
+kTaxon:Species94  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Bay tree"@en .
+
+kTaxon:Species73  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Birch"@en .
+
+kTaxon:Species52  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Common Aspen"@en .
+
+kTaxon:Species31  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Silver fir"@en , "European silver fir"@en .
+
+kTaxon:Species937  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Juniper"@en .
+
+kTaxon:Species595  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Mayday tree"@en , "Hagberry"@en , "Hackberry"@en , "Bird cherry"@en .
+
+kTaxon:Species2  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Snowy mespilus"@en .
+
+kTaxon:Species219  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sandarac tree"@en , "Sandarac"@en , "Barbary thuja"@en .
+
+kTaxon:Species319  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Thuja"@en , "Cedars"@en .
+
+kTaxon:Species81  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Haya"@en , "Firetree"@en , "Faya"@en .
+
+kTaxon:Species39  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Phoenicean juniper"@en , "Arâr"@en .
+
+kTaxon:Species18  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Port Orford cedar"@en , "Lawson cypress"@en .
+
+kTaxon:Species369  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European fan palm"@en .
+
+kTaxon:Species469  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Canary Island date palm"@en .
+
+kTaxon:Species68  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Strawberry tree"@en .
+
+kTaxon:Species277  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Small-leaved linden"@en , "Small-leaved lime"@en , "Little leaf linden"@en .
+
+kTaxon:Species47  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Mirbeck's oak"@en , "Algerian oak"@en .
+
+kTaxon:Species256  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Wych elm"@en , "Scots elm"@en , "Scotch elm"@en .
+
+kTaxon:Species26  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cluster pine"@en .
+
+kTaxon:Species235  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European larch"@en .
+
+kTaxon:Species569  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Drago"@en , "Canary Islands dragon tree"@en .
+
+kTaxon:Species377  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Largeleaf linden"@en .
+
+kTaxon:Species356  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Siberian elm"@en .
+
+kTaxon:Species335  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Karamatsu"@en , "Japanese larch"@en .
+
+kTaxon:Species97  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European elderberry"@en , "European elder"@en , "Elderberry"@en , "Elder"@en , "Black elder"@en , "European black elderberry"@en .
+
+kTaxon:Species76  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Field maple"@en .
+
+kTaxon:Species55  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Narrow-leafed ash"@en .
+
+kTaxon:Species264  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "White gum"@en , "Viminalis"@en , "Ribbon gum"@en , "Manna gum"@en .
+
+kTaxon:Species34  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Douglas-fir"@en .
+
+kTaxon:Species243  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Pubescent oak"@en , "Downy oak"@en .
+
+kTaxon:Species5  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Spindle"@en , "European spindle"@en , "Common spindle"@en .
+
+kTaxon:Species13  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Hackberry"@en .
+
+kTaxon:Species364  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tuart"@en .
+
+kTaxon:Species293  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Persian turpentine tree"@en , "Mt. Atlas mastic tree"@en .
+
+kTaxon:Species63  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Other eucalypts"@en .
+
+kTaxon:Species42  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sessile oak"@en , "Durmast oak"@en , "Cornish oak"@en .
+
+kTaxon:Species21  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Scots pine"@en .
+
+kTaxon:Species92  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Black locust"@en .
+
+kTaxon:Species71  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European beech"@en , "Common beech"@en .
+
+kTaxon:Species956  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Elm"@en .
+
+kTaxon:Species29  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Other pines"@en .
+
+kTaxon:Species217  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Himalayan cedar"@en , "Deodar cedar"@en .
+
+kTaxon:Species317  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Lebanon cedar"@en , "Cedar of Lebanon"@en .
+
+kTaxon:Species79  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "London plane tree"@en , "London plane"@en , "Hybrid plane"@en .
+
+kTaxon:Species58  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Black poplar"@en .
+
+kTaxon:Species37  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Common juniper"@en .
+
+kTaxon:Species8  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Mock privet"@en , "Green olive tree"@en .
+
+kTaxon:Species16  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Pear tree"@en .
+
+kTaxon:Species87  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tilo"@en , "Til"@en , "Stinkwood"@en , "Rain tree of Hierro island"@en .
+
+kTaxon:Species66  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Wild olive tree"@en .
+
+kTaxon:Species275  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Eastern American black walnut"@en .
+
+kTaxon:Species45  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Holmoak"@en .
+
+kTaxon:Species24  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Aleppo pine"@en .
+
+kTaxon:Species74  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Common hazel"@en .
+
+kTaxon:Species283  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Heather"@en .
+
+kTaxon:Species53  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tamarisk"@en , "Salt cedar"@en .
+
+kTaxon:Species32  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Spanish fir"@en .
+
+kTaxon:Species3  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Alder buckthorn"@en .
+
+kTaxon:Species11  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tree of heaven"@en .
+
+kTaxon:Species917  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cedar"@en .
+
+kTaxon:Species82  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Small-leaved holly"@en .
+
+kTaxon:Species61  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tasmanian blue gum"@en , "Southern blue gum"@en .
+
+kTaxon:Species207  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Australian blackwood"@en .
+
+kTaxon:Species307  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Silver wattle"@en , "Mimosa"@en , "Blue wattle"@en .
+
+kTaxon:Species299  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Fig tree"@en .
+
+kTaxon:Species69  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Palm tree"@en .
+
+kTaxon:Species278  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Common whitebeam"@en .
+
+kTaxon:Species975  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Walnut"@en .
+
+kTaxon:Species48  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Northern red oak"@en , "Champion oak"@en .
+
+kTaxon:Species257  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "White willow"@en .
+
+kTaxon:Species27  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Canary Island pine"@en .
+
+kTaxon:Species236  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Arizona cypress"@en .
+
+kTaxon:Species215  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Common hawthorn"@en .
+
+kTaxon:Species399  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Mulberry"@en .
+
+kTaxon:Species378  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Rowan"@en .
+
+kTaxon:Species357  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Grey willow"@en .
+
+kTaxon:Species336  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cedar-of-Goa"@en , "Mexican white cedar"@en .
+
+kTaxon:Species315  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Woodland hawthorn"@en , "Midland hawthorn"@en , "Mayflower"@en , "English hawthorn"@en .
+
+kTaxon:Species499  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "White mulberry"@en .
+
+kTaxon:Species98  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Hornbeam"@en .
+
+kTaxon:Species478  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sorb tree"@en , "Service tree"@en .
+
+kTaxon:Species77  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Lime tree"@en .
+
+kTaxon:Species457  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Weeping willow"@en , "Babylon willow"@en .
+
+kTaxon:Species56  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Field elm"@en .
+
+kTaxon:Species436  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Monterey cypress"@en .
+
+kTaxon:Species35  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Larch"@en .
+
+kTaxon:Species244  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Lusitanian oak"@en , "Gall oak"@en , "Dyer's oak"@en .
+
+kTaxon:Species599  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Blackberry"@en , "Black mulberry"@en .
+
+kTaxon:Species6  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Myrtle"@en .
+
+kTaxon:Species14  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Yew"@en .
+
+kTaxon:Species578  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Wild service tree"@en , "Chequers"@en , "Checker tree"@en .
+
+kTaxon:Species557  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cantabrian willow"@en .
+
+kTaxon:Species515  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Azerole"@en , "Azarole"@en , "Mediterranean medlar"@en .
+
+kTaxon:Species678  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Broad-leaved whitebeam"@en .
+
+kTaxon:Species657  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Pussy willow"@en , "Great sallow"@en , "Goat willow"@en .
+
+kTaxon:Species294  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Macaronesian laurel"@en , "Azores laurel"@en .
+
+kTaxon:Species64  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Shining gum"@en .
+
+kTaxon:Species273  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "White birch"@en , "Moor birch"@en , "Hairy birch"@en , "European white birch"@en , "Downy birch"@en .
+
+kTaxon:Species43  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Pyrenean oak"@en .
+
+kTaxon:Species778  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "False medlar"@en , "Dwarf whitebeam"@en .
+
+kTaxon:Species22  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Mountain pine"@en .
+
+kTaxon:Species757  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Rosemary willow"@en , "Elaeagnus willow"@en , "Olive willow"@en , "Hoary willow"@en , "Bitter willow"@en .
+
+kTaxon:Species373  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Warty birch"@en , "Silver birch"@en , "European white birch"@en .
+
+kTaxon:Species857  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Crack willow"@en , "Brittle willow"@en .
+
+kTaxon:Species93  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Turpentine tree"@en , "Terebinth"@en .
+
+kTaxon:Species72  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sweet chestnut"@en .
+
+kTaxon:Species51  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "White poplar"@en , "Silverleaf poplar"@en , "Silver poplar"@en , "Abele"@en .
+
+kTaxon:Species957  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Purpleosier willow"@en , "Purple willow"@en , "Purple osier"@en .
+
+kTaxon:Species239  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Savin juniper"@en , "Savin"@en .
+
+kTaxon:Species936  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cypress"@en .
+
+kTaxon:Species268  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Canary Island madrone"@en .
+
+kTaxon:Species38  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Spanish juniper"@en .
+
+kTaxon:Species17  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cedar"@en .
+
+kTaxon:Species9  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Dogwood"@en .
+
+kTaxon:Species88  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Canary laurel"@en , "Barbusano"@en .
+
+kTaxon:Species297  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Red-berried elder"@en , "Red elderberry"@en .
+
+kTaxon:Species67  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Carob tree"@en .
+
+kTaxon:Species276  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Montpellier maple"@en .
+
+kTaxon:Species46  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cork-oak"@en .
+
+kTaxon:Species255  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European ash"@en , "Common ash"@en , "Ash"@en .
+
+kTaxon:Species25  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Black pine"@en .
+
+kTaxon:Species376  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Boxelder maple"@en , "Box elder"@en , "Ash-leaved maple"@en , "Maple ash"@en .
+
+kTaxon:Species355  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Manna ash"@en .
+
+kTaxon:Species96  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tanner's sumach"@en , "Sicilian sumac"@en , "Elm-leaved sumach"@en .
+
+kTaxon:Species476  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Italian maple"@en .
+
+kTaxon:Species75  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Persian walnut"@en , "Madeira walnut"@en , "English walnut"@en , "Common walnut"@en , "Carpathian walnut"@en .
+
+kTaxon:Species54  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European alder"@en , "Common alder"@en , "Black alder"@en , "Alder"@en .
+
+kTaxon:Species33  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Norway spruce"@en .
+
+kTaxon:Species4  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Italian buckthorn"@en .
+
+kTaxon:Species12  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Crab apple"@en .
+
+kTaxon:Species576  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sycamore"@en .
+
+kTaxon:Species676  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Norway maple"@en .
+
+kTaxon:Species83  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Tree heath"@en .
+
+kTaxon:Species292  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Japanese pagoda tree"@en .
+
+kTaxon:Species62  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "River red gum"@en .
+
+kTaxon:Species41  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Pedunculate oak"@en , "European oak"@en , "English oak"@en , "Common oak"@en .
+
+kTaxon:Species20  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Pine"@en .
+
+kTaxon:Species392  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Honey locust"@en .
+
+kTaxon:Species91  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "European box"@en , "Common box"@en , "Boxwood"@en .
+
+kTaxon:Species997  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Elderberry"@en , "Elder"@en .
+
+kTaxon:Species279  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Oriental plane"@en , "Old World sycamore"@en .
+
+kTaxon:Species976  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Maple"@en .
+
+kTaxon:Species49  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Other oaks"@en .
+
+kTaxon:Species258  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Hybrid poplar"@en , "Carolina poplar"@en , "Canadian poplar"@en .
+
+kTaxon:Species955  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Ash"@en .
+
+kTaxon:Species28  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Monterey pine"@en .
+
+kTaxon:Species237  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Sharp cedar"@en , "Prickly juniper"@en , "Prickly cedar"@en , "Cade juniper"@en , "Cade"@en .
+
+kTaxon:Species337  a       owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Canary Islands juniper"@en .
+
+kTaxon:Species78  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Whitebeam"@en , "Service tree"@en , "Rowan"@en , "Mountain-ash"@en .
+
+kTaxon:Species57  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Willow"@en .
+
+kTaxon:Species36  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Cypress"@en .
+
+kTaxon:Species7  a         owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Acacia"@en .
+
+kTaxon:Species15  a        owl:Class , rdfs:Class ;
+        ifn:vulgarName  "Hawthorn"@en .

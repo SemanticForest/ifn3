@@ -1,0 +1,2523 @@
+@prefix ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix kTaxonTop: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn3/taxonName/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species27  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus canariensis C.Sm."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus canariensis" ;
+        ifn3:hasAcceptedName            name:Species27 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2563095"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_canariensis"^^xsd:anyURI .
+
+name:Species8
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Phillyrea latifolia"@la .
+
+name:Species47
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Willd." ;
+        ifn3:name    "Quercus canariensis"@la .
+
+name:Species578
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Crantz" ;
+        ifn3:name    "Sorbus torminalis"@la .
+
+kTaxon:Species99  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Otras frondosas"@es ;
+        rdfs:subClassOf                kTaxonTop:Class1 ;
+        ifn3:acceptedNameWithoutAuthor  "Angiospermae" ;
+        ifn3:hasAcceptedName            name:Species99 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Flowering_plant"^^xsd:anyURI .
+
+kTaxon:Species292  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus145 ;
+        ifn3:acceptedNameWithAuthor     "Sophora japonica (L.) Schott"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sophora japonica" ;
+        ifn3:hasAcceptedName            name:Species292 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/ild-33214"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Styphnolobium_japonicum"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sophora_japonicum"^^xsd:anyURI .
+
+name:Species17
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Endl.) Manetti ex Carrière" ;
+        ifn3:name    "Cedrus atlantica"@la .
+
+kTaxon:Species599  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus422 ;
+        ifn3:acceptedNameWithAuthor     "Morus nigra L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Morus nigra" ;
+        ifn3:hasAcceptedName            name:Species599 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2501426"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Morus_nigra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Morus_nigra"^^xsd:anyURI .
+
+kTaxon:Species69  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus332 ;
+        ifn3:acceptedNameWithoutAuthor  "Phoenix" ;
+        ifn3:hasAcceptedName            name:Species69 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Phoenix"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Phoenix_(plant)"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Phoenix"^^xsd:anyURI .
+
+name:Species337
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Webb & Berthel." ;
+        ifn3:name    "Juniperus cedrus"@la .
+
+name:Species89
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Lauraceae"@la .
+
+kTaxon:Species569  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus341 ;
+        ifn3:acceptedNameWithAuthor     "Dracaena draco (L.) L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Dracaena draco" ;
+        ifn3:hasAcceptedName            name:Species569 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-304633"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Dracaena_draco"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Dracaena_draco"^^xsd:anyURI .
+
+name:Species307
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Link" ;
+        ifn3:name    "Acacia dealbata"@la .
+
+kTaxon:Species39  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus phoenicea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus phoenicea" ;
+        ifn3:hasAcceptedName            name:Species39 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2332707"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_phoenicea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_phoenicea"^^xsd:anyURI .
+
+name:Species59
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Angiospermae"@la .
+
+name:Species283
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Erica scoparia"@la .
+
+kTaxon:Species70  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Mezcla de frondosas de gran porte"@es ;
+        rdfs:subClassOf                kTaxonTop:Class1 ;
+        ifn3:acceptedNameWithoutAuthor  "Angiospermae" ;
+        ifn3:hasAcceptedName            name:Species70 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Flowering_plant"^^xsd:anyURI .
+
+name:Species29
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Pinus"@la .
+
+name:Species253
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Willd." ;
+        ifn3:name    "Tamarix canariensis"@la .
+
+name:Species90
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Angiospermae"@la .
+
+kTaxon:Species40  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus" ;
+        ifn3:hasAcceptedName            name:Species40 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Quercus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Oak"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus"^^xsd:anyURI .
+
+name:Species60
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Eucalyptus"@la .
+
+name:Species319
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Thuja"@la .
+
+kTaxon:Species244  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus lusitanica Lam."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus lusitanica" ;
+        ifn3:hasAcceptedName            name:Species244 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-173732"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_lusitanica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_lusitanica"^^xsd:anyURI .
+
+name:Species30
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Gymnospermae"@la .
+
+name:Species295
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Prunus spinosa"@la .
+
+name:Species476
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Acer opalus"@la .
+
+kTaxon:Species8  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus443 ;
+        ifn3:acceptedNameWithAuthor     "Phillyrea latifolia L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Phillyrea latifolia" ;
+        ifn3:hasAcceptedName            name:Species8 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-355786"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Phillyrea_latifolia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Phillyrea_latifolia"^^xsd:anyURI .
+
+kTaxon:Species82  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus321 ;
+        ifn3:acceptedNameWithAuthor     "Ilex canariensis Poir."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ilex canariensis" ;
+        ifn3:hasAcceptedName            name:Species82 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2860488"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ilex_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ilex_canariensis"^^xsd:anyURI .
+
+name:Species657
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Salix caprea"@la .
+
+kTaxon:Species52  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus131 ;
+        ifn3:acceptedNameWithAuthor     "Populus tremula L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Populus tremula" ;
+        ifn3:hasAcceptedName            name:Species52 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5000217"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Populus_tremula"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Populus_tremula"^^xsd:anyURI .
+
+kTaxon:Species678  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithAuthor     "Sorbus latifolia (Lam.) Pers."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus latifolia" ;
+        ifn3:hasAcceptedName            name:Species678 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-487"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus_latifolia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus_latifolia"^^xsd:anyURI .
+
+name:Species235
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Larix decidua"@la .
+
+name:Species72
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Castanea sativa"@la .
+
+kTaxon:Species22  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus uncinata Ramond ex DC."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus uncinata" ;
+        ifn3:hasAcceptedName            name:Species22 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562206"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus_mugo"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_uncinata"^^xsd:anyURI .
+
+name:Species3
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Frangula alnus"@la .
+
+kTaxon:Species256  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus111 ;
+        ifn3:acceptedNameWithAuthor     "Ulmus glabra Huds."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ulmus glabra" ;
+        ifn3:hasAcceptedName            name:Species256 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2448690"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ulmus_glabra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ulmus_glabra"^^xsd:anyURI .
+
+name:Species392
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Gleditsia triacanthos"@la .
+
+name:Species42
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Matt.) Liebl." ;
+        ifn3:name    "Quercus petraea"@la .
+
+kTaxon:Species94  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus402 ;
+        ifn3:acceptedNameWithAuthor     "Laurus nobilis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Laurus nobilis" ;
+        ifn3:hasAcceptedName            name:Species94 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2349094"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Laurus_nobilis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Laurus_nobilis"^^xsd:anyURI .
+
+name:Species12
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Mill." ;
+        ifn3:name    "Malus sylvestris"@la .
+
+name:Species277
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Tilia cordata"@la .
+
+kTaxon:Species64  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithAuthor     "Eucalyptus nitens (H.Deane & Maiden) Maiden"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus nitens" ;
+        ifn3:hasAcceptedName            name:Species64 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-73436"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus_nitens"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus_nitens"^^xsd:anyURI .
+
+name:Species84
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Spreng." ;
+        ifn3:name    "Persea indica"@la .
+
+kTaxon:Species956  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus111 ;
+        ifn3:acceptedNameWithoutAuthor  "Ulmus" ;
+        ifn3:hasAcceptedName            name:Species956 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Ulmus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Elm"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ulmus"^^xsd:anyURI .
+
+kTaxon:Species34  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus216 ;
+        ifn3:acceptedNameWithAuthor     "Pseudotsuga menziesii (Mirb.) Franco"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pseudotsuga menziesii" ;
+        ifn3:hasAcceptedName            name:Species34 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2556763"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Douglas_fir"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pseudotsuga_menziesii"^^xsd:anyURI .
+
+kTaxon:Species268  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus151 ;
+        ifn3:acceptedNameWithAuthor     "Arbutus canariensis Duhamel"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Arbutus canariensis" ;
+        ifn3:hasAcceptedName            name:Species268 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2646659"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Arbutus_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Arbutus_canariensis"^^xsd:anyURI .
+
+name:Species217
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Roxb. ex D.Don) G.Don" ;
+        ifn3:name    "Cedrus deodara"@la .
+
+name:Species54
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Gaertn." ;
+        ifn3:name    "Alnus glutinosa"@la .
+
+kTaxon:Species238  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus turbinata (Guss.) Parl."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus turbinata" ;
+        ifn3:hasAcceptedName            name:Species238 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2329452"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_turbinata"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_phoenicea var. turbinata"^^xsd:anyURI .
+
+name:Species24
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Pinus halepensis"@la .
+
+name:Species289
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Willd.) A.DC." ;
+        ifn3:name    "Pleiomeris canariensis"@la .
+
+kTaxon:Species395  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus494 ;
+        ifn3:acceptedNameWithAuthor     "Prunus avium (L.) L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Prunus avium" ;
+        ifn3:hasAcceptedName            name:Species395 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-383"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Prunus_avium"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Prunus_avium"^^xsd:anyURI .
+
+kTaxon:Species76  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithAuthor     "Acer campestre L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acer campestre" ;
+        ifn3:hasAcceptedName            name:Species76 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2615447"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acer_campestre"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer_campestre"^^xsd:anyURI .
+
+name:Species96
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Rhus coriaria"@la .
+
+kTaxon:Species576  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithAuthor     "Acer pseudoplatanus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acer pseudoplatanus" ;
+        ifn3:hasAcceptedName            name:Species576 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2616276"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acer_pseudoplatanus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer_pseudoplatanus"^^xsd:anyURI .
+
+name:Species917
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Cedrus"@la .
+
+kTaxon:Species46  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus suber L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus suber" ;
+        ifn3:hasAcceptedName            name:Species46 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-175312"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_suber"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_suber"^^xsd:anyURI .
+
+kTaxon:Species757  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix elaeagnos Scop."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix elaeagnos" ;
+        ifn3:hasAcceptedName            name:Species757 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5000796"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_eleagnos"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_elaeagnos"^^xsd:anyURI .
+
+name:Species66
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Olea europaea"@la .
+
+kTaxon:Species335  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus214 ;
+        ifn3:acceptedNameWithAuthor     "Larix leptolepis (Lamb.) Carrière"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Larix leptolepis" ;
+        ifn3:hasAcceptedName            name:Species335 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2493964"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Larix_kaempferi"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Larix_kaempferi"^^xsd:anyURI .
+
+kTaxon:Species16  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus495 ;
+        ifn3:acceptedNameWithoutAuthor  "Pyrus" ;
+        ifn3:hasAcceptedName            name:Species16 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Pyrus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pear"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pyrus"^^xsd:anyURI .
+
+kTaxon:Species3  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus481 ;
+        ifn3:acceptedNameWithAuthor     "Frangula alnus Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Frangula alnus" ;
+        ifn3:hasAcceptedName            name:Species3 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2814031"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Frangula_alnus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Frangula_alnus"^^xsd:anyURI .
+
+name:Species778
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Crantz" ;
+        ifn3:name    "Sorbus chamaemespilus"@la .
+
+name:Species36
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Cupressus sempervirens"@la .
+
+kTaxon:Species88  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus401 ;
+        ifn3:acceptedNameWithAuthor     "Apollonias barbujana (Cav.) Bornm."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Apollonias barbujana" ;
+        ifn3:hasAcceptedName            name:Species88 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2644321"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Apollonias_barbujana"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Apollonias_barbujana"^^xsd:anyURI .
+
+name:Species356
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Ulmus pumila"@la .
+
+kTaxon:Species377  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus411 ;
+        ifn3:acceptedNameWithAuthor     "Tilia platyphyllos Scop."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Tilia platyphyllos" ;
+        ifn3:hasAcceptedName            name:Species377 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2517523"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tilia_platyphyllos"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tilia_platyphyllos"^^xsd:anyURI .
+
+kTaxon:Species58  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus131 ;
+        ifn3:acceptedNameWithAuthor     "Populus nigra L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Populus nigra" ;
+        ifn3:hasAcceptedName            name:Species58 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5000337"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Populus_nigra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Populus_nigra"^^xsd:anyURI .
+
+name:Species78
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Sorbus"@la .
+
+kTaxon:Species28  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus radiata D.Don"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus radiata" ;
+        ifn3:hasAcceptedName            name:Species28 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562495"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus_radiata"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_radiata"^^xsd:anyURI .
+
+name:Species9
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Cornus sanguinea"@la .
+
+name:Species48
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Quercus rubra"@la .
+
+kTaxon:Species317  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus212 ;
+        ifn3:acceptedNameWithAuthor     "Cedrus libani A.Rich."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cedrus libani" ;
+        ifn3:hasAcceptedName            name:Species317 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2707327"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cedrus_libani"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cedrus_libani"^^xsd:anyURI .
+
+kTaxon:Species293  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus181 ;
+        ifn3:acceptedNameWithAuthor     "Pistacia atlantica Desf."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pistacia atlantica" ;
+        ifn3:hasAcceptedName            name:Species293 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2408140"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pistacia_atlantica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pistacia_atlantica"^^xsd:anyURI .
+
+name:Species18
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(A.Murray) Parl." ;
+        ifn3:name    "Chamaecyparis lawsoniana"@la .
+
+kTaxon:Species389  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus482 ;
+        ifn3:acceptedNameWithAuthor     "Rhamnus glandulosa Aiton"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Rhamnus glandulosa" ;
+        ifn3:hasAcceptedName            name:Species389 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2522982"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rhamnus_glandulosa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rhamnus_glandulosa"^^xsd:anyURI .
+
+name:Species495
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Prunus lusitanica"@la .
+
+name:Species676
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Acer platanoides"@la .
+
+name:Species857
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Salix fragilis"@la .
+
+kTaxon:Species71  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus122 ;
+        ifn3:acceptedNameWithAuthor     "Fagus sylvatica L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Fagus sylvatica" ;
+        ifn3:hasAcceptedName            name:Species71 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-83891"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fagus_sylvatica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fagus_sylvatica"^^xsd:anyURI .
+
+name:Species91
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Buxus sempervirens"@la .
+
+name:Species435
+        a           ifn3:AcceptedName ;
+        ifn3:author  "A.Henry" ;
+        ifn3:name    "Larix x eurolepis"@la .
+
+kTaxon:Species41  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus robur L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus robur" ;
+        ifn3:hasAcceptedName            name:Species41 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-174750"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_robur"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_robur"^^xsd:anyURI .
+
+kTaxon:Species275  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus391 ;
+        ifn3:acceptedNameWithAuthor     "Juglans nigra L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juglans nigra" ;
+        ifn3:hasAcceptedName            name:Species275 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2331834"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juglans_nigra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juglans_nigra"^^xsd:anyURI .
+
+name:Species61
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Labill." ;
+        ifn3:name    "Eucalyptus globulus"@la .
+
+kTaxon:Species11  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus511 ;
+        ifn3:acceptedNameWithAuthor     "Ailanthus altissima (Mill.) Swingle"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ailanthus altissima" ;
+        ifn3:hasAcceptedName            name:Species11 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2626815"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ailanthus_altissima"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ailanthus_altissima"^^xsd:anyURI .
+
+name:Species31
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Abies alba"@la .
+
+kTaxon:Species9  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus381 ;
+        ifn3:acceptedNameWithAuthor     "Cornus sanguinea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cornus sanguinea" ;
+        ifn3:hasAcceptedName            name:Species9 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-47495"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cornus_sanguinea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cornus_sanguinea"^^xsd:anyURI .
+
+kTaxon:Species215  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus492 ;
+        ifn3:acceptedNameWithAuthor     "Crataegus monogyna Jacq."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Crataegus monogyna" ;
+        ifn3:hasAcceptedName            name:Species215 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-49"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Crataegus_monogyna"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Crataegus_monogyna"^^xsd:anyURI .
+
+kTaxon:Species83  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus152 ;
+        ifn3:acceptedNameWithAuthor     "Erica arborea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Erica arborea" ;
+        ifn3:hasAcceptedName            name:Species83 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2792636"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Erica_arborea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Erica_arborea"^^xsd:anyURI .
+
+kTaxon:Species975  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus391 ;
+        ifn3:acceptedNameWithoutAuthor  "Juglans" ;
+        ifn3:hasAcceptedName            name:Species975 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Juglans spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juglans"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juglans"^^xsd:anyURI .
+
+kTaxon:Species53  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus521 ;
+        ifn3:acceptedNameWithoutAuthor  "Tamarix" ;
+        ifn3:hasAcceptedName            name:Species53 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Tamarix"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tamarix"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tamarix"^^xsd:anyURI .
+
+name:Species236
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Greene" ;
+        ifn3:name    "Cupressus arizonica"@la .
+
+name:Species73
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Betula"@la .
+
+kTaxon:Species23  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus pinea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus pinea" ;
+        ifn3:hasAcceptedName            name:Species23 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562556"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Stone_pine"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_pinea"^^xsd:anyURI .
+
+name:Species4
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Rhamnus alaternus"@la .
+
+kTaxon:Species257  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix alba L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix alba" ;
+        ifn3:hasAcceptedName            name:Species257 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5001521"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_alba"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_alba"^^xsd:anyURI .
+
+name:Species43
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Willd." ;
+        ifn3:name    "Quercus pyrenaica"@la .
+
+name:Species489
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L.f." ;
+        ifn3:name    "Visnea mocanera"@la .
+
+kTaxon:Species95  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus494 ;
+        ifn3:acceptedNameWithoutAuthor  "Prunus" ;
+        ifn3:hasAcceptedName            name:Species95 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Prunus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Prunus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Prunus"^^xsd:anyURI .
+
+name:Species13
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Celtis australis"@la .
+
+name:Species278
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Crantz" ;
+        ifn3:name    "Sorbus aria"@la .
+
+kTaxon:Species595  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus494 ;
+        ifn3:acceptedNameWithAuthor     "Prunus padus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Prunus padus" ;
+        ifn3:hasAcceptedName            name:Species595 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-45"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Prunus_padus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Prunus_padus"^^xsd:anyURI .
+
+name:Species936
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Cupressus"@la .
+
+kTaxon:Species65  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus321 ;
+        ifn3:acceptedNameWithAuthor     "Ilex aquifolium L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ilex aquifolium" ;
+        ifn3:hasAcceptedName            name:Species65 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2860379"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ilex_aquifolium"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ilex_aquifolium"^^xsd:anyURI .
+
+kTaxon:Species299  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus421 ;
+        ifn3:acceptedNameWithAuthor     "Ficus carica L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ficus carica" ;
+        ifn3:hasAcceptedName            name:Species299 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2809827"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Common_fig"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ficus_carica"^^xsd:anyURI .
+
+name:Species85
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Leyens, Lobin & A.Santos" ;
+        ifn3:name    "Sideroxylon mirmulano"@la .
+
+kTaxon:Species957  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix purpurea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix purpurea" ;
+        ifn3:hasAcceptedName            name:Species957 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5003498"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_purpurea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_purpurea"^^xsd:anyURI .
+
+kTaxon:Species35  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus214 ;
+        ifn3:acceptedNameWithoutAuthor  "Larix" ;
+        ifn3:hasAcceptedName            name:Species35 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Larix spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Larch"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Larix"^^xsd:anyURI .
+
+name:Species55
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Vahl" ;
+        ifn3:name    "Fraxinus angustifolia"@la .
+
+kTaxon:Species239  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus sabina L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus sabina" ;
+        ifn3:hasAcceptedName            name:Species239 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2331683"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_sabina"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_sabina"^^xsd:anyURI .
+
+name:Species25
+        a           ifn3:AcceptedName ;
+        ifn3:author  "J.F.Arnold" ;
+        ifn3:name    "Pinus nigra"@la .
+
+kTaxon:Species77  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus411 ;
+        ifn3:acceptedNameWithoutAuthor  "Tilia" ;
+        ifn3:hasAcceptedName            name:Species77 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Tilia"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tilia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tilia"^^xsd:anyURI .
+
+name:Species97
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Sambucus nigra"@la .
+
+kTaxon:Species47  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus canariensis Willd."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus canariensis" ;
+        ifn3:hasAcceptedName            name:Species47 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-171953"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_canariensis"^^xsd:anyURI .
+
+name:Species315
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Poir.) DC." ;
+        ifn3:name    "Crataegus laevigata"@la .
+
+name:Species291
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Lam." ;
+        ifn3:name    "Buxus balearica"@la .
+
+name:Species67
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Ceratonia siliqua"@la .
+
+kTaxon:Species336  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus221 ;
+        ifn3:acceptedNameWithAuthor     "Cupressus lusitanica Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cupressus lusitanica" ;
+        ifn3:hasAcceptedName            name:Species336 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2748717"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressus_lusitanica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressus_lusitanica"^^xsd:anyURI .
+
+kTaxon:Species17  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus212 ;
+        ifn3:acceptedNameWithAuthor     "Cedrus atlantica (Endl.) Manetti ex Carrière"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cedrus atlantica" ;
+        ifn3:hasAcceptedName            name:Species17 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2707315"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cedrus_atlantica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cedrus_atlantica"^^xsd:anyURI .
+
+kTaxon:Species4  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus482 ;
+        ifn3:acceptedNameWithAuthor     "Rhamnus alaternus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Rhamnus alaternus" ;
+        ifn3:hasAcceptedName            name:Species4 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2525844"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rhamnus_alaternus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rhamnus_alaternus"^^xsd:anyURI .
+
+name:Species37
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juniperus communis"@la .
+
+kTaxon:Species89  a                       ifn3:Family , owl:Class , rdfs:Class ;
+        rdfs:comment                   "Otras laurisilvas"@es ;
+        rdfs:subClassOf                kTaxonTop:Family40 ;
+        ifn3:acceptedNameWithoutAuthor  "Lauraceae" ;
+        ifn3:hasAcceptedName            name:Species89 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Laurel_forest"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Lauraceae"^^xsd:anyURI .
+
+name:Species357
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Brot." ;
+        ifn3:name    "Salix atrocinerea"@la .
+
+kTaxon:Species282  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus321 ;
+        ifn3:acceptedNameWithAuthor     "Ilex platyphylla (Webb & Berthel.) Tutin"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ilex platyphylla" ;
+        ifn3:hasAcceptedName            name:Species282 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/tro-50279570"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "http://www.laurisilva.org/index.php?c=Ilex-perado%20spp%20platyphylla"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ilex_perado subsp. platyphylla"^^xsd:anyURI .
+
+kTaxon:Species378  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithAuthor     "Sorbus aucuparia L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus aucuparia" ;
+        ifn3:hasAcceptedName            name:Species378 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-68"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus_aucuparia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus_aucuparia"^^xsd:anyURI .
+
+kTaxon:Species59  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Otros árboles ripícolas"@es ;
+        rdfs:subClassOf                kTaxonTop:Class1 ;
+        ifn3:acceptedNameWithoutAuthor  "Angiospermae" ;
+        ifn3:hasAcceptedName            name:Species59 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/River_ecosystem"^^xsd:anyURI .
+
+name:Species79
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill. ex Münchh." ;
+        ifn3:name    "Platanus hispanica"@la .
+
+kTaxon:Species29  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:comment                   "Otros pinos"@es ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus" ;
+        ifn3:hasAcceptedName            name:Species29 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Pinus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pine"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus"^^xsd:anyURI .
+
+kTaxon:Species90  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Mezcla de pequeñas frondosas"@es ;
+        rdfs:subClassOf                kTaxonTop:Class1 ;
+        ifn3:acceptedNameWithoutAuthor  "Angiospermae" ;
+        ifn3:hasAcceptedName            name:Species90 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Flowering_plant"^^xsd:anyURI .
+
+name:Species399
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Morus"@la .
+
+name:Species49
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Quercus"@la .
+
+name:Species273
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Ehrh." ;
+        ifn3:name    "Betula alba"@la .
+
+name:Species19
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Gymnospermae"@la .
+
+kTaxon:Species60  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:comment                   "Mezcla de eucaliptos"@es ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus" ;
+        ifn3:hasAcceptedName            name:Species60 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=eucalyptus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus"^^xsd:anyURI .
+
+name:Species369
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Chamaerops humilis"@la .
+
+kTaxon:Species294  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus402 ;
+        ifn3:acceptedNameWithAuthor     "Laurus azorica (Seub.) Franco"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Laurus azorica" ;
+        ifn3:hasAcceptedName            name:Species294 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2349402"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Laurus_azorica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Laurus_azorica"^^xsd:anyURI .
+
+name:Species243
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Willd." ;
+        ifn3:name    "Quercus pubescens"@la .
+
+name:Species80
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Lauraceae"@la .
+
+kTaxon:Species30  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Mezcla de coníferas"@es ;
+        rdfs:subClassOf                kTaxonTop:Class2 ;
+        ifn3:acceptedNameWithoutAuthor  "Gymnospermae" ;
+        ifn3:hasAcceptedName            name:Species30 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinophyta"^^xsd:anyURI .
+
+kTaxon:Species264  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithAuthor     "Eucalyptus viminalis Labill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus viminalis" ;
+        ifn3:hasAcceptedName            name:Species264 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-74103"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus_viminalis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus_viminalis"^^xsd:anyURI .
+
+name:Species50
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Angiospermae"@la .
+
+name:Species20
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Pinus"@la .
+
+kTaxon:Species415  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus492 ;
+        ifn3:acceptedNameWithAuthor     "Crataegus laciniata Pall. ex M.Bieb."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Crataegus laciniata" ;
+        ifn3:hasAcceptedName            name:Species415 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-637"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Crataegus_orientalis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Crataegus_orientalis"^^xsd:anyURI .
+
+name:Species858
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(C.Sm. ex Link) A.K.Skvortsov" ;
+        ifn3:name    "Salix canariensis"@la .
+
+kTaxon:Species72  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus123 ;
+        ifn3:acceptedNameWithAuthor     "Castanea sativa Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Castanea sativa" ;
+        ifn3:hasAcceptedName            name:Species72 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-35042"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Castanea_sativa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Castanea_sativa"^^xsd:anyURI .
+
+name:Species255
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Fraxinus excelsior"@la .
+
+name:Species92
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Robinia pseudacacia"@la .
+
+name:Species436
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Hartw." ;
+        ifn3:name    "Cupressus macrocarpa"@la .
+
+kTaxon:Species42  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus petraea (Matt.) Liebl."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus petraea" ;
+        ifn3:hasAcceptedName            name:Species42 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-174374"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_petraea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_petraea"^^xsd:anyURI .
+
+kTaxon:Species276  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithAuthor     "Acer monspessulanum L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acer monspessulanum" ;
+        ifn3:hasAcceptedName            name:Species276 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2615976"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acer_monspessulanum"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer_monspessulanum"^^xsd:anyURI .
+
+name:Species62
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Dehnh." ;
+        ifn3:name    "Eucalyptus camaldulensis"@la .
+
+kTaxon:Species457  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix babylonica L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix babylonica" ;
+        ifn3:hasAcceptedName            name:Species457 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5004552"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_babylonica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_babylonica"^^xsd:anyURI .
+
+kTaxon:Species12  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus493 ;
+        ifn3:acceptedNameWithAuthor     "Malus sylvestris (L.) Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Malus sylvestris" ;
+        ifn3:hasAcceptedName            name:Species12 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-71"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Malus_sylvestris"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Malus_sylvestris"^^xsd:anyURI .
+
+name:Species32
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Boiss." ;
+        ifn3:name    "Abies pinsapo"@la .
+
+name:Species297
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Sambucus racemosa"@la .
+
+name:Species955
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Fraxinus"@la .
+
+name:Species478
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Sorbus domestica"@la .
+
+kTaxon:Species84  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus404 ;
+        ifn3:acceptedNameWithAuthor     "Persea indica (L.) Spreng."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Persea indica" ;
+        ifn3:hasAcceptedName            name:Species84 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2529655"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Persea_indica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Persea_indica"^^xsd:anyURI .
+
+kTaxon:Species976  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithoutAuthor  "Acer" ;
+        ifn3:hasAcceptedName            name:Species976 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Acer spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Maple"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer"^^xsd:anyURI .
+
+kTaxon:Species499  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus422 ;
+        ifn3:acceptedNameWithAuthor     "Morus alba L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Morus alba" ;
+        ifn3:hasAcceptedName            name:Species499 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2501381"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Morus_alba"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Morus_alba"^^xsd:anyURI .
+
+kTaxon:Species373  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus191 ;
+        ifn3:acceptedNameWithAuthor     "Betula pendula Roth"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Betula pendula" ;
+        ifn3:hasAcceptedName            name:Species373 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-21582"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Betula_pendula"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Betula_pendula"^^xsd:anyURI .
+
+kTaxon:Species54  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus192 ;
+        ifn3:acceptedNameWithAuthor     "Alnus glutinosa (L.) Gaertn."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Alnus glutinosa" ;
+        ifn3:hasAcceptedName            name:Species54 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-6364"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Alnus_glutinosa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Alnus_glutinosa"^^xsd:anyURI .
+
+name:Species237
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juniperus oxycedrus"@la .
+
+name:Species74
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Corylus avellana"@la .
+
+kTaxon:Species469  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus332 ;
+        ifn3:acceptedNameWithAuthor     "Phoenix canariensis Chabaud"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Phoenix canariensis" ;
+        ifn3:hasAcceptedName            name:Species469 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-152655"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Phoenix_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Phoenix_canariensis"^^xsd:anyURI .
+
+name:Species997
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Sambucus"@la .
+
+kTaxon:Species24  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus halepensis Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus halepensis" ;
+        ifn3:hasAcceptedName            name:Species24 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2561998"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus_halepensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_halepensis"^^xsd:anyURI .
+
+kTaxon:Species258  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus131 ;
+        ifn3:acceptedNameWithAuthor     "Populus x canadensis Moench"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Populus x canadensis" ;
+        ifn3:hasAcceptedName            name:Species258 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5004301"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Populus_x_canadensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Populus_x canadensis"^^xsd:anyURI .
+
+name:Species5
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Euonymus europaeus"@la .
+
+name:Species207
+        a           ifn3:AcceptedName ;
+        ifn3:author  "R.Br." ;
+        ifn3:name    "Acacia melanoxylon"@la .
+
+name:Species44
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Lam." ;
+        ifn3:name    "Quercus faginea"@la .
+
+kTaxon:Species96  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus182 ;
+        ifn3:acceptedNameWithAuthor     "Rhus coriaria L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Rhus coriaria" ;
+        ifn3:hasAcceptedName            name:Species96 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2422872"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rhus_coriaria"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rhus_coriaria"^^xsd:anyURI .
+
+name:Species364
+        a           ifn3:AcceptedName ;
+        ifn3:author  "A.Cunn. ex DC." ;
+        ifn3:name    "Eucalyptus gomphocephala"@la .
+
+name:Species14
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Taxus baccata"@la .
+
+name:Species279
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Platanus orientalis"@la .
+
+name:Species937
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Juniperus"@la .
+
+kTaxon:Species66  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus442 ;
+        ifn3:acceptedNameWithAuthor     "Olea europaea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Olea europaea" ;
+        ifn3:hasAcceptedName            name:Species66 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-355112"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Olive"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Olea_europaea"^^xsd:anyURI .
+
+name:Species86
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Aiton) DC." ;
+        ifn3:name    "Picconia excelsa"@la .
+
+name:Species515
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Crataegus azarolus"@la .
+
+kTaxon:Species355  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus441 ;
+        ifn3:acceptedNameWithAuthor     "Fraxinus ornus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Fraxinus ornus" ;
+        ifn3:hasAcceptedName            name:Species355 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-369914"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fraxinus_ornus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fraxinus_ornus"^^xsd:anyURI .
+
+kTaxon:Species36  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus221 ;
+        ifn3:acceptedNameWithAuthor     "Cupressus sempervirens L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cupressus sempervirens" ;
+        ifn3:hasAcceptedName            name:Species36 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2748781"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressus_sempervirens"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressus_sempervirens"^^xsd:anyURI .
+
+name:Species219
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Vahl) Mast." ;
+        ifn3:name    "Tetraclinis articulata"@la .
+
+name:Species56
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Ulmus minor"@la .
+
+name:Species376
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Acer negundo"@la .
+
+name:Species26
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Aiton" ;
+        ifn3:name    "Pinus pinaster"@la .
+
+name:Species557
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Ehrh. ex Willd." ;
+        ifn3:name    "Salix cantabrica"@la .
+
+kTaxon:Species78  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus" ;
+        ifn3:hasAcceptedName            name:Species78 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Sorbus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus"^^xsd:anyURI .
+
+name:Species98
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Carpinus betulus"@la .
+
+kTaxon:Species578  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithAuthor     "Sorbus torminalis (L.) Crantz"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus torminalis" ;
+        ifn3:hasAcceptedName            name:Species578 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-595"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus_torminalis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus_torminalis"^^xsd:anyURI .
+
+kTaxon:Species48  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus rubra L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus rubra" ;
+        ifn3:hasAcceptedName            name:Species48 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-174902"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_rubra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_rubra"^^xsd:anyURI .
+
+name:Species68
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Arbutus unedo"@la .
+
+name:Species292
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) Schott" ;
+        ifn3:name    "Sophora japonica"@la .
+
+name:Species599
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Morus nigra"@la .
+
+kTaxon:Species337  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus cedrus Webb & Berthel."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus cedrus" ;
+        ifn3:hasAcceptedName            name:Species337 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2332652"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_cedrus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_cedrus"^^xsd:anyURI .
+
+kTaxon:Species18  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus228 ;
+        ifn3:acceptedNameWithAuthor     "Chamaecyparis lawsoniana (A.Murray) Parl."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Chamaecyparis lawsoniana" ;
+        ifn3:hasAcceptedName            name:Species18 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2715286"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Chamaecyparis_lawsoniana"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Chamaecyparis_lawsoniana"^^xsd:anyURI .
+
+kTaxon:Species5  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus371 ;
+        ifn3:acceptedNameWithAuthor     "Euonymus europaeus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Euonymus europaeus" ;
+        ifn3:hasAcceptedName            name:Species5 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2803293"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Euonymus_europaeus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Euonymus_europaeus"^^xsd:anyURI .
+
+name:Species38
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juniperus thurifera"@la .
+
+name:Species569
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) L." ;
+        ifn3:name    "Dracaena draco"@la .
+
+kTaxon:Species307  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus141 ;
+        ifn3:acceptedNameWithAuthor     "Acacia dealbata Link"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acacia dealbata" ;
+        ifn3:hasAcceptedName            name:Species307 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/ild-389"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acacia_dealbata"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acacia_dealbata"^^xsd:anyURI .
+
+kTaxon:Species283  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus152 ;
+        ifn3:acceptedNameWithAuthor     "Erica scoparia L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Erica scoparia" ;
+        ifn3:hasAcceptedName            name:Species283 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2794397"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Erica_scoparia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Erica_scoparia"^^xsd:anyURI .
+
+kTaxon:Species253  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus521 ;
+        ifn3:acceptedNameWithAuthor     "Tamarix canariensis Willd."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Tamarix canariensis" ;
+        ifn3:hasAcceptedName            name:Species253 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2520099"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tamarix_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tamarix_canariensis"^^xsd:anyURI .
+
+kTaxon:Species91  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus351 ;
+        ifn3:acceptedNameWithAuthor     "Buxus sempervirens L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Buxus sempervirens" ;
+        ifn3:hasAcceptedName            name:Species91 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2688005"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Buxus_sempervirens"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Buxus_sempervirens"^^xsd:anyURI .
+
+kTaxon:Species319  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus224 ;
+        ifn3:acceptedNameWithoutAuthor  "Thuja" ;
+        ifn3:hasAcceptedName            name:Species319 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Thuja"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Thuja"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Thuja"^^xsd:anyURI .
+
+kTaxon:Species61  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithAuthor     "Eucalyptus globulus Labill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus globulus" ;
+        ifn3:hasAcceptedName            name:Species61 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-73008"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus_globulus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus_globulus"^^xsd:anyURI .
+
+kTaxon:Species295  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus494 ;
+        ifn3:acceptedNameWithAuthor     "Prunus spinosa L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Prunus spinosa" ;
+        ifn3:hasAcceptedName            name:Species295 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-43"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Prunus_spinosa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Prunus_spinosa"^^xsd:anyURI .
+
+name:Species244
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Lam." ;
+        ifn3:name    "Quercus lusitanica"@la .
+
+name:Species81
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Dryand." ;
+        ifn3:name    "Myrica faya"@la .
+
+kTaxon:Species476  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithAuthor     "Acer opalus Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acer opalus" ;
+        ifn3:hasAcceptedName            name:Species476 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2616113"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acer_opalus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer_opalus"^^xsd:anyURI .
+
+kTaxon:Species31  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus213 ;
+        ifn3:acceptedNameWithAuthor     "Abies alba Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Abies alba" ;
+        ifn3:hasAcceptedName            name:Species31 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2609691"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Abies_alba"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Abies_alba"^^xsd:anyURI .
+
+kTaxon:Species657  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix caprea L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix caprea" ;
+        ifn3:hasAcceptedName            name:Species657 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5001859"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_caprea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_caprea"^^xsd:anyURI .
+
+name:Species51
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Populus alba"@la .
+
+kTaxon:Species235  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus214 ;
+        ifn3:acceptedNameWithAuthor     "Larix decidua Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Larix decidua" ;
+        ifn3:hasAcceptedName            name:Species235 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2493921"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Larix_decidua"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Larix_decidua"^^xsd:anyURI .
+
+name:Species21
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Pinus sylvestris"@la .
+
+name:Species678
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Lam.) Pers." ;
+        ifn3:name    "Sorbus latifolia"@la .
+
+kTaxon:Species392  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus143 ;
+        ifn3:acceptedNameWithAuthor     "Gleditsia triacanthos L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Gleditsia triacanthos" ;
+        ifn3:hasAcceptedName            name:Species392 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/ild-1446"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Honey_locust"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Gleditsia_triacanthos"^^xsd:anyURI .
+
+kTaxon:Species73  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus191 ;
+        ifn3:acceptedNameWithoutAuthor  "Betula" ;
+        ifn3:hasAcceptedName            name:Species73 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Betula spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Birch"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Betula"^^xsd:anyURI .
+
+name:Species256
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Huds." ;
+        ifn3:name    "Ulmus glabra"@la .
+
+name:Species93
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Pistacia terebinthus"@la .
+
+kTaxon:Species43  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus pyrenaica Willd."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus pyrenaica" ;
+        ifn3:hasAcceptedName            name:Species43 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-174637"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_pyrenaica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_pyrenaica"^^xsd:anyURI .
+
+kTaxon:Species277  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus411 ;
+        ifn3:acceptedNameWithAuthor     "Tilia cordata Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Tilia cordata" ;
+        ifn3:hasAcceptedName            name:Species277 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2518181"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tilia_cordata"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tilia_cordata"^^xsd:anyURI .
+
+name:Species63
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Eucalyptus"@la .
+
+kTaxon:Species13  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus361 ;
+        ifn3:acceptedNameWithAuthor     "Celtis australis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Celtis australis" ;
+        ifn3:hasAcceptedName            name:Species13 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2708167"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Celtis_australis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Celtis_australis"^^xsd:anyURI .
+
+name:Species33
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) H.Karst." ;
+        ifn3:name    "Picea abies"@la .
+
+name:Species956
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Ulmus"@la .
+
+kTaxon:Species217  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus212 ;
+        ifn3:acceptedNameWithAuthor     "Cedrus deodara (Roxb. ex D.Don) G.Don"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cedrus deodara" ;
+        ifn3:hasAcceptedName            name:Species217 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2707322"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cedrus_deodara"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cedrus_deodara"^^xsd:anyURI .
+
+kTaxon:Species85  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus501 ;
+        ifn3:acceptedNameWithAuthor     "Sideroxylon mirmulano Leyens, Lobin & A.Santos"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sideroxylon mirmulano" ;
+        ifn3:hasAcceptedName            name:Species85 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-459482"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sideroxylon_mirmulano"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sideroxylon_canariense"^^xsd:anyURI .
+
+name:Species268
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Duhamel" ;
+        ifn3:name    "Arbutus canariensis"@la .
+
+kTaxon:Species55  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus441 ;
+        ifn3:acceptedNameWithAuthor     "Fraxinus angustifolia Vahl"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Fraxinus angustifolia" ;
+        ifn3:hasAcceptedName            name:Species55 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-369513"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fraxinus_angustifolia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fraxinus_angustifolia"^^xsd:anyURI .
+
+kTaxon:Species289  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus472 ;
+        ifn3:acceptedNameWithAuthor     "Pleiomeris canariensis (Willd.) A.DC."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pleiomeris canariensis" ;
+        ifn3:hasAcceptedName            name:Species289 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/tro-50228889"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pleiomeris_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pleiomeris_canariensis"^^xsd:anyURI .
+
+name:Species238
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Guss.) Parl." ;
+        ifn3:name    "Juniperus turbinata"@la .
+
+name:Species75
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juglans regia"@la .
+
+kTaxon:Species25  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus nigra J.F.Arnold"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus nigra" ;
+        ifn3:hasAcceptedName            name:Species25 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562349"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus_nigra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_nigra"^^xsd:anyURI .
+
+name:Species6
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Myrtus communis"@la .
+
+name:Species395
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(L.) L." ;
+        ifn3:name    "Prunus avium"@la .
+
+name:Species45
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Quercus ilex"@la .
+
+kTaxon:Species917  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus212 ;
+        ifn3:acceptedNameWithoutAuthor  "Cedrus" ;
+        ifn3:hasAcceptedName            name:Species917 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Cedrus spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cedrus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cedrus"^^xsd:anyURI .
+
+name:Species576
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Acer pseudoplatanus"@la .
+
+kTaxon:Species97  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus311 ;
+        ifn3:acceptedNameWithAuthor     "Sambucus nigra L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sambucus nigra" ;
+        ifn3:hasAcceptedName            name:Species97 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2486519"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sambucus_nigra"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sambucus_nigra"^^xsd:anyURI .
+
+name:Species757
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Scop." ;
+        ifn3:name    "Salix elaeagnos"@la .
+
+name:Species15
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Crataegus"@la .
+
+kTaxon:Species67  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus142 ;
+        ifn3:acceptedNameWithAuthor     "Ceratonia siliqua L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ceratonia siliqua" ;
+        ifn3:hasAcceptedName            name:Species67 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/ild-1158"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ceratonia_siliqua"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ceratonia_siliqua"^^xsd:anyURI .
+
+kTaxon:Species778  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithAuthor     "Sorbus chamaemespilus (L.) Crantz"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus chamaemespilus" ;
+        ifn3:hasAcceptedName            name:Species778 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-9734"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus_chamaemespilus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus_chamaemespilus"^^xsd:anyURI .
+
+name:Species335
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Lamb.) Carrière" ;
+        ifn3:name    "Larix leptolepis"@la .
+
+name:Species87
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Aiton) Baill." ;
+        ifn3:name    "Ocotea foetens"@la .
+
+kTaxon:Species356  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus111 ;
+        ifn3:acceptedNameWithAuthor     "Ulmus pumila L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ulmus pumila" ;
+        ifn3:hasAcceptedName            name:Species356 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2448824"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ulmus_pumila"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ulmus_pumila"^^xsd:anyURI .
+
+kTaxon:Species37  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus communis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus communis" ;
+        ifn3:hasAcceptedName            name:Species37 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2332579"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_communis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_communis"^^xsd:anyURI .
+
+name:Species57
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Salix"@la .
+
+name:Species377
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Scop." ;
+        ifn3:name    "Tilia platyphyllos"@la .
+
+name:Species27
+        a           ifn3:AcceptedName ;
+        ifn3:author  "C.Sm." ;
+        ifn3:name    "Pinus canariensis"@la .
+
+kTaxon:Species79  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus461 ;
+        ifn3:acceptedNameWithAuthor     "Platanus hispanica Mill. ex Münchh."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Platanus hispanica" ;
+        ifn3:hasAcceptedName            name:Species79 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2570291"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Platanus_x_acerifolia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Platanus_x hispanica"^^xsd:anyURI .
+
+name:Species99
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Angiospermae"@la .
+
+kTaxon:Species49  a                       rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet, owl:Class ;
+        rdfs:comment                   "Otros quercus"@es ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus" ;
+        ifn3:hasAcceptedName            name:Species49 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Quercus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Oak"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus"^^xsd:anyURI .
+
+name:Species317
+        a           ifn3:AcceptedName ;
+        ifn3:author  "A.Rich." ;
+        ifn3:name    "Cedrus libani"@la .
+
+name:Species69
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Phoenix"@la .
+
+name:Species293
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Desf." ;
+        ifn3:name    "Pistacia atlantica"@la .
+
+kTaxon:Species19  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Otras coníferas"@es ;
+        rdfs:subClassOf                kTaxonTop:Class2 ;
+        ifn3:acceptedNameWithoutAuthor  "Gymnospermae" ;
+        ifn3:hasAcceptedName            name:Species19 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinophyta"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/"^^xsd:anyURI .
+
+kTaxon:Species6  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus161 ;
+        ifn3:acceptedNameWithAuthor     "Myrtus communis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Myrtus communis" ;
+        ifn3:hasAcceptedName            name:Species6 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-132410"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Myrtus_communis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Myrtus_communis"^^xsd:anyURI .
+
+kTaxon:Species80  a                       ifn3:Family , owl:Class , rdfs:Class ;
+        rdfs:comment                   "Laurisilva"@es ;
+        rdfs:subClassOf                kTaxonTop:Family40 ;
+        ifn3:acceptedNameWithoutAuthor  "Lauraceae" ;
+        ifn3:hasAcceptedName            name:Species80 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Laurel_forest"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Lauraceae"^^xsd:anyURI .
+
+name:Species389
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Aiton" ;
+        ifn3:name    "Rhamnus glandulosa"@la .
+
+name:Species39
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juniperus phoenicea"@la .
+
+kTaxon:Species495  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus494 ;
+        ifn3:acceptedNameWithAuthor     "Prunus lusitanica L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Prunus lusitanica" ;
+        ifn3:hasAcceptedName            name:Species495 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-287"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Prunus_lusitanica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Prunus_lusitanica"^^xsd:anyURI .
+
+kTaxon:Species50  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet  ;
+        rdfs:comment                   "Mezcla de árboles de ribera"@es ;
+        rdfs:subClassOf                kTaxonTop:Class1 ;
+        ifn3:acceptedNameWithoutAuthor  "Angiospermae" ;
+        ifn3:hasAcceptedName            name:Species50 ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/River_ecosystem"^^xsd:anyURI .
+
+kTaxon:Species676  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithAuthor     "Acer platanoides L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acer platanoides" ;
+        ifn3:hasAcceptedName            name:Species676 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2616254"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acer_platanoides"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer_platanoides"^^xsd:anyURI .
+
+name:Species70
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Angiospermae"@la .
+
+kTaxon:Species857  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix fragilis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix fragilis" ;
+        ifn3:hasAcceptedName            name:Species857 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5000691"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_fragilis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_fragilis"^^xsd:anyURI .
+
+kTaxon:Species20  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus" ;
+        ifn3:hasAcceptedName            name:Species20 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Pinus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pine"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus"^^xsd:anyURI .
+
+name:Species1
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Gaertn.) Sprague" ;
+        ifn3:name    "Heberdenia bahamensis"@la .
+
+name:Species40
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Quercus"@la .
+
+kTaxon:Species435  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus214 ;
+        ifn3:acceptedNameWithAuthor     "Larix x eurolepis A.Henry"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Larix x eurolepis" ;
+        ifn3:hasAcceptedName            name:Species435 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2493918"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Larch"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Larix_x eurolepis"^^xsd:anyURI .
+
+kTaxon:Species92  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus144 ;
+        ifn3:acceptedNameWithAuthor     "Robinia pseudacacia L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Robinia pseudacacia" ;
+        ifn3:hasAcceptedName            name:Species92 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/ild-8996"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Robinia_pseudoacacia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Robinia_pseudoacacia"^^xsd:anyURI .
+
+name:Species275
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juglans nigra"@la .
+
+kTaxon:Species62  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithAuthor     "Eucalyptus camaldulensis Dehnh."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus camaldulensis" ;
+        ifn3:hasAcceptedName            name:Species62 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-72616"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus_camaldulensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus_camaldulensis"^^xsd:anyURI .
+
+name:Species82
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Poir." ;
+        ifn3:name    "Ilex canariensis"@la .
+
+kTaxon:Species32  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus213 ;
+        ifn3:acceptedNameWithAuthor     "Abies pinsapo Boiss."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Abies pinsapo" ;
+        ifn3:hasAcceptedName            name:Species32 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2610038"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Abies_pinsapo"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Abies_pinsapo"^^xsd:anyURI .
+
+name:Species215
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Jacq." ;
+        ifn3:name    "Crataegus monogyna"@la .
+
+name:Species52
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Populus tremula"@la .
+
+name:Species975
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Juglans"@la .
+
+kTaxon:Species236  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus221 ;
+        ifn3:acceptedNameWithAuthor     "Cupressus arizonica Greene"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cupressus arizonica" ;
+        ifn3:hasAcceptedName            name:Species236 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2748585"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressus_arizonica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressus_arizonica"^^xsd:anyURI .
+
+name:Species22
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Ramond ex DC." ;
+        ifn3:name    "Pinus uncinata"@la .
+
+kTaxon:Species74  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus194 ;
+        ifn3:acceptedNameWithAuthor     "Corylus avellana L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Corylus avellana" ;
+        ifn3:hasAcceptedName            name:Species74 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-47841"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Corylus_avellana"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Corylus_avellana"^^xsd:anyURI .
+
+name:Species257
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Salix alba"@la .
+
+name:Species94
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Laurus nobilis"@la .
+
+kTaxon:Species489  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus451 ;
+        ifn3:acceptedNameWithAuthor     "Visnea mocanera L.f."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Visnea mocanera" ;
+        ifn3:hasAcceptedName            name:Species489 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2462423"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Visnea_mocanera"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Visnea_mocanera"^^xsd:anyURI .
+
+kTaxon:Species44  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus faginea Lam."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus faginea" ;
+        ifn3:hasAcceptedName            name:Species44 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-172690"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_faginea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_faginea"^^xsd:anyURI .
+
+kTaxon:Species278  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithAuthor     "Sorbus aria (L.) Crantz"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus aria" ;
+        ifn3:hasAcceptedName            name:Species278 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-258"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus_aria"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus_aria"^^xsd:anyURI .
+
+name:Species64
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(H.Deane & Maiden) Maiden" ;
+        ifn3:name    "Eucalyptus nitens"@la .
+
+kTaxon:Species936  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus221 ;
+        ifn3:acceptedNameWithoutAuthor  "Cupressus" ;
+        ifn3:hasAcceptedName            name:Species936 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Cupressus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressus"^^xsd:anyURI .
+
+name:Species595
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Prunus padus"@la .
+
+kTaxon:Species14  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus231 ;
+        ifn3:acceptedNameWithAuthor     "Taxus baccata L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Taxus baccata" ;
+        ifn3:hasAcceptedName            name:Species14 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2434158"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Taxus_baccata"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Taxus_baccata"^^xsd:anyURI .
+
+kTaxon:Species1  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus471 ;
+        ifn3:acceptedNameWithAuthor     "Heberdenia bahamensis (Gaertn.) Sprague"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Heberdenia bahamensis" ;
+        ifn3:hasAcceptedName            name:Species1 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/tro-22001575"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Heberdenia_excelsa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Heberdenia_bahamensis"^^xsd:anyURI .
+
+name:Species34
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Mirb.) Franco" ;
+        ifn3:name    "Pseudotsuga menziesii"@la .
+
+name:Species299
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Ficus carica"@la .
+
+name:Species957
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Salix purpurea"@la .
+
+kTaxon:Species86  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus444 ;
+        ifn3:acceptedNameWithAuthor     "Picconia excelsa (Aiton) DC."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Picconia excelsa" ;
+        ifn3:hasAcceptedName            name:Species86 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-355912"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Picconia_excelsa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Picconia_excelsa"^^xsd:anyURI .
+
+kTaxon:Species56  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus111 ;
+        ifn3:acceptedNameWithAuthor     "Ulmus minor Mill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ulmus minor" ;
+        ifn3:hasAcceptedName            name:Species56 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2448634"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ulmus_minor"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ulmus_minor"^^xsd:anyURI .
+
+name:Species239
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Juniperus sabina"@la .
+
+name:Species76
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Acer campestre"@la .
+
+kTaxon:Species26  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus pinaster Aiton"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus pinaster" ;
+        ifn3:hasAcceptedName            name:Species26 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562572"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus_pinaster"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_pinaster"^^xsd:anyURI .
+
+name:Species7
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Acacia"@la .
+
+name:Species46
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Quercus suber"@la .
+
+kTaxon:Species315  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus492 ;
+        ifn3:acceptedNameWithAuthor     "Crataegus laevigata (Poir.) DC."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Crataegus laevigata" ;
+        ifn3:hasAcceptedName            name:Species315 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-477"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Crataegus_laevigata"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Crataegus_laevigata"^^xsd:anyURI .
+
+kTaxon:Species98  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus193 ;
+        ifn3:acceptedNameWithAuthor     "Carpinus betulus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Carpinus betulus" ;
+        ifn3:hasAcceptedName            name:Species98 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-34291"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Carpinus_betulus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Carpinus_betulus"^^xsd:anyURI .
+
+kTaxon:Species291  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus351 ;
+        ifn3:acceptedNameWithAuthor     "Buxus balearica Lam."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Buxus balearica" ;
+        ifn3:hasAcceptedName            name:Species291 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2687848"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://es.wikipedia.org/wiki/Buxus_balearica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Buxus_balearica"^^xsd:anyURI .
+
+name:Species16
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Pyrus"@la .
+
+kTaxon:Species68  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus151 ;
+        ifn3:acceptedNameWithAuthor     "Arbutus unedo L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Arbutus unedo" ;
+        ifn3:hasAcceptedName            name:Species68 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2646748"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Arbutus_unedo"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Arbutus_unedo"^^xsd:anyURI .
+
+name:Species336
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Mill." ;
+        ifn3:name    "Cupressus lusitanica"@la .
+
+name:Species88
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Cav.) Bornm." ;
+        ifn3:name    "Apollonias barbujana"@la .
+
+kTaxon:Species357  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix atrocinerea Brot."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix atrocinerea" ;
+        ifn3:hasAcceptedName            name:Species357 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5001348"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_atrocinerea"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_atrocinerea"^^xsd:anyURI .
+
+kTaxon:Species38  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus thurifera L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus thurifera" ;
+        ifn3:hasAcceptedName            name:Species38 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2329479"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_thurifera"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_thurifera"^^xsd:anyURI .
+
+name:Species58
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Populus nigra"@la .
+
+name:Species282
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Webb & Berthel.) Tutin" ;
+        ifn3:name    "Ilex platyphylla"@la .
+
+name:Species378
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Sorbus aucuparia"@la .
+
+name:Species28
+        a           ifn3:AcceptedName ;
+        ifn3:author  "D.Don" ;
+        ifn3:name    "Pinus radiata"@la .
+
+kTaxon:Species399  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus422 ;
+        ifn3:acceptedNameWithoutAuthor  "Morus" ;
+        ifn3:hasAcceptedName            name:Species399 ;
+        ifn3:hasThePlantListPage        "www.theplantlist.org/tpl1.1/search?q=Morus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Morus_(plant)"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Morus"^^xsd:anyURI .
+
+kTaxon:Species273  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus191 ;
+        ifn3:acceptedNameWithAuthor     "Betula alba Ehrh."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Betula alba" ;
+        ifn3:hasAcceptedName            name:Species273 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-21636"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Betula_pubescens"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Betula_pubescens"^^xsd:anyURI .
+
+kTaxon:Species369  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus331 ;
+        ifn3:acceptedNameWithAuthor     "Chamaerops humilis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Chamaerops humilis" ;
+        ifn3:hasAcceptedName            name:Species369 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-37792"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Chamaerops"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Chamaerops_humilis"^^xsd:anyURI .
+
+kTaxon:Species243  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus pubescens Willd."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus pubescens" ;
+        ifn3:hasAcceptedName            name:Species243 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-174591"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_pubescens"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_pubescens"^^xsd:anyURI .
+
+name:Species294
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Seub.) Franco" ;
+        ifn3:name    "Laurus azorica"@la .
+
+kTaxon:Species7  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus141 ;
+        ifn3:acceptedNameWithoutAuthor  "Acacia" ;
+        ifn3:hasAcceptedName            name:Species7 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=acacia"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acacia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acacia"^^xsd:anyURI .
+
+kTaxon:Species81  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus431 ;
+        ifn3:acceptedNameWithAuthor     "Myrica faya Dryand."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Myrica faya" ;
+        ifn3:hasAcceptedName            name:Species81 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2500713"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Myrica_faya"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Myrica_faya"^^xsd:anyURI .
+
+name:Species264
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Labill." ;
+        ifn3:name    "Eucalyptus viminalis"@la .
+
+kTaxon:Species51  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus131 ;
+        ifn3:acceptedNameWithAuthor     "Populus alba L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Populus alba" ;
+        ifn3:hasAcceptedName            name:Species51 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5000549"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Populus_alba"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Populus_alba"^^xsd:anyURI .
+
+name:Species71
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Fagus sylvatica"@la .
+
+kTaxon:Species858  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix canariensis (C.Sm. ex Link) A.K.Skvortsov"@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix canariensis" ;
+        ifn3:hasAcceptedName            name:Species858 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-5004675"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix_canariensis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_pedicellata subsp. canariensis"^^xsd:anyURI .
+
+name:Species415
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Pall. ex M.Bieb." ;
+        ifn3:name    "Crataegus laciniata"@la .
+
+kTaxon:Species21  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus211 ;
+        ifn3:acceptedNameWithAuthor     "Pinus sylvestris L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pinus sylvestris" ;
+        ifn3:hasAcceptedName            name:Species21 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562297"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Scots_pine"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus_sylvestris"^^xsd:anyURI .
+
+name:Species2
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Medik." ;
+        ifn3:name    "Amelanchier ovalis"@la .
+
+kTaxon:Species255  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus441 ;
+        ifn3:acceptedNameWithAuthor     "Fraxinus excelsior L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Fraxinus excelsior" ;
+        ifn3:hasAcceptedName            name:Species255 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-369664"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fraxinus_excelsior"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fraxinus_excelsior"^^xsd:anyURI .
+
+name:Species41
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Quercus robur"@la .
+
+kTaxon:Species436  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species  ;
+        rdfs:subClassOf                kTaxonTop:Genus221 ;
+        ifn3:acceptedNameWithAuthor     "Cupressus macrocarpa Hartw."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Cupressus macrocarpa" ;
+        ifn3:hasAcceptedName            name:Species436 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2748734"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressus_macrocarpa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressus_macrocarpa"^^xsd:anyURI .
+
+kTaxon:Species93  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus181 ;
+        ifn3:acceptedNameWithAuthor     "Pistacia terebinthus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Pistacia terebinthus" ;
+        ifn3:hasAcceptedName            name:Species93 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2407017"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pistacia_terebinthus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pistacia_terebinthus"^^xsd:anyURI .
+
+name:Species11
+        a           ifn3:AcceptedName ;
+        ifn3:author  "(Mill.) Swingle" ;
+        ifn3:name    "Ailanthus altissima"@la .
+
+name:Species276
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Acer monspessulanum"@la .
+
+name:Species457
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Salix babylonica"@la .
+
+kTaxon:Species63  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:TaxonSet;
+        rdfs:comment                   "Otros eucaliptos"@es ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus" ;
+        ifn3:hasAcceptedName            name:Species63 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=eucalyptus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus"^^xsd:anyURI .
+
+kTaxon:Species297  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus311 ;
+        ifn3:acceptedNameWithAuthor     "Sambucus racemosa L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sambucus racemosa" ;
+        ifn3:hasAcceptedName            name:Species297 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2486552"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sambucus_racemosa"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sambucus_racemosa"^^xsd:anyURI .
+
+name:Species83
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Erica arborea"@la .
+
+kTaxon:Species955  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus441 ;
+        ifn3:acceptedNameWithoutAuthor  "Fraxinus" ;
+        ifn3:hasAcceptedName            name:Species955 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Fraxinus spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fraxinus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fraxinus"^^xsd:anyURI .
+
+kTaxon:Species478  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus496 ;
+        ifn3:acceptedNameWithAuthor     "Sorbus domestica L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Sorbus domestica" ;
+        ifn3:hasAcceptedName            name:Species478 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-989"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus_domestica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus_domestica"^^xsd:anyURI .
+
+kTaxon:Species33  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus215 ;
+        ifn3:acceptedNameWithAuthor     "Picea abies (L.) H.Karst."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Picea abies" ;
+        ifn3:hasAcceptedName            name:Species33 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2562738"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Picea_abies"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Picea_abies"^^xsd:anyURI .
+
+name:Species53
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Tamarix"@la .
+
+name:Species976
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Acer"@la .
+
+name:Species499
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Morus alba"@la .
+
+kTaxon:Species237  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithAuthor     "Juniperus oxycedrus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus oxycedrus" ;
+        ifn3:hasAcceptedName            name:Species237 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2332702"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus_oxycedrus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus_oxycedrus"^^xsd:anyURI .
+
+name:Species373
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Roth" ;
+        ifn3:name    "Betula pendula"@la .
+
+name:Species23
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Pinus pinea"@la .
+
+kTaxon:Species997  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus311 ;
+        ifn3:acceptedNameWithoutAuthor  "Sambucus" ;
+        ifn3:hasAcceptedName            name:Species997 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Sambucus"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sambucus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sambucus"^^xsd:anyURI .
+
+name:Species469
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Chabaud" ;
+        ifn3:name    "Phoenix canariensis"@la .
+
+kTaxon:Species207  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus141 ;
+        ifn3:acceptedNameWithAuthor     "Acacia melanoxylon R.Br."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acacia melanoxylon" ;
+        ifn3:hasAcceptedName            name:Species207 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/ild-504"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acacia_melanoxylon"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acacia_melanoxylon"^^xsd:anyURI .
+
+kTaxon:Species75  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus391 ;
+        ifn3:acceptedNameWithAuthor     "Juglans regia L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Juglans regia" ;
+        ifn3:hasAcceptedName            name:Species75 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2331747"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juglans_regia"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juglans_regia"^^xsd:anyURI .
+
+name:Species258
+        a           ifn3:AcceptedName ;
+        ifn3:author  "Moench" ;
+        ifn3:name    "Populus x canadensis"@la .
+
+name:Species95
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Prunus"@la .
+
+kTaxon:Species364  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus162 ;
+        ifn3:acceptedNameWithAuthor     "Eucalyptus gomphocephala A.Cunn. ex DC."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Eucalyptus gomphocephala" ;
+        ifn3:hasAcceptedName            name:Species364 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-73019"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus_gomphocephala"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus_gomphocephala"^^xsd:anyURI .
+
+kTaxon:Species45  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus121 ;
+        ifn3:acceptedNameWithAuthor     "Quercus ilex L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Quercus ilex" ;
+        ifn3:hasAcceptedName            name:Species45 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-173162"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus_ilex"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus_ilex"^^xsd:anyURI .
+
+kTaxon:Species279  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus461 ;
+        ifn3:acceptedNameWithAuthor     "Platanus orientalis L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Platanus orientalis" ;
+        ifn3:hasAcceptedName            name:Species279 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2570462"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Platanus_orientalis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Platanus_orientalis"^^xsd:anyURI .
+
+name:Species65
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Ilex aquifolium"@la .
+
+kTaxon:Species937  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus222 ;
+        ifn3:acceptedNameWithoutAuthor  "Juniperus" ;
+        ifn3:hasAcceptedName            name:Species937 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Juniperus spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniper"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus"^^xsd:anyURI .
+
+kTaxon:Species15  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus492 ;
+        ifn3:acceptedNameWithoutAuthor  "Crataegus" ;
+        ifn3:hasAcceptedName            name:Species15 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Crataegus spp."^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Crataegus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Crataegus"^^xsd:anyURI .
+
+kTaxon:Species2  a                        owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus491 ;
+        ifn3:acceptedNameWithAuthor     "Amelanchier ovalis Medik."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Amelanchier ovalis" ;
+        ifn3:hasAcceptedName            name:Species2 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-3425"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Amelanchier_ovalis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Amelanchier_ovalis"^^xsd:anyURI .
+
+name:Species35
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Larix"@la .
+
+kTaxon:Species515  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus492 ;
+        ifn3:acceptedNameWithAuthor     "Crataegus azarolus L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Crataegus azarolus" ;
+        ifn3:hasAcceptedName            name:Species515 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/rjp-1605"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Crataegus_azarolus"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Crataegus_azarolus"^^xsd:anyURI .
+
+kTaxon:Species87  a                       rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus403 ;
+        ifn3:acceptedNameWithAuthor     "Ocotea foetens (Aiton) Baill."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Ocotea foetens" ;
+        ifn3:hasAcceptedName            name:Species87 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2385993"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ocotea_foetens"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ocotea_foetens"^^xsd:anyURI .
+
+kTaxon:Species219  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus223 ;
+        ifn3:acceptedNameWithAuthor     "Tetraclinis articulata (Vahl) Mast."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Tetraclinis articulata" ;
+        ifn3:hasAcceptedName            name:Species219 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2516538"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tetraclinis"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tetraclinis_articulata"^^xsd:anyURI .
+
+name:Species355
+        a           ifn3:AcceptedName ;
+        ifn3:author  "L." ;
+        ifn3:name    "Fraxinus ornus"@la .
+
+kTaxon:Species376  a                      owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus171 ;
+        ifn3:acceptedNameWithAuthor     "Acer negundo L."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Acer negundo" ;
+        ifn3:hasAcceptedName            name:Species376 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/record/kew-2616024"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acer_negundo"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer_negundo"^^xsd:anyURI .
+
+kTaxon:Species57  a                       owl:Class , rdfs:Class , ifn3:TreeSpecies , ifn3:TaxonSet ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithoutAuthor  "Salix" ;
+        ifn3:hasAcceptedName            name:Species57 ;
+        ifn3:hasThePlantListPage        "http://www.theplantlist.org/tpl1.1/search?q=Salix"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://en.wikipedia.org/wiki/Willow"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix"^^xsd:anyURI .
+
+name:Species77
+        a         ifn3:AcceptedName ;
+        ifn3:name  "Tilia"@la .
+
+kTaxon:Species557  a                      rdfs:Class , owl:Class , ifn3:TreeSpecies , ifn3:Species ;
+        rdfs:subClassOf                kTaxonTop:Genus132 ;
+        ifn3:acceptedNameWithAuthor     "Salix cantabrica Ehrh. ex Willd."@la ;
+        ifn3:acceptedNameWithoutAuthor  "Salix cantabrica" ;
+        ifn3:hasAcceptedName            name:Species557 ;
+        ifn3:hasThePlantListPage        "www.theplantlist.org/tpl1.1/record/kew-5001794"^^xsd:anyURI ;
+        ifn3:hasWikipediaPage           "https://es.wikipedia.org/wiki/Salix_cantabrica"^^xsd:anyURI ;
+        ifn3:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix_bicolor"^^xsd:anyURI .

@@ -1,0 +1,156 @@
+@prefix ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species86 ifn3:vulgarName "Picconia excelsa"@de .
+kTaxon:Species295 ifn3:vulgarName "Schlehdorn"@de .
+kTaxon:Species65 ifn3:vulgarName "Europ\u00E4ische Stechpalme"@de .
+kTaxon:Species44 ifn3:vulgarName "Portugiesische Eiche"@de .
+kTaxon:Species23 ifn3:vulgarName "Pinie"@de .
+kTaxon:Species495 ifn3:vulgarName "Portugiesischer Kirschlorbeer"@de .
+kTaxon:Species94 ifn3:vulgarName "Echter Lorbeer"@de .
+kTaxon:Species73 ifn3:vulgarName "Birken"@de .
+kTaxon:Species52 ifn3:vulgarName "Espe"@de .
+kTaxon:Species31 ifn3:vulgarName "Wei\u00DF-Tanne"@de .
+kTaxon:Species595 ifn3:vulgarName "Gew\u00F6hnliche Traubenkirsche"@de .
+kTaxon:Species2 ifn3:vulgarName "Gew\u00F6hnliche Felsenbirne"@de .
+kTaxon:Species219 ifn3:vulgarName "Sandarakbaum"@de .
+kTaxon:Species319 ifn3:vulgarName "Lebensb\u00E4ume (Gattung)"@de .
+kTaxon:Species81 ifn3:vulgarName "Gagelbaum"@de .
+kTaxon:Species60 ifn3:vulgarName "Eukalypten"@de .
+kTaxon:Species39 ifn3:vulgarName "Ph\u00F6nizischer Wacholder"@de .
+kTaxon:Species18 ifn3:vulgarName "Lawsons Scheinzypresse"@de .
+kTaxon:Species369 ifn3:vulgarName "Zwergpalme"@de .
+kTaxon:Species89 ifn3:vulgarName "Lorbeerwald"@de .
+kTaxon:Species469 ifn3:vulgarName "Kanarische Dattelpalme"@de .
+kTaxon:Species68 ifn3:vulgarName "Westlicher Erdbeerbaum"@de .
+kTaxon:Species277 ifn3:vulgarName "Winterlinde"@de .
+kTaxon:Species256 ifn3:vulgarName "Bergulme"@de .
+kTaxon:Species26 ifn3:vulgarName "See-Kiefer"@de .
+kTaxon:Species235 ifn3:vulgarName "Europ\u00E4ische L\u00E4rche"@de .
+kTaxon:Species569 ifn3:vulgarName "Kanarischer Drachenbaum"@de .
+kTaxon:Species377 ifn3:vulgarName "Sommerlinde"@de .
+kTaxon:Species356 ifn3:vulgarName "Sibirische Ulme"@de .
+kTaxon:Species335 ifn3:vulgarName "Japanische L\u00E4rche"@de .
+kTaxon:Species97 ifn3:vulgarName "Schwarzer Holunder"@de .
+kTaxon:Species76 ifn3:vulgarName "Feldahorn"@de .
+kTaxon:Species55 ifn3:vulgarName "Schmalbl\u00E4ttrige Esche"@de .
+kTaxon:Species264 ifn3:vulgarName "Rutenf\u00F6rmiger Eukalyptus"@de .
+kTaxon:Species435 ifn3:vulgarName "L\u00E4rchen"@de .
+kTaxon:Species34 ifn3:vulgarName "Gew\u00F6hnliche Douglasie"@de .
+kTaxon:Species243 ifn3:vulgarName "Flaumeiche"@de .
+kTaxon:Species5 ifn3:vulgarName "Gew\u00F6hnlicher Spindelstrauch"@de .
+kTaxon:Species13 ifn3:vulgarName "Europ\u00E4ischer Z\u00FCrgelbaum"@de .
+kTaxon:Species364 ifn3:vulgarName "Eucalyptus gomphocephala"@de .
+kTaxon:Species84 ifn3:vulgarName "Indische Persea"@de .
+kTaxon:Species293 ifn3:vulgarName "Atlantische Pistazie"@de .
+kTaxon:Species63 ifn3:vulgarName "Eukalypten"@de .
+kTaxon:Species42 ifn3:vulgarName "Traubeneiche"@de .
+kTaxon:Species21 ifn3:vulgarName "Waldkiefer"@de .
+kTaxon:Species92 ifn3:vulgarName "Gew\u00F6hnliche Robinie"@de .
+kTaxon:Species71 ifn3:vulgarName "Rotbuche"@de .
+kTaxon:Species29 ifn3:vulgarName "Kiefern"@de .
+kTaxon:Species217 ifn3:vulgarName "Himalaya-Zeder"@de .
+kTaxon:Species317 ifn3:vulgarName "Libanon-Zeder"@de .
+kTaxon:Species58 ifn3:vulgarName "Schwarz-Pappel"@de .
+kTaxon:Species37 ifn3:vulgarName "Gemeiner Wacholder"@de .
+kTaxon:Species16 ifn3:vulgarName "Birnen"@de .
+kTaxon:Species87 ifn3:vulgarName "Stinkender Lorbeer"@de .
+kTaxon:Species66 ifn3:vulgarName "Olivenbaum"@de .
+kTaxon:Species275 ifn3:vulgarName "Schwarznuss"@de .
+kTaxon:Species45 ifn3:vulgarName "Steineiche"@de .
+kTaxon:Species24 ifn3:vulgarName "Aleppo-Kiefer"@de .
+kTaxon:Species95 ifn3:vulgarName "Prunus"@de .
+kTaxon:Species74 ifn3:vulgarName "Gemeine Hasel"@de .
+kTaxon:Species53 ifn3:vulgarName "Tamarisken"@de .
+kTaxon:Species32 ifn3:vulgarName "Spanische Tanne"@de .
+kTaxon:Species11 ifn3:vulgarName "G\u00F6tterbaum"@de .
+kTaxon:Species917 ifn3:vulgarName "Zedern"@de .
+kTaxon:Species291 ifn3:vulgarName "Balearen-Buchsbaum"@de .
+kTaxon:Species61 ifn3:vulgarName "Blauer Eukalyptus"@de .
+kTaxon:Species40 ifn3:vulgarName "Eichen"@de .
+kTaxon:Species90 ifn3:vulgarName "Bedecktsamer"@de .
+kTaxon:Species299 ifn3:vulgarName "Echte Feige"@de .
+kTaxon:Species69 ifn3:vulgarName "Dattelpalmen"@de .
+kTaxon:Species278 ifn3:vulgarName "Echte Mehlbeere"@de .
+kTaxon:Species975 ifn3:vulgarName "Waln\u00FCsse"@de .
+kTaxon:Species48 ifn3:vulgarName "Roteiche"@de .
+kTaxon:Species257 ifn3:vulgarName "Silber-Weide"@de .
+kTaxon:Species27 ifn3:vulgarName "Kanarische Kiefer"@de .
+kTaxon:Species215 ifn3:vulgarName "Eingriffeliger Wei\u00DFdorn"@de .
+kTaxon:Species399 ifn3:vulgarName "Maulbeeren"@de .
+kTaxon:Species378 ifn3:vulgarName "Vogelbeere"@de .
+kTaxon:Species336 ifn3:vulgarName "Mexikanische Zypresse"@de .
+kTaxon:Species315 ifn3:vulgarName "Zweigriffeliger Wei\u00DFdorn"@de .
+kTaxon:Species499 ifn3:vulgarName "Wei\u00DFe Maulbeere"@de .
+kTaxon:Species98 ifn3:vulgarName "Hainbuche"@de .
+kTaxon:Species478 ifn3:vulgarName "Speierling"@de .
+kTaxon:Species77 ifn3:vulgarName "Linden (Gattung)"@de .
+kTaxon:Species457 ifn3:vulgarName "Echte Trauerweide"@de .
+kTaxon:Species599 ifn3:vulgarName "Schwarze Maulbeere"@de .
+kTaxon:Species56 ifn3:vulgarName "Feldulme"@de .
+kTaxon:Species436 ifn3:vulgarName "Monterey-Zypresse"@de .
+kTaxon:Species35 ifn3:vulgarName "L\u00E4rchen"@de .
+kTaxon:Species6 ifn3:vulgarName "Myrte"@de .
+kTaxon:Species14 ifn3:vulgarName "Europ\u00E4ische Eibe"@de .
+kTaxon:Species578 ifn3:vulgarName "Elsbeere"@de .
+kTaxon:Species515 ifn3:vulgarName "Azaroldorn"@de .
+kTaxon:Species678 ifn3:vulgarName "Breitbl\u00E4ttrige Mehlbeere"@de .
+kTaxon:Species657 ifn3:vulgarName "Sal-Weide"@de .
+kTaxon:Species294 ifn3:vulgarName "Azoren-Lorbeer"@de .
+kTaxon:Species273 ifn3:vulgarName "Moor-Birke"@de .
+kTaxon:Species43 ifn3:vulgarName "Pyren\u00E4en-Eiche"@de .
+kTaxon:Species778 ifn3:vulgarName "Zwerg-Mehlbeere"@de .
+kTaxon:Species22 ifn3:vulgarName "Bergkiefer"@de .
+kTaxon:Species757 ifn3:vulgarName "Lavendel-Weide"@de .
+kTaxon:Species373 ifn3:vulgarName "H\u00E4nge-Birke"@de .
+kTaxon:Species857 ifn3:vulgarName "Bruch-Weide"@de .
+kTaxon:Species93 ifn3:vulgarName "Terpentin-Pistazie"@de .
+kTaxon:Species72 ifn3:vulgarName "Edelkastanie"@de .
+kTaxon:Species51 ifn3:vulgarName "Silber-Pappel"@de .
+kTaxon:Species957 ifn3:vulgarName "Purpur-Weide"@de .
+kTaxon:Species239 ifn3:vulgarName "Sadebaum"@de .
+kTaxon:Species936 ifn3:vulgarName "Zypressen"@de .
+kTaxon:Species80 ifn3:vulgarName "Lorbeerwald"@de .
+kTaxon:Species268 ifn3:vulgarName "Arbutus canariensis"@de .
+kTaxon:Species38 ifn3:vulgarName "Spanischer Wacholder"@de .
+kTaxon:Species9 ifn3:vulgarName "Roter Hartriegel"@de .
+kTaxon:Species17 ifn3:vulgarName "Atlas-Zeder"@de .
+kTaxon:Species88 ifn3:vulgarName "Barbusano"@de .
+kTaxon:Species297 ifn3:vulgarName "Roter Holunder"@de .
+kTaxon:Species276 ifn3:vulgarName "Franz\u00F6sischer Ahorn"@de .
+kTaxon:Species46 ifn3:vulgarName "Korkeiche"@de .
+kTaxon:Species255 ifn3:vulgarName "Gemeine Esche"@de .
+kTaxon:Species25 ifn3:vulgarName "Schwarzkiefer"@de .
+kTaxon:Species376 ifn3:vulgarName "Eschen-Ahorn"@de .
+kTaxon:Species355 ifn3:vulgarName "Manna-Esche"@de .
+kTaxon:Species96 ifn3:vulgarName "Gerber-Sumach"@de .
+kTaxon:Species476 ifn3:vulgarName "Schneeball-Ahorn"@de .
+kTaxon:Species75 ifn3:vulgarName "Echte Walnuss"@de .
+kTaxon:Species54 ifn3:vulgarName "Schwarz-Erle"@de .
+kTaxon:Species33 ifn3:vulgarName "Gemeine Fichte"@de .
+kTaxon:Species4 ifn3:vulgarName "Stechpalmen-Kreuzdorn"@de .
+kTaxon:Species12 ifn3:vulgarName "Holzapfel"@de .
+kTaxon:Species576 ifn3:vulgarName "Berg-Ahorn"@de .
+kTaxon:Species676 ifn3:vulgarName "Spitzahorn"@de .
+kTaxon:Species83 ifn3:vulgarName "Baumheide"@de .
+kTaxon:Species292 ifn3:vulgarName "Japanischer Schnurbaum"@de .
+kTaxon:Species62 ifn3:vulgarName "Roter Eukalyptus"@de .
+kTaxon:Species41 ifn3:vulgarName "Stieleiche"@de .
+kTaxon:Species20 ifn3:vulgarName "Kiefern"@de .
+kTaxon:Species392 ifn3:vulgarName "Amerikanische Gleditschie"@de .
+kTaxon:Species91 ifn3:vulgarName "Gew\u00F6hnlicher Buchsbaum"@de .
+kTaxon:Species997 ifn3:vulgarName "Holunder"@de .
+kTaxon:Species70 ifn3:vulgarName "Bedecktsamer"@de .
+kTaxon:Species279 ifn3:vulgarName "Morgenl\u00E4ndische Platane"@de .
+kTaxon:Species976 ifn3:vulgarName "Ahorne"@de .
+kTaxon:Species49 ifn3:vulgarName "Eichen"@de .
+kTaxon:Species955 ifn3:vulgarName "Eschen (Pflanzengattung)"@de .
+kTaxon:Species28 ifn3:vulgarName "Monterey-Kiefer"@de .
+kTaxon:Species237 ifn3:vulgarName "Stech-Wacholder"@de .
+kTaxon:Species99 ifn3:vulgarName "Bedecktsamer"@de .
+kTaxon:Species78 ifn3:vulgarName "Mehlbeeren"@de .
+kTaxon:Species57 ifn3:vulgarName "Weiden (Gattung)"@de .
+kTaxon:Species36 ifn3:vulgarName "Mittelmeer-Zypresse"@de .
+kTaxon:Species7 ifn3:vulgarName "Acacia"@de .
+kTaxon:Species15 ifn3:vulgarName "Wei\u00DFdorne"@de .

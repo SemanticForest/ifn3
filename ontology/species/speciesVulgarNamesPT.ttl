@@ -1,0 +1,150 @@
+@prefix ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Species86 ifn3:vulgarName "Picconia excelsa"@pt .
+kTaxon:Species295 ifn3:vulgarName "Prunus spinosa"@pt .
+kTaxon:Species65 ifn3:vulgarName "Ilex aquifolium"@pt .
+kTaxon:Species253 ifn3:vulgarName "Tamarix canariensis"@pt .
+kTaxon:Species44 ifn3:vulgarName "Carvalho-portugu\u00EAs"@pt .
+kTaxon:Species23 ifn3:vulgarName "Pinheiro-manso"@pt .
+kTaxon:Species858 ifn3:vulgarName "Seixeiro"@pt .
+kTaxon:Species495 ifn3:vulgarName "Prunus lusitanica"@pt .
+kTaxon:Species94 ifn3:vulgarName "Loureiro"@pt .
+kTaxon:Species73 ifn3:vulgarName "B\u00E9tula"@pt .
+kTaxon:Species52 ifn3:vulgarName "Populus tremula"@pt .
+kTaxon:Species31 ifn3:vulgarName "Abies alba"@pt .
+kTaxon:Species595 ifn3:vulgarName "Prunus padus"@pt .
+kTaxon:Species219 ifn3:vulgarName "Tetraclinis"@pt .
+kTaxon:Species319 ifn3:vulgarName "Thuja"@pt .
+kTaxon:Species81 ifn3:vulgarName "Myrica faya"@pt .
+kTaxon:Species60 ifn3:vulgarName "Eucalyptus"@pt .
+kTaxon:Species39 ifn3:vulgarName "Juniperus phoenicea"@pt .
+kTaxon:Species18 ifn3:vulgarName "Chamaecyparis lawsoniana"@pt .
+kTaxon:Species369 ifn3:vulgarName "Chamaerops"@pt .
+kTaxon:Species89 ifn3:vulgarName "Laurissilva"@pt .
+kTaxon:Species469 ifn3:vulgarName "Palmeira-das-can\u00E1rias"@pt .
+kTaxon:Species68 ifn3:vulgarName "Medronheiro"@pt .
+kTaxon:Species47 ifn3:vulgarName "Carvalho-das-can\u00E1rias"@pt .
+kTaxon:Species256 ifn3:vulgarName "Ulmus glabra"@pt .
+kTaxon:Species26 ifn3:vulgarName "Pinheiro-bravo"@pt .
+kTaxon:Species235 ifn3:vulgarName "Lari\u00E7o-europeu"@pt .
+kTaxon:Species569 ifn3:vulgarName "Dracaena draco"@pt .
+kTaxon:Species97 ifn3:vulgarName "Sambucus nigra"@pt .
+kTaxon:Species76 ifn3:vulgarName "Acer campestre"@pt .
+kTaxon:Species55 ifn3:vulgarName "Fraxinus angustifolia"@pt .
+kTaxon:Species435 ifn3:vulgarName "Larix"@pt .
+kTaxon:Species34 ifn3:vulgarName "Pseudotsuga menziesii"@pt .
+kTaxon:Species5 ifn3:vulgarName "Euonymus europaeus"@pt .
+kTaxon:Species13 ifn3:vulgarName "Celtis australis"@pt .
+kTaxon:Species84 ifn3:vulgarName "Persea indica"@pt .
+kTaxon:Species63 ifn3:vulgarName "Eucalyptus"@pt .
+kTaxon:Species42 ifn3:vulgarName "Quercus petraea"@pt .
+kTaxon:Species21 ifn3:vulgarName "Pinheiro-da-esc\u00F3cia"@pt .
+kTaxon:Species92 ifn3:vulgarName "Robinia pseudoacacia"@pt .
+kTaxon:Species71 ifn3:vulgarName "Fagus sylvatica"@pt .
+kTaxon:Species956 ifn3:vulgarName "Ulmeiro"@pt .
+kTaxon:Species29 ifn3:vulgarName "Pinheiro"@pt .
+kTaxon:Species217 ifn3:vulgarName "Cedro-do-himalaia"@pt .
+kTaxon:Species317 ifn3:vulgarName "Cedro-do-l\u00EDbano"@pt .
+kTaxon:Species58 ifn3:vulgarName "Populus nigra"@pt .
+kTaxon:Species37 ifn3:vulgarName "Juniperus communis"@pt .
+kTaxon:Species8 ifn3:vulgarName "Phillyrea latifolia"@pt .
+kTaxon:Species16 ifn3:vulgarName "Pera"@pt .
+kTaxon:Species87 ifn3:vulgarName "Ocotea foetens"@pt .
+kTaxon:Species66 ifn3:vulgarName "Oliveira"@pt .
+kTaxon:Species275 ifn3:vulgarName "Juglans nigra"@pt .
+kTaxon:Species45 ifn3:vulgarName "Azinheira"@pt .
+kTaxon:Species24 ifn3:vulgarName "Pinheiro-de-alepo"@pt .
+kTaxon:Species95 ifn3:vulgarName "Prunus"@pt .
+kTaxon:Species74 ifn3:vulgarName "Avel\u00E3"@pt .
+kTaxon:Species283 ifn3:vulgarName "Erica scoparia"@pt .
+kTaxon:Species53 ifn3:vulgarName "Tamarix"@pt .
+kTaxon:Species32 ifn3:vulgarName "Abies pinsapo"@pt .
+kTaxon:Species11 ifn3:vulgarName "\u00C1rvore-do-c\u00E9u"@pt .
+kTaxon:Species917 ifn3:vulgarName "Cedrus"@pt .
+kTaxon:Species82 ifn3:vulgarName "Ilex canariensis"@pt .
+kTaxon:Species61 ifn3:vulgarName "Eucalyptus globulus"@pt .
+kTaxon:Species40 ifn3:vulgarName "Carvalho"@pt .
+kTaxon:Species19 ifn3:vulgarName "Con\u00EDfera"@pt .
+kTaxon:Species207 ifn3:vulgarName "Acacia melanoxylon"@pt .
+kTaxon:Species299 ifn3:vulgarName "Figueira-comum"@pt .
+kTaxon:Species69 ifn3:vulgarName "Phoenix (g\u00E9nero)"@pt .
+kTaxon:Species278 ifn3:vulgarName "Sorbus aria"@pt .
+kTaxon:Species975 ifn3:vulgarName "Juglans"@pt .
+kTaxon:Species48 ifn3:vulgarName "Quercus rubra"@pt .
+kTaxon:Species257 ifn3:vulgarName "Salgueiro-branco"@pt .
+kTaxon:Species27 ifn3:vulgarName "Pinheiro-das-Can\u00E1rias"@pt .
+kTaxon:Species215 ifn3:vulgarName "Crataegus monogyna"@pt .
+kTaxon:Species399 ifn3:vulgarName "Morus"@pt .
+kTaxon:Species378 ifn3:vulgarName "Sorbus aucuparia"@pt .
+kTaxon:Species357 ifn3:vulgarName "Salix atrocinerea"@pt .
+kTaxon:Species336 ifn3:vulgarName "Cipreste-portugu\u00EAs"@pt .
+kTaxon:Species315 ifn3:vulgarName "Crataegus laevigata"@pt .
+kTaxon:Species499 ifn3:vulgarName "Morus alba"@pt .
+kTaxon:Species478 ifn3:vulgarName "Sorva"@pt .
+kTaxon:Species77 ifn3:vulgarName "Tilia"@pt .
+kTaxon:Species457 ifn3:vulgarName "Salgueiro-chor\u00E3o"@pt .
+kTaxon:Species599 ifn3:vulgarName "Morus nigra"@pt .
+kTaxon:Species436 ifn3:vulgarName "Cipreste-da-Calif\u00F3rnia"@pt .
+kTaxon:Species35 ifn3:vulgarName "Larix"@pt .
+kTaxon:Species244 ifn3:vulgarName "Quercus lusitanica"@pt .
+kTaxon:Species6 ifn3:vulgarName "Murta-comum"@pt .
+kTaxon:Species14 ifn3:vulgarName "Taxus baccata"@pt .
+kTaxon:Species578 ifn3:vulgarName "Sorbus torminalis"@pt .
+kTaxon:Species515 ifn3:vulgarName "Crataegus azarolus"@pt .
+kTaxon:Species678 ifn3:vulgarName "Sorbus latifolia"@pt .
+kTaxon:Species657 ifn3:vulgarName "Salix caprea"@pt .
+kTaxon:Species294 ifn3:vulgarName "Laurus azorica"@pt .
+kTaxon:Species273 ifn3:vulgarName "Betula pubescens"@pt .
+kTaxon:Species43 ifn3:vulgarName "Quercus pyrenaica"@pt .
+kTaxon:Species22 ifn3:vulgarName "Pinus mugo"@pt .
+kTaxon:Species373 ifn3:vulgarName "Vidoeiro-branco"@pt .
+kTaxon:Species857 ifn3:vulgarName "Salix fragilis"@pt .
+kTaxon:Species93 ifn3:vulgarName "Terebinto"@pt .
+kTaxon:Species72 ifn3:vulgarName "Castanea sativa"@pt .
+kTaxon:Species51 ifn3:vulgarName "Populus alba"@pt .
+kTaxon:Species957 ifn3:vulgarName "Salix purpurea"@pt .
+kTaxon:Species30 ifn3:vulgarName "Con\u00EDfera"@pt .
+kTaxon:Species239 ifn3:vulgarName "Juniperus sabina"@pt .
+kTaxon:Species1 ifn3:vulgarName "Aderno"@pt .
+kTaxon:Species936 ifn3:vulgarName "Cupressus"@pt .
+kTaxon:Species80 ifn3:vulgarName "Laurissilva"@pt .
+kTaxon:Species38 ifn3:vulgarName "Juniperus thurifera"@pt .
+kTaxon:Species9 ifn3:vulgarName "Cornus sanguinea"@pt .
+kTaxon:Species17 ifn3:vulgarName "Cedro-do-atlas"@pt .
+kTaxon:Species389 ifn3:vulgarName "Rhamnus glandulosa"@pt .
+kTaxon:Species489 ifn3:vulgarName "Visnea mocanera"@pt .
+kTaxon:Species88 ifn3:vulgarName "Apollonias barbujana"@pt .
+kTaxon:Species276 ifn3:vulgarName "Zelha"@pt .
+kTaxon:Species46 ifn3:vulgarName "Sobreiro"@pt .
+kTaxon:Species255 ifn3:vulgarName "Fraxinus excelsior"@pt .
+kTaxon:Species25 ifn3:vulgarName "Pinheiro-lar\u00EDcio"@pt .
+kTaxon:Species376 ifn3:vulgarName "Acer negundo"@pt .
+kTaxon:Species96 ifn3:vulgarName "Rhus coriaria"@pt .
+kTaxon:Species476 ifn3:vulgarName "Acer opalus"@pt .
+kTaxon:Species75 ifn3:vulgarName "Nogueira-comum"@pt .
+kTaxon:Species54 ifn3:vulgarName "Amieiro"@pt .
+kTaxon:Species33 ifn3:vulgarName "Picea abies"@pt .
+kTaxon:Species4 ifn3:vulgarName "Rhamnus alaternus"@pt .
+kTaxon:Species12 ifn3:vulgarName "Malus sylvestris"@pt .
+kTaxon:Species576 ifn3:vulgarName "Acer pseudoplatanus"@pt .
+kTaxon:Species676 ifn3:vulgarName "Acer platanoides"@pt .
+kTaxon:Species83 ifn3:vulgarName "Urze-molar"@pt .
+kTaxon:Species62 ifn3:vulgarName "Eucalyptus camaldulensis"@pt .
+kTaxon:Species41 ifn3:vulgarName "Carvalho-roble"@pt .
+kTaxon:Species20 ifn3:vulgarName "Pinheiro"@pt .
+kTaxon:Species392 ifn3:vulgarName "Gleditsia triacanthos"@pt .
+kTaxon:Species91 ifn3:vulgarName "Buxo"@pt .
+kTaxon:Species997 ifn3:vulgarName "Sambucus"@pt .
+kTaxon:Species279 ifn3:vulgarName "Platanus orientalis"@pt .
+kTaxon:Species976 ifn3:vulgarName "Acer (bot\u00E2nica)"@pt .
+kTaxon:Species49 ifn3:vulgarName "Carvalho"@pt .
+kTaxon:Species955 ifn3:vulgarName "Fraxinus"@pt .
+kTaxon:Species28 ifn3:vulgarName "Pinus radiata"@pt .
+kTaxon:Species237 ifn3:vulgarName "Cedro-de-espanha"@pt .
+kTaxon:Species78 ifn3:vulgarName "Sorbus"@pt .
+kTaxon:Species57 ifn3:vulgarName "Salgueiro"@pt .
+kTaxon:Species36 ifn3:vulgarName "Cipreste-italiano"@pt .
+kTaxon:Species7 ifn3:vulgarName "Acacia"@pt .
+kTaxon:Species15 ifn3:vulgarName "Crataegus"@pt .

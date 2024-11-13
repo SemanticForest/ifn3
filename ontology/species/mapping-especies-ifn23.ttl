@@ -1,0 +1,374 @@
+@prefix kTaxon-ifn3: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/taxon/> .
+@prefix kTaxon-ifnUp23: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnUp23/taxon/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon-ifn3:Species1 rdfs:subClassOf kTaxon-ifnUp23:HeberdeniaBahamensis .
+
+kTaxon-ifn3:Species11 rdfs:subClassOf kTaxon-ifnUp23:AilanthusAltissima .
+
+kTaxon-ifn3:Species12 rdfs:subClassOf kTaxon-ifnUp23:MalusSylvestris .
+
+kTaxon-ifn3:Species13 rdfs:subClassOf kTaxon-ifnUp23:CeltisAustralis .
+
+kTaxon-ifn3:Species14 rdfs:subClassOf kTaxon-ifnUp23:TaxusBaccata .
+
+kTaxon-ifn3:Species15 rdfs:subClassOf kTaxon-ifnUp23:Crataegus .
+
+kTaxon-ifn3:Species16 rdfs:subClassOf kTaxon-ifnUp23:Pyrus .
+
+kTaxon-ifn3:Species17 rdfs:subClassOf kTaxon-ifnUp23:CedrusAtlantica .
+
+kTaxon-ifn3:Species18 rdfs:subClassOf kTaxon-ifnUp23:ChamaecyparisLawsoniana .
+
+kTaxon-ifn3:Species19 rdfs:subClassOf kTaxon-ifnUp23:Gymnospermae .
+
+kTaxon-ifn3:Species2 rdfs:subClassOf kTaxon-ifnUp23:AmelanchierOvalis .
+
+kTaxon-ifn3:Species20 rdfs:subClassOf kTaxon-ifnUp23:Pinus .
+
+kTaxon-ifn3:Species207 rdfs:subClassOf kTaxon-ifnUp23:AcaciaMelanoxylon .
+
+kTaxon-ifn3:Species21 rdfs:subClassOf kTaxon-ifnUp23:PinusSylvestris .
+
+kTaxon-ifn3:Species215 rdfs:subClassOf kTaxon-ifnUp23:CrataegusMonogyna .
+
+kTaxon-ifn3:Species217 rdfs:subClassOf kTaxon-ifnUp23:CedrusDeodara .
+
+kTaxon-ifn3:Species219 rdfs:subClassOf kTaxon-ifnUp23:TetraclinisArticulata .
+
+kTaxon-ifn3:Species22 rdfs:subClassOf kTaxon-ifnUp23:PinusUncinata .
+
+kTaxon-ifn3:Species23 rdfs:subClassOf kTaxon-ifnUp23:PinusPinea .
+
+kTaxon-ifn3:Species235 rdfs:subClassOf kTaxon-ifnUp23:LarixDecidua .
+
+kTaxon-ifn3:Species236 rdfs:subClassOf kTaxon-ifnUp23:CupressusArizonica .
+
+kTaxon-ifn3:Species237 rdfs:subClassOf kTaxon-ifnUp23:JuniperusCedrusJuniperusCommunisJuniperusOxycedrus .
+
+kTaxon-ifn3:Species238 rdfs:subClassOf kTaxon-ifnUp23:JuniperusTurbinata .
+
+kTaxon-ifn3:Species239 rdfs:subClassOf kTaxon-ifnUp23:JuniperusPhoeniceaJuniperusSabina .
+
+kTaxon-ifn3:Species24 rdfs:subClassOf kTaxon-ifnUp23:PinusHalepensis .
+
+kTaxon-ifn3:Species243 rdfs:subClassOf kTaxon-ifnUp23:QuercusPyrenaicaQuercusPubescensWilld .
+
+kTaxon-ifn3:Species244 rdfs:subClassOf kTaxon-ifnUp23:QuercusLusitanica .
+
+kTaxon-ifn3:Species25 rdfs:subClassOf kTaxon-ifnUp23:PinusNigra .
+
+kTaxon-ifn3:Species253 rdfs:subClassOf kTaxon-ifnUp23:TamarixCanariensis .
+
+kTaxon-ifn3:Species255 rdfs:subClassOf kTaxon-ifnUp23:FraxinusExcelsior .
+
+kTaxon-ifn3:Species256 rdfs:subClassOf kTaxon-ifnUp23:UlmusGlabra .
+
+kTaxon-ifn3:Species257 rdfs:subClassOf kTaxon-ifnUp23:SalixAlba .
+
+kTaxon-ifn3:Species258 rdfs:subClassOf kTaxon-ifnUp23:PopulusNigraPopulusXCanadensis .
+
+kTaxon-ifn3:Species26 rdfs:subClassOf kTaxon-ifnUp23:PinusPinaster .
+
+kTaxon-ifn3:Species264 rdfs:subClassOf kTaxon-ifnUp23:EucalyptusViminalis .
+
+kTaxon-ifn3:Species268 rdfs:subClassOf kTaxon-ifnUp23:ArbutusUnedoArbutusCanariensis .
+
+kTaxon-ifn3:Species27 rdfs:subClassOf kTaxon-ifnUp23:PinusCanariensis .
+
+kTaxon-ifn3:Species273 rdfs:subClassOf kTaxon-ifnUp23:BetulaAlba .
+
+kTaxon-ifn3:Species275 rdfs:subClassOf kTaxon-ifnUp23:JuglansNigra .
+
+kTaxon-ifn3:Species276 rdfs:subClassOf kTaxon-ifnUp23:AcerMonspessulanum .
+
+kTaxon-ifn3:Species277 rdfs:subClassOf kTaxon-ifnUp23:TiliaCordata .
+
+kTaxon-ifn3:Species278 rdfs:subClassOf kTaxon-ifnUp23:SorbusAria .
+
+kTaxon-ifn3:Species279 rdfs:subClassOf kTaxon-ifnUp23:PlatanusOrientalis .
+
+kTaxon-ifn3:Species28 rdfs:subClassOf kTaxon-ifnUp23:PinusRadiata .
+
+kTaxon-ifn3:Species282 rdfs:subClassOf kTaxon-ifnUp23:IlexPlatyphylla .
+
+kTaxon-ifn3:Species283 rdfs:subClassOf kTaxon-ifnUp23:EricaScoparia .
+
+kTaxon-ifn3:Species289 rdfs:subClassOf kTaxon-ifnUp23:PleiomerisCanariensis .
+
+kTaxon-ifn3:Species29 rdfs:subClassOf kTaxon-ifnUp23:Pinus .
+
+kTaxon-ifn3:Species291 rdfs:subClassOf kTaxon-ifnUp23:BuxusSempervirensBuxusBalearica .
+
+kTaxon-ifn3:Species292 rdfs:subClassOf kTaxon-ifnUp23:RobiniaPseudacaciaSophoraJaponica .
+
+kTaxon-ifn3:Species293 rdfs:subClassOf kTaxon-ifnUp23:PistaciaTerebinthusPistaciaAtlantica .
+
+kTaxon-ifn3:Species294 rdfs:subClassOf kTaxon-ifnUp23:LaurusNobilisLaurusAzorica .
+
+kTaxon-ifn3:Species295 rdfs:subClassOf kTaxon-ifnUp23:PrunusSpinosa .
+
+kTaxon-ifn3:Species297 rdfs:subClassOf kTaxon-ifnUp23:SambucusNigraSambucusRacemosa .
+
+kTaxon-ifn3:Species299 rdfs:subClassOf kTaxon-ifnUp23:FicusCarica .
+
+kTaxon-ifn3:Species3 rdfs:subClassOf kTaxon-ifnUp23:FrangulaAlnus .
+
+kTaxon-ifn3:Species30 rdfs:subClassOf kTaxon-ifnUp23:Gymnospermae .
+
+kTaxon-ifn3:Species307 rdfs:subClassOf kTaxon-ifnUp23:AcaciaDealbata .
+
+kTaxon-ifn3:Species31 rdfs:subClassOf kTaxon-ifnUp23:AbiesAlba .
+
+kTaxon-ifn3:Species315 rdfs:subClassOf kTaxon-ifnUp23:CrataegusLaevigata .
+
+kTaxon-ifn3:Species317 rdfs:subClassOf kTaxon-ifnUp23:CedrusLibani .
+
+kTaxon-ifn3:Species319 rdfs:subClassOf kTaxon-ifnUp23:Thuja .
+
+kTaxon-ifn3:Species32 rdfs:subClassOf kTaxon-ifnUp23:AbiesPinsapo .
+
+kTaxon-ifn3:Species33 rdfs:subClassOf kTaxon-ifnUp23:PiceaAbies .
+
+kTaxon-ifn3:Species335 rdfs:subClassOf kTaxon-ifnUp23:LarixLeptolepis .
+
+kTaxon-ifn3:Species336 rdfs:subClassOf kTaxon-ifnUp23:CupressusLusitanica .
+
+kTaxon-ifn3:Species337 rdfs:subClassOf kTaxon-ifnUp23:JuniperusCedrusJuniperusCommunisJuniperusOxycedrus .
+
+kTaxon-ifn3:Species34 rdfs:subClassOf kTaxon-ifnUp23:PseudotsugaMenziesii .
+
+kTaxon-ifn3:Species35 rdfs:subClassOf kTaxon-ifnUp23:Larix .
+
+kTaxon-ifn3:Species355 rdfs:subClassOf kTaxon-ifnUp23:FraxinusOrnus .
+
+kTaxon-ifn3:Species356 rdfs:subClassOf kTaxon-ifnUp23:UlmusPumila .
+
+kTaxon-ifn3:Species357 rdfs:subClassOf kTaxon-ifnUp23:SalixAtrocinerea .
+
+kTaxon-ifn3:Species36 rdfs:subClassOf kTaxon-ifnUp23:CupressusSempervirens .
+
+kTaxon-ifn3:Species364 rdfs:subClassOf kTaxon-ifnUp23:EucalyptusGomphocephala .
+
+kTaxon-ifn3:Species369 rdfs:subClassOf kTaxon-ifnUp23:ChamaeropsHumilis .
+
+kTaxon-ifn3:Species37 rdfs:subClassOf kTaxon-ifnUp23:JuniperusCedrusJuniperusCommunisJuniperusOxycedrus .
+
+kTaxon-ifn3:Species373 rdfs:subClassOf kTaxon-ifnUp23:BetulaPendula .
+
+kTaxon-ifn3:Species376 rdfs:subClassOf kTaxon-ifnUp23:AcerNegundo .
+
+kTaxon-ifn3:Species377 rdfs:subClassOf kTaxon-ifnUp23:TiliaPlatyphyllos .
+
+kTaxon-ifn3:Species378 rdfs:subClassOf kTaxon-ifnUp23:SorbusAucuparia .
+
+kTaxon-ifn3:Species38 rdfs:subClassOf kTaxon-ifnUp23:JuniperusThurifera .
+
+kTaxon-ifn3:Species389 rdfs:subClassOf kTaxon-ifnUp23:RhamnusGlandulosa .
+
+kTaxon-ifn3:Species39 rdfs:subClassOf kTaxon-ifnUp23:JuniperusPhoeniceaJuniperusSabina .
+
+kTaxon-ifn3:Species392 rdfs:subClassOf kTaxon-ifnUp23:GleditsiaTriacanthos .
+
+kTaxon-ifn3:Species395 rdfs:subClassOf kTaxon-ifnUp23:PrunusAvium .
+
+kTaxon-ifn3:Species399 rdfs:subClassOf kTaxon-ifnUp23:Morus .
+
+kTaxon-ifn3:Species4 rdfs:subClassOf kTaxon-ifnUp23:RhamnusAlaternus .
+
+kTaxon-ifn3:Species40 rdfs:subClassOf kTaxon-ifnUp23:Quercus .
+
+kTaxon-ifn3:Species41 rdfs:subClassOf kTaxon-ifnUp23:QuercusRobur .
+
+kTaxon-ifn3:Species415 rdfs:subClassOf kTaxon-ifnUp23:CrataegusLaciniata .
+
+kTaxon-ifn3:Species42 rdfs:subClassOf kTaxon-ifnUp23:QuercusPetraea .
+
+kTaxon-ifn3:Species43 rdfs:subClassOf kTaxon-ifnUp23:QuercusPyrenaicaQuercusPubescensWilld .
+
+kTaxon-ifn3:Species435 rdfs:subClassOf kTaxon-ifnUp23:LarixXEurolepis .
+
+kTaxon-ifn3:Species436 rdfs:subClassOf kTaxon-ifnUp23:CupressusMacrocarpa .
+
+kTaxon-ifn3:Species44 rdfs:subClassOf kTaxon-ifnUp23:QuercusFaginea .
+
+kTaxon-ifn3:Species45 rdfs:subClassOf kTaxon-ifnUp23:QuercusIlex .
+
+kTaxon-ifn3:Species457 rdfs:subClassOf kTaxon-ifnUp23:SalixBabylonica .
+
+kTaxon-ifn3:Species46 rdfs:subClassOf kTaxon-ifnUp23:QuercusSuber .
+
+kTaxon-ifn3:Species469 rdfs:subClassOf kTaxon-ifnUp23:PhoenixCanariensis .
+
+kTaxon-ifn3:Species47 rdfs:subClassOf kTaxon-ifnUp23:QuercusCanariensis .
+
+kTaxon-ifn3:Species476 rdfs:subClassOf kTaxon-ifnUp23:AcerOpalus .
+
+kTaxon-ifn3:Species478 rdfs:subClassOf kTaxon-ifnUp23:SorbusDomestica .
+
+kTaxon-ifn3:Species48 rdfs:subClassOf kTaxon-ifnUp23:QuercusRubra .
+
+kTaxon-ifn3:Species489 rdfs:subClassOf kTaxon-ifnUp23:VisneaMocanera .
+
+kTaxon-ifn3:Species49 rdfs:subClassOf kTaxon-ifnUp23:Quercus .
+
+kTaxon-ifn3:Species495 rdfs:subClassOf kTaxon-ifnUp23:PrunusLusitanica .
+
+kTaxon-ifn3:Species499 rdfs:subClassOf kTaxon-ifnUp23:MorusAlba .
+
+kTaxon-ifn3:Species5 rdfs:subClassOf kTaxon-ifnUp23:EuonymusEuropaeus .
+
+kTaxon-ifn3:Species50 rdfs:subClassOf kTaxon-ifnUp23:Angiospermae .
+
+kTaxon-ifn3:Species51 rdfs:subClassOf kTaxon-ifnUp23:PopulusAlba .
+
+kTaxon-ifn3:Species515 rdfs:subClassOf kTaxon-ifnUp23:CrataegusAzarolus .
+
+kTaxon-ifn3:Species52 rdfs:subClassOf kTaxon-ifnUp23:PopulusTremula .
+
+kTaxon-ifn3:Species53 rdfs:subClassOf kTaxon-ifnUp23:Tamarix .
+
+kTaxon-ifn3:Species54 rdfs:subClassOf kTaxon-ifnUp23:AlnusGlutinosa .
+
+kTaxon-ifn3:Species55 rdfs:subClassOf kTaxon-ifnUp23:FraxinusAngustifolia .
+
+kTaxon-ifn3:Species557 rdfs:subClassOf kTaxon-ifnUp23:SalixCantabrica .
+
+kTaxon-ifn3:Species56 rdfs:subClassOf kTaxon-ifnUp23:UlmusMinor .
+
+kTaxon-ifn3:Species569 rdfs:subClassOf kTaxon-ifnUp23:DracaenaDraco .
+
+kTaxon-ifn3:Species57 rdfs:subClassOf kTaxon-ifnUp23:Salix .
+
+kTaxon-ifn3:Species576 rdfs:subClassOf kTaxon-ifnUp23:AcerPseudoplatanus .
+
+kTaxon-ifn3:Species578 rdfs:subClassOf kTaxon-ifnUp23:SorbusTorminalis .
+
+kTaxon-ifn3:Species58 rdfs:subClassOf kTaxon-ifnUp23:PopulusNigraPopulusXCanadensis .
+
+kTaxon-ifn3:Species59 rdfs:subClassOf kTaxon-ifnUp23:Angiospermae .
+
+kTaxon-ifn3:Species595 rdfs:subClassOf kTaxon-ifnUp23:PrunusPadus .
+
+kTaxon-ifn3:Species599 rdfs:subClassOf kTaxon-ifnUp23:MorusNigra .
+
+kTaxon-ifn3:Species6 rdfs:subClassOf kTaxon-ifnUp23:MyrtusCommunis .
+
+kTaxon-ifn3:Species60 rdfs:subClassOf kTaxon-ifnUp23:Eucalyptus .
+
+kTaxon-ifn3:Species61 rdfs:subClassOf kTaxon-ifnUp23:EucalyptusGlobulus .
+
+kTaxon-ifn3:Species62 rdfs:subClassOf kTaxon-ifnUp23:EucalyptusCamaldulensis .
+
+kTaxon-ifn3:Species63 rdfs:subClassOf kTaxon-ifnUp23:Eucalyptus .
+
+kTaxon-ifn3:Species64 rdfs:subClassOf kTaxon-ifnUp23:EucalyptusNitens .
+
+kTaxon-ifn3:Species65 rdfs:subClassOf kTaxon-ifnUp23:IlexAquifolium .
+
+kTaxon-ifn3:Species657 rdfs:subClassOf kTaxon-ifnUp23:SalixCaprea .
+
+kTaxon-ifn3:Species66 rdfs:subClassOf kTaxon-ifnUp23:OleaEuropaea .
+
+kTaxon-ifn3:Species67 rdfs:subClassOf kTaxon-ifnUp23:CeratoniaSiliqua .
+
+kTaxon-ifn3:Species676 rdfs:subClassOf kTaxon-ifnUp23:AcerPlatanoides .
+
+kTaxon-ifn3:Species678 rdfs:subClassOf kTaxon-ifnUp23:SorbusLatifolia .
+
+kTaxon-ifn3:Species68 rdfs:subClassOf kTaxon-ifnUp23:ArbutusUnedoArbutusCanariensis .
+
+kTaxon-ifn3:Species69 rdfs:subClassOf kTaxon-ifnUp23:PhoenixChamaerops .
+
+kTaxon-ifn3:Species7 rdfs:subClassOf kTaxon-ifnUp23:Acacia .
+
+kTaxon-ifn3:Species70 rdfs:subClassOf kTaxon-ifnUp23:Angiospermae .
+
+kTaxon-ifn3:Species71 rdfs:subClassOf kTaxon-ifnUp23:FagusSylvatica .
+
+kTaxon-ifn3:Species72 rdfs:subClassOf kTaxon-ifnUp23:CastaneaSativa .
+
+kTaxon-ifn3:Species73 rdfs:subClassOf kTaxon-ifnUp23:Betula .
+
+kTaxon-ifn3:Species74 rdfs:subClassOf kTaxon-ifnUp23:CorylusAvellana .
+
+kTaxon-ifn3:Species75 rdfs:subClassOf kTaxon-ifnUp23:JuglansRegia .
+
+kTaxon-ifn3:Species757 rdfs:subClassOf kTaxon-ifnUp23:SalixElaeagnos .
+
+kTaxon-ifn3:Species76 rdfs:subClassOf kTaxon-ifnUp23:AcerCampestre .
+
+kTaxon-ifn3:Species77 rdfs:subClassOf kTaxon-ifnUp23:Tilia .
+
+kTaxon-ifn3:Species778 rdfs:subClassOf kTaxon-ifnUp23:SorbusChamaemespilus .
+
+kTaxon-ifn3:Species78 rdfs:subClassOf kTaxon-ifnUp23:Sorbus .
+
+kTaxon-ifn3:Species79 rdfs:subClassOf kTaxon-ifnUp23:PlatanusHispanica .
+
+kTaxon-ifn3:Species8 rdfs:subClassOf kTaxon-ifnUp23:PhillyreaLatifolia .
+
+kTaxon-ifn3:Species80 rdfs:subClassOf kTaxon-ifnUp23:Lauraceae .
+
+kTaxon-ifn3:Species81 rdfs:subClassOf kTaxon-ifnUp23:MyricaFaya .
+
+kTaxon-ifn3:Species82 rdfs:subClassOf kTaxon-ifnUp23:IlexCanariensis .
+
+kTaxon-ifn3:Species83 rdfs:subClassOf kTaxon-ifnUp23:EricaArborea .
+
+kTaxon-ifn3:Species84 rdfs:subClassOf kTaxon-ifnUp23:PerseaIndica .
+
+kTaxon-ifn3:Species85 rdfs:subClassOf kTaxon-ifnUp23:SideroxylonMirmulano .
+
+kTaxon-ifn3:Species857 rdfs:subClassOf kTaxon-ifnUp23:SalixFragilis .
+
+kTaxon-ifn3:Species858 rdfs:subClassOf kTaxon-ifnUp23:SalixCanariensis .
+
+kTaxon-ifn3:Species86 rdfs:subClassOf kTaxon-ifnUp23:PicconiaExcelsa .
+
+kTaxon-ifn3:Species87 rdfs:subClassOf kTaxon-ifnUp23:OcoteaFoetens .
+
+kTaxon-ifn3:Species88 rdfs:subClassOf kTaxon-ifnUp23:ApolloniasBarbujana .
+
+kTaxon-ifn3:Species89 rdfs:subClassOf kTaxon-ifnUp23:Lauraceae .
+
+kTaxon-ifn3:Species9 rdfs:subClassOf kTaxon-ifnUp23:CornusSanguinea .
+
+kTaxon-ifn3:Species90 rdfs:subClassOf kTaxon-ifnUp23:Angiospermae .
+
+kTaxon-ifn3:Species91 rdfs:subClassOf kTaxon-ifnUp23:BuxusSempervirensBuxusBalearica .
+
+kTaxon-ifn3:Species917 rdfs:subClassOf kTaxon-ifnUp23:Cedrus .
+
+kTaxon-ifn3:Species92 rdfs:subClassOf kTaxon-ifnUp23:RobiniaPseudacaciaSophoraJaponica .
+
+kTaxon-ifn3:Species93 rdfs:subClassOf kTaxon-ifnUp23:PistaciaTerebinthusPistaciaAtlantica .
+
+kTaxon-ifn3:Species936 rdfs:subClassOf kTaxon-ifnUp23:Cupressus .
+
+kTaxon-ifn3:Species937 rdfs:subClassOf kTaxon-ifnUp23:Juniperus .
+
+kTaxon-ifn3:Species94 rdfs:subClassOf kTaxon-ifnUp23:LaurusNobilisLaurusAzorica .
+
+kTaxon-ifn3:Species95 rdfs:subClassOf kTaxon-ifnUp23:Prunus .
+
+kTaxon-ifn3:Species955 rdfs:subClassOf kTaxon-ifnUp23:Fraxinus .
+
+kTaxon-ifn3:Species956 rdfs:subClassOf kTaxon-ifnUp23:Ulmus .
+
+kTaxon-ifn3:Species957 rdfs:subClassOf kTaxon-ifnUp23:SalixPurpurea .
+
+kTaxon-ifn3:Species96 rdfs:subClassOf kTaxon-ifnUp23:RhusCoriaria .
+
+kTaxon-ifn3:Species97 rdfs:subClassOf kTaxon-ifnUp23:SambucusNigraSambucusRacemosa .
+
+kTaxon-ifn3:Species975 rdfs:subClassOf kTaxon-ifnUp23:Juglans .
+
+kTaxon-ifn3:Species976 rdfs:subClassOf kTaxon-ifnUp23:Acer .
+
+kTaxon-ifn3:Species98 rdfs:subClassOf kTaxon-ifnUp23:CarpinusBetulus .
+
+kTaxon-ifn3:Species99 rdfs:subClassOf kTaxon-ifnUp23:Angiospermae .
+
+kTaxon-ifn3:Species997 rdfs:subClassOf kTaxon-ifnUp23:Sambucus .
+
