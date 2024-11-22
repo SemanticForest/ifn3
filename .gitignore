@@ -1,6 +1,9 @@
 # Log files
 *.log
 
+# Temporary files
+temp/
+
 # Visual Studio Code
 .vscode/
 *.code-workspace
