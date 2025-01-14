@@ -1,0 +1,131 @@
+@prefix ifn3: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> .
+@prefix kPlot: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifn3/plot/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+kPlot:PrimaryPlot rdf:type owl:Class ;
+    rdfs:subClassOf ifn3:Plot ;
+    rdfs:comment "Parcela principal que se apea en una posición. Puede ser única o estar acompañada de parcelas secundarias."@es , "Main plot located in a position. It can be unique or be accompanied by secondary plots."@en ;
+    rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+    rdfs:label "Parcela primaria"@es , "Primary plot"@en .
+
+kPlot:SecondaryPlot rdf:type owl:Class ;
+    rdfs:subClassOf ifn3:Plot ;
+    rdfs:comment "Parcelas secundarias de una parcela principal. Se encuentra dentro de la malla 1km x 1km de la parcela principal."@es , "Secondary plots of a primary plot. Located within the 1km x 1km grid of the primary plot."@en ;
+    rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+    rdfs:label "Parcela secundaria"@es , "Secondary plot"@en .
+
+kPlot:Plot-NN rdf:type owl:Class ;
+    rdfs:subClassOf kPlot:PrimaryPlot ;
+    rdfs:comment "Se levantarán por primera vez en el IFN3 y serán utilizadas para el cálculo de existencias actuales"@es , "It will be established for the first time in NFI3 and will be used for the calculation of current stock."@en ;
+    rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+    rdfs:label "New plot in NFI3"@en , "Parcela nueva en el IFN3"@es .
+
+kPlot:Plot-A rdf:type owl:Class ;
+    rdfs:subClassOf ifn3:Plot ;
+    rdfs:comment "Parcelas levantadas en el IFN2 que volverán a ser apeadas en el IFN3."@es, "Plots established in NFI2 to be remeasure in NFI3."@en ;
+    rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+    rdfs:label "Existing plot in NFI2"@en , "Parcela existente en el IFN2"@es .
+
+kPlot:Plot-A1 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:PrimaryPlot , kPlot:Plot-A ;
+     rdfs:comment "Parcelas en las que se localice el rejón y esté bien implantado. Se utilizarán para la comparación de inventarios y para el cálculo de existencias actuales."@es , "Plots on which the metal stake is located and well established. To be used for inventory comparison and for the calculation of current stocks."@en ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Parcela en la misma posición que en el IFN2"@es , "Plot in the same position as NFI2"@en .
+	 
+kPlot:Plot-A2 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-A ;
+     rdfs:comment "Plots where the metal stake is located but not well established"@en , "Parcelas en las que se localice el rejón pero esté mal implantado."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Parcela con rejón mal implantado"@es , "Plot with a poorly established stake"@en .
+
+kPlot:Plot-A2C rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-A2 , kPlot:SecondaryPlot ;
+     rdfs:comment "Plot for inventory comparison. The metal stake is located but not well established."@en , "Parcela para la comparación de inventarios. Se encuentra el rejón pero está mal implantado."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Parcela de comparación de inventarios"@es , "Plot for inventory comparison"@en .
+
+kPlot:Plot-A2E rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-A2 , kPlot:PrimaryPlot ;
+     rdfs:comment "Plot for current stock calculation. The metal stake is located but not well established."@en , "Parcela para el calculo de existencias actuales. Se encuentra el rejón pero está mal implantado."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Parcela para el calculo de existencias"@es , "Plot for stock calculation"@en .
+
+kPlot:Plot-A3 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-A ;
+     rdfs:comment "Plot where the metal stake is located but not well established, or where changes have occurred in the adjacent vegetation patchs in recent years"@en , "Parcelas en las que se localice el rejón y esté mal implantado o bien se hayan producido cambios, en los últimos años, en las teselas de vegetación colindantes."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Parcela en diferente tesela que en el IFN2"@es , "Plot in a different patch than in NFI2"@en .
+
+kPlot:Plot-A3C rdf:type owl:Class ;
+      rdfs:subClassOf kPlot:Plot-A3 , kPlot:SecondaryPlot ;
+      rdfs:comment "Plot for inventory comparison. It will be established at the point where the metal stake of the NFI3 is located. It includes identification and dendrometric data, but not phytosanitary status."@en , "Parcela para la comparación de inventarios. Se levantará en el punto donde se encuentre el rejón del IFN3. Incluye datos de identificación y dendrometría, pero no estado fitosanitario."@es ;
+      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+      rdfs:label "Parcela de comparación de inventarios"@es , "Plot for inventory comparison"@en .
+
+kPlot:Plot-A3E rdf:type owl:Class ;
+      rdfs:subClassOf kPlot:Plot-A3 , kPlot:PrimaryPlot ;
+      rdfs:comment "Plots for the calculation of current stocks. They will be established at the correct location (UTM Coordinate)."@en , "Parcelas para el cálculo de existencias actuales. Se levantarán en el emplazamiento correcto (Coordenada UTM)"@es ;
+      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+      rdfs:label "Plot for stock calculation"@en , "Parcela para el cálculo de existencias"@es .
+
+kPlot:Plot-A4 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-A , kPlot:PrimaryPlot ;
+     rdfs:comment "Plots where the metal stake cannot be located. They will be used for the calculation of current stocks"@en , "Parcelas en las que no se localice el rejón. Se utilizarán para el cálculo de existencias actuales."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Plot where the stake cannot be located"@en , "Parcela en la que no se localiza el rejón"@es .
+
+kPlot:Plot-A4C rdf:type owl:Class ;
+      rdfs:subClassOf kPlot:Plot-A4 , kPlot:PrimaryPlot ;
+      rdfs:comment "Plots where the metal stake cannot be located due to total changes in the forest cover of the patch containing the plot (total loss of the mass sampled in the NFI2 or incorporation of a new forest mass not existing in the NFI2). They will be used for inventory comparison and for the calculation of current stocks."@en , "Parcelas en las que no se localice el rejón por cambio totales en la cubierta forestal de la tesela que contiene la parcela (pérdida total de la masa muestreada en el IFN2 o incorporación de una nueva masa forestal inexistente en el IFN2). Se utilizarán para la comparación de inventarios y para el cálculo de existencias actuales."@es ;
+      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+      rdfs:label "Plot with a complete change in forest cover"@en , "Parcela con cambio total de cubierta forestal"@es .
+
+kPlot:Plot-A6C rdf:type owl:Class ;
+      rdfs:subClassOf kPlot:Plot-A4 , kPlot:PrimaryPlot ;
+      rdfs:comment "Plots where the metal stake cannot be located due to total changes in the forest cover of the patch containing the plot (total loss of the mass sampled in the NFI2 and incorporation of a new forest mass). They will be used for inventory comparison and for the calculation of current stocks."@en , "Parcelas en las que no se localice el rejón por cambios totales en la cubierta forestal de la tesela que contiene la parcela (pérdida total de la masa muestreada en el IFN2 e incorporación de una nueva masa forestal). Se utilizarán para la comparación de inventarios y para el cálculo de existencias actuales."@es ;
+      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+      rdfs:label "Plot with a complete change in forest cover and incorporation of new cover"@en , "Parcela con cambio total de cubierta forestal e incorporación de nueva"@es .
+
+kPlot:Plot-R rdf:type owl:Class ;
+    rdfs:subClassOf kPlot:SecondaryPlot ;
+    rdfs:comment "Supplementary plots of a primary or central plot. Up to 4 buffer plots can be associated with a primary plot. They are located within a 1km x 1km grid where the primary plot is located."@en , "Parcelas de ribera de refuerzo de una parcela principal o planetaria. Puede haber hasta 4 de una parcela principal. Se encuentran dentro de la malla de 1km x 1km donde se encuentra la parcela principal."@es ;
+    rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+    rdfs:label "Supplementary plot"@en , "Parcela de refuerzo"@es .
+
+kPlot:Plot-R1 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-R ;
+     rdfs:comment "First supplementary plot of a primary or central plot."@en , "Primera parcela de refuerzo de una parcela principal o planetaria."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "First supplementary plot"@en , "Primera parcela de refuerzo"@es .
+
+kPlot:Plot-R1R rdf:type owl:Class ;
+      rdfs:subClassOf kPlot:Plot-R ;
+      rdfs:comment "Supplementary plot of the first supplementary plot of a primary plot."@en , "Parcela de refuerzo de la primera parcela de refuerzo de una parcela principal."@es ;
+      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+      rdfs:label "Supplementary plot of the first supplementary plot"@en , "Parcela de refuerzo de la la primera parcela de refuerzo"@es .
+
+kPlot:Plot-R2 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-R ;
+     rdfs:comment "Second supplementary plot of a primary or central plot."@en , "Segunda parcela de refuerzo de una parcela principal o planetaria."@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Second supplementary plot"@en , "Segunda parcela de refuerzo"@es .
+
+kPlot:Plot-R2R rdf:type owl:Class ;
+      rdfs:subClassOf kPlot:Plot-R ;
+      rdfs:comment "upplementary plot of the second supplementary plot of a primary plot."@en , "Parcela de refuerzo de la segunda parcela de refuerzo de una parcela principal"@es ;
+      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+      rdfs:label "Supplementary plot of the second supplementary plot"@en , "Parcela de refuerzo de la segunda parcela de refuerzo"@es .
+
+kPlot:Plot-R3 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-R ;
+     rdfs:comment “Supplementary plot of the second supplementary plot of a primary plot."@en , "Parcela de refuerzo de la segunda parcela de refuerzo de una parcela principal"@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Third supplementary plot"@en , "Tercera parcela de refuerzo"@es .
+
+kPlot:Plot-R4 rdf:type owl:Class ;
+     rdfs:subClassOf kPlot:Plot-R ;
+     rdfs:comment "Fourth supplementary plot of a primary or central plot."@en , "Cuarta parcela de refuerzo de una parcela principal o planetaria"@es ;
+     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+     rdfs:label "Fourth supplementary plot"@en , "Cuarta parcela de refuerzo"@es .
