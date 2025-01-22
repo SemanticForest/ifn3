@@ -114,13 +114,13 @@ kPlot:Plot-R2 rdf:type owl:Class ;
 
 kPlot:Plot-R2R rdf:type owl:Class ;
       rdfs:subClassOf kPlot:Plot-R ;
-      rdfs:comment "upplementary plot of the second supplementary plot of a primary plot."@en , "Parcela de refuerzo de la segunda parcela de refuerzo de una parcela principal"@es ;
+      rdfs:comment "Supplementary plot of the second supplementary plot of a primary plot."@en , "Parcela de refuerzo de la segunda parcela de refuerzo de una parcela principal"@es ;
       rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
       rdfs:label "Supplementary plot of the second supplementary plot"@en , "Parcela de refuerzo de la segunda parcela de refuerzo"@es .
 
 kPlot:Plot-R3 rdf:type owl:Class ;
      rdfs:subClassOf kPlot:Plot-R ;
-     rdfs:comment “Supplementary plot of the second supplementary plot of a primary plot."@en , "Parcela de refuerzo de la segunda parcela de refuerzo de una parcela principal"@es ;
+     rdfs:comment "Supplementary plot of the second supplementary plot of a primary plot."@en , "Parcela de refuerzo de la segunda parcela de refuerzo de una parcela principal"@es ;
      rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
      rdfs:label "Third supplementary plot"@en , "Tercera parcela de refuerzo"@es .
 
