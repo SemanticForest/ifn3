@@ -27,7 +27,7 @@ kPlot:Plot-NR rdf:type owl:Class ;
     rdfs:comment "Parcela principal o planetaría de ribera que se establece por primera vez en el IFN3 y se utiliza como referencia para las parcelas de refuerzo o satélite. Puede haber hasta 4 parcelas de refuerzo asociadas a una parcela planetaria."@es ,
                  "Main riparian plot established for the first time in NFI3, used as a reference for supplementary plots. Up to 4 supplementary plots can be associated with a main plot."@en ;
     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
-    rdfs:label "Main riparian reference plot for supplementary plots"@en , "Parcela de ribera planetaria de referencia para parcelas de refuerzo"@es .
+    rdfs:label "Main riparian plot for supplementary plots"@en , "Parcela de ribera de referencia de parcelas de refuerzo"@es .
 
 kPlot:Plot-A rdf:type owl:Class ;
     rdfs:subClassOf ifn3:Plot ;
