@@ -24,10 +24,10 @@ kPlot:Plot-NN rdf:type owl:Class ;
 
 kPlot:Plot-NR rdf:type owl:Class ;
     rdfs:subClassOf kPlot:PrimaryPlot ;
-    rdfs:comment "Parcela principal de ribera que se establece por primera vez en el IFN3 y se utiliza como referencia para las parcelas de refuerzo. Puede haber hasta cuatro parcelas de refuerzo asociadas a una parcela principal."@es ,
-                 "Main riparian plot established for the first time in NFI3, used as a reference for supplementary plots. Up to four supplementary plots can be associated with a main plot."@en ;
+    rdfs:comment "Parcela principal o planetaría de ribera que se establece por primera vez en el IFN3 y se utiliza como referencia para las parcelas de refuerzo o satélite. Puede haber hasta 4 parcelas de refuerzo asociadas a una parcela planetaria."@es ,
+                 "Main riparian plot established for the first time in NFI3, used as a reference for supplementary plots. Up to 4 supplementary plots can be associated with a main plot."@en ;
     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
-    rdfs:label "Main riparian reference plot for supplementary plots"@en , "Parcela de ribera principal de referencia para parcelas de refuerzo"@es .
+    rdfs:label "Main riparian reference plot for supplementary plots"@en , "Parcela de ribera planetaria de referencia para parcelas de refuerzo"@es .
 
 kPlot:Plot-A rdf:type owl:Class ;
     rdfs:subClassOf ifn3:Plot ;
@@ -99,7 +99,7 @@ kPlot:Plot-A6C rdf:type owl:Class ;
 
 kPlot:Plot-R rdf:type owl:Class ;
     rdfs:subClassOf kPlot:SecondaryPlot ;
-    rdfs:comment "Supplementary riparian plots of a primary or central plot. Up to 4 supplementary plots can be associated with a central plot. They are located within a 1km x 1km grid where the central plot is located."@en , "Parcelas de ribera de refuerzo de una parcela principal o planetaria. Puede haber hasta 4 de una parcela principal. Se encuentran dentro de la malla de 1km x 1km donde se encuentra la parcela principal."@es ;
+    rdfs:comment "Supplementary riparian plots of a main or central plot. Up to 4 supplementary plots can be associated with a main plot. They are located within a 1km x 1km grid where the main plot is located."@en , "Parcelas de ribera de refuerzo o satélite de una parcela principal o planetaria. Puede haber hasta 4 de una parcela planetaría. Se encuentran dentro de la malla de 1km x 1km donde se encuentra la parcela planetaria."@es ;
     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
     rdfs:label "Supplementary riparian plot"@en , "Parcela de ribera de refuerzo"@es .
 
