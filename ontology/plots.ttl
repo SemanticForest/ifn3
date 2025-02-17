@@ -22,6 +22,13 @@ kPlot:Plot-NN rdf:type owl:Class ;
     rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
     rdfs:label "New plot in NFI3"@en , "Parcela nueva en el IFN3"@es .
 
+kPlot:Plot-NR rdf:type owl:Class ;
+    rdfs:subClassOf kPlot:PrimaryPlot ;
+    rdfs:comment "Parcela principal que se establece por primera vez en el IFN3 y se utiliza como referencia para las parcelas de refuerzo. Puede haber hasta cuatro parcelas de refuerzo asociadas a una parcela principal."@es ,
+                 "Primary plot established for the first time in NFI3, used as a reference for supplementary plots. Up to four supplementary plots can be associated with a primary plot."@en ;
+    rdfs:isDefinedBy <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn3/> ;
+    rdfs:label "Primary plot for supplementary plots"@en , "Parcela principal de parcelas de refuerzo"@es .
+
 kPlot:Plot-A rdf:type owl:Class ;
     rdfs:subClassOf ifn3:Plot ;
     rdfs:comment "Parcelas levantadas en el IFN2 que volverán a ser apeadas en el IFN3."@es, "Plots established in NFI2 to be remeasure in NFI3."@en ;
